@@ -1,2 +1,2 @@
-# SW5e-Bestiary-Compendium
-SW5e Bestiary Compendium Mobile App
+# SW5e-Bestiary-Companion
+SW5e Bestiary Companion Mobile App
