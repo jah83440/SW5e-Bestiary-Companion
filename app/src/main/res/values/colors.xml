@@ -10,4 +10,6 @@
     <color name="alert">#F44336</color>
     <color name="backgroundDark">#333333</color>
     <color name="primaryDark">#FF0000</color>
+    <color name="lightGreyDarkSide">#777777</color>
+    <color name="darkGreyDarkSide">#555555</color>
 </resources>
