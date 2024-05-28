@@ -8,4 +8,6 @@
     <color name="lightGrey">#C9D6DB</color>
     <color name="darkGrey">#BDC8CC</color>
     <color name="alert">#F44336</color>
+    <color name="backgroundDark">#333333</color>
+    <color name="primaryDark">#FF0000</color>
 </resources>
