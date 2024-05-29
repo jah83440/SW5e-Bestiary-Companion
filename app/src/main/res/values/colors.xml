@@ -2,14 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="primary">#C40F0F</color>
+    <color name="primary">#AF0D0D</color>
     <color name="secondary">#0D99CC</color>
-    <color name="background">#AFC6D6</color>
+    <color name="background">#BFD1DF</color>
     <color name="lightGrey">#C9D6DB</color>
     <color name="darkGrey">#BDC8CC</color>
     <color name="alert">#F44336</color>
-    <color name="backgroundDark">#333333</color>
-    <color name="primaryDark">#FF0000</color>
+    <color name="backgroundDark">#212121</color>
+    <color name="primaryDark">#FF3D3D</color>
     <color name="lightGreyDarkSide">#777777</color>
     <color name="darkGreyDarkSide">#555555</color>
 </resources>
