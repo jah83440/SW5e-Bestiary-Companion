@@ -1,6 +1,7 @@
 package com.app.sw5ebestiary
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -23,18 +24,24 @@ class SecondFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-
+        Log.e("test", "On Create View called for second fragment")
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
         return binding.root
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
+
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.e("test on resume", "On resume called for second fragment")
+        binding.basicSearchBar.requestFocus()
     }
 
     override fun onDestroyView() {
