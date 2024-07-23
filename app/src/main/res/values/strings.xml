@@ -13,4 +13,5 @@
         Welcome to the SW5e Bestiary App! Here you can search for creatures within the system, and make lists of creatures for later use!
     </string>
     <string name="main_logo">The SW5e Logo</string>
+    <string name="main_menu">Main Menu</string>
 </resources>
