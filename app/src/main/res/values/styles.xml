@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Widget.Theme.SW5eBestiary.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+
+    </style>
+</resources>

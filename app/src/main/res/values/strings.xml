@@ -1,17 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
     <string name="app_name">SW5e Bestiary</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="basic_search">Basic Search</string>
     <string name="advanced_search">Adv Search</string>
     <string name="lists">Lists</string>
-    <string name="welcome">
-        Welcome to the SW5e Bestiary App! Here you can search for creatures within the system, and make lists of creatures for later use!
-    </string>
+    <string name="welcome">Welcome to the SW5e Bestiary App! Here you can search for creatures within the system, and make lists of creatures for later use!</string>
     <string name="main_logo">The SW5e Logo</string>
     <string name="main_menu">Main Menu</string>
+    <string name="search">Name…</string>
+    <string name="adv_search">Name, Type, Size, Challenge Rating…</string>
+    <string name="scoreName">STR DEX CON INT WIS CHA\n</string>
 </resources>
