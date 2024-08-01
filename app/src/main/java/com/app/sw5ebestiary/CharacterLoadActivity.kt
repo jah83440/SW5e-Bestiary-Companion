@@ -25,7 +25,12 @@ class CharacterLoadActivity : AppCompatActivity() {
         val acTextView : TextView = binding.acTextView
         val hpTextView : TextView = binding.hpTextView
         val speedTextView : TextView = binding.speedTextView
-        val scoresTextView : TextView = binding.scoresTextView
+        val strTextView : TextView = binding.STRvalue
+        val dexTextView : TextView = binding.DEXvalue
+        val conTextView : TextView = binding.CONvalue
+        val intTextView : TextView = binding.INTvalue
+        val wisTextView : TextView = binding.WISvalue
+        val chaTextView : TextView = binding.CHAvalue
         val traitsOneTextView : TextView = binding.traitsOneTextView
         val traitsTwoTextView : TextView = binding.traitsTwoTextView
         val actionsTextView : TextView = binding.actionsTextView
@@ -48,8 +53,18 @@ class CharacterLoadActivity : AppCompatActivity() {
             hpTextView.setBackgroundColor(color)
             speedTextView.text = creature.speed
             speedTextView.setBackgroundColor(color)
-            scoresTextView.text = getString(R.string.scoreName) + creature.scores.toString().removePrefix("[").removeSuffix("]").replace(",", "   ")
-            scoresTextView.setBackgroundColor(color)
+            strTextView.text = creature.scores[0].toString()
+            strTextView.setBackgroundColor(color)
+            dexTextView.text = creature.scores[1].toString()
+            dexTextView.setBackgroundColor(color)
+            conTextView.text = creature.scores[2].toString()
+            conTextView.setBackgroundColor(color)
+            intTextView.text = creature.scores[3].toString()
+            intTextView.setBackgroundColor(color)
+            wisTextView.text = creature.scores[4].toString()
+            wisTextView.setBackgroundColor(color)
+            chaTextView.text = creature.scores[5].toString()
+            chaTextView.setBackgroundColor(color)
             traitsOneTextView.text = if(!creature.traitsSectionOne.isNullOrEmpty()) formatList(creature.traitsSectionOne) else ""
             traitsOneTextView.setBackgroundColor(color)
             traitsTwoTextView.text = if(!creature.traitsSectionTwo.isNullOrEmpty()) formatList(creature.traitsSectionTwo) else ""

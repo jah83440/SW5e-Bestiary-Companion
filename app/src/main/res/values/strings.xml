@@ -11,5 +11,10 @@
     <string name="main_menu">Main Menu</string>
     <string name="search">Name…</string>
     <string name="adv_search">Name, Type, Size, Challenge Rating…</string>
-    <string name="scoreName">STR DEX CON INT WIS CHA\n</string>
+    <string name="strength">STR</string>
+    <string name="dexterity">DEX</string>
+    <string name="constitution">CON</string>
+    <string name="intelligence">INT</string>
+    <string name="wisdom">WIS</string>
+    <string name="charisma">CHA</string>
 </resources>

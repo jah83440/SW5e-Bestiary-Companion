@@ -84,5 +84,55 @@ val creatures = listOf(
             "Draining Lightning. Ranged Power Attack: +17 to hit, range 15 ft., one target. Hit: 20 (2d10 + 9) lightning damage plus 11 (2d10) necrotic damage.\n",
             "Maddening Will. Abeloth uses her Will action, and must choose either the Beguiling Will or the Insane Will effect."
         )
+    ),
+    Creature(
+        "Acklay, Adolescent",
+        "Huge beast, unaligned",
+        "Armor Class 13 (natural armor)",
+        "Hit Points 95 (10d12 + 30)",
+        "Speed 40 ft.",
+        //scores
+        listOf(22, 9, 17, 3, 11, 5),
+        //traits section 1
+        listOf(
+            "Senses passive Perception 10\n",
+            "Languages --\n",
+            "Challenge 5 (1,800 XP)\n"
+        ),
+        //traits section 2
+        listOf(
+            "Trampling Charge. If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it a a bonus action.\n"
+        ),
+        //actions
+        listOf(
+            "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage.\n",
+            "Claw. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 6) kinetic damage."
+        ),
+        legendaryActions = null
+    ),
+    Creature(
+        "Acklay, Adult",
+        "Huge beast, unaligned",
+        "Armor Class 14 (natural armor)",
+        "Hit Points 149 (13d12 + 65)",
+        "Speed 40 ft.",
+        //scores
+        listOf(25, 10, 20, 3, 11, 5),
+        //traits section 1
+        listOf(
+            "Senses passive Perception 10\n",
+            "Languages --\n",
+            "Challenge 8 (3,900 XP)\n"
+        ),
+        //traits section 2
+        listOf(
+            "Trampling Charge. If the acklay moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 19 Strength saving throw or be knocked prone. If the target is prone, the acklay can make one claw attack against it a a bonus action.\n"
+        ),
+        //actions
+        listOf(
+            "Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) kinetic damage.\n",
+            "Claw. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 29 (4d10 + 7) kinetic damage."
+        ),
+        legendaryActions = null
     )
 )
