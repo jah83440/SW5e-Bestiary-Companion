@@ -28,8 +28,10 @@ class AdvancedSearchActivity : AppCompatActivity() {
             override fun afterTextChanged(s: Editable?) {
                 val query = s.toString()
                 val filteredList = creatures.filter {
-                    it.name.contains(query, ignoreCase = true) || it.classification.contains(query, ignoreCase = true) || it.traitsSectionOne?.last()
-                        ?.contains(query, ignoreCase = true) ?: false
+                    it.name.contains(query, ignoreCase = true) || it.classification.contains(query, ignoreCase = true) || it.traitsSectionOne?.last()?.substring(
+                        it.traitsSectionOne.last().indexOf(" ").plus(1), it.traitsSectionOne.last().indexOf("(")
+                    )?.trim()
+                        ?.equals(query, ignoreCase = true) ?: false
                 }
                 adapter.updateList(filteredList)
             }

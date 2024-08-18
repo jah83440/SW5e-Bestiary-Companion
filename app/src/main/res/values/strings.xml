@@ -17,4 +17,7 @@
     <string name="intelligence">INT</string>
     <string name="wisdom">WIS</string>
     <string name="charisma">CHA</string>
+    <string name="actions">ACTIONS</string>
+    <string name="reactions">REACTIONS</string>
+    <string name="legendary">LEGENDARY ACTIONS</string>
 </resources>
