@@ -2,7 +2,16 @@ package com.app.sw5ebestiary
 
 import kotlin.text.Typography.bullet
 
-data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>?, val traitsSectionTwo : List<String>?, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null)
+data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>?, val traitsSectionTwo : List<String>?, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null, val id : Int = getNextId())
+{
+    companion object{
+        private var currentId = 0
+        private fun getNextId() : Int{
+            currentId+=1
+            return currentId
+        }
+    }
+}
 
 var currentCreature : String = ""
 val creatures = listOf(
