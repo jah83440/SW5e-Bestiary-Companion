@@ -20,4 +20,8 @@
     <string name="actions">ACTIONS</string>
     <string name="reactions">REACTIONS</string>
     <string name="legendary">LEGENDARY ACTIONS</string>
+    <string name="userLists">Saved Lists</string>
+    <string name="makeList">Make A New List</string>
+    <string name="listName">List Name…</string>
+    <string name="saveList">Save List</string>
 </resources>
