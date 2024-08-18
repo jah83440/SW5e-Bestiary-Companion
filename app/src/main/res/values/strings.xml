@@ -24,4 +24,5 @@
     <string name="makeList">Make A New List</string>
     <string name="listName">List Name…</string>
     <string name="saveList">Save List</string>
+    <string name="deleteList">Delete Selected Lists</string>
 </resources>

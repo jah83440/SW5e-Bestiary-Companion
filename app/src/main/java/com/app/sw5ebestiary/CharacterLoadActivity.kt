@@ -7,21 +7,61 @@ import android.text.SpannableString
 import android.text.SpannableStringBuilder
 import android.text.Spanned
 import android.text.style.StyleSpan
+import android.view.GestureDetector
+import android.view.MotionEvent
 import android.view.View.GONE
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.app.sw5ebestiary.databinding.ActivityCharacterLoadBinding
+import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.text.Typography.bullet
 class CharacterLoadActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCharacterLoadBinding
+    private lateinit var gestureDetector: GestureDetector
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCharacterLoadBinding.inflate(layoutInflater)
+        gestureDetector = GestureDetector(this, SwipeGestureListener())
         populateTextViews(Color.parseColor("#AFC6D6"))
         enableEdgeToEdge()
         setContentView(binding.root)
+    }
+    private inner class SwipeGestureListener : GestureDetector.SimpleOnGestureListener(){
+        private val swipeThreshold = 100
+        private val swipeVelocityThreshold = 100
+
+        override fun onFling(
+            e1: MotionEvent?,
+            e2: MotionEvent,
+            velocityX: Float,
+            velocityY: Float
+        ): Boolean {
+            if(e1 != null){
+                val diffX = e2.x - e1.x
+                val diffY = e2.y - e1.y
+                if(abs(diffX) > abs(diffY)){
+                    if(abs(diffX) > swipeThreshold && abs(velocityX) > swipeVelocityThreshold){
+                        if(diffX > 0){
+                            onSwipeRight()
+                        }
+                        return true
+                    }
+                }
+            }
+            return false
+        }
+    }
+    private fun onSwipeRight(){
+        finish()
+    }
+
+    override fun dispatchTouchEvent(ev: MotionEvent?): Boolean {
+        if (ev != null) {
+            gestureDetector.onTouchEvent(ev)
+        }
+        return super.dispatchTouchEvent(ev)
     }
 
 
