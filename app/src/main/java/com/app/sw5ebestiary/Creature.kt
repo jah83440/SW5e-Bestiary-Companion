@@ -493,6 +493,50 @@ val creatures = listOf(
             "Ram. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 6) kinetic damage.\n",
             "Stomp. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 6) kinetic damage."
         )
+    ),
+    Creature(
+        "Bantha, Adult",
+        "Huge beast, unaligned",
+        "Armor Class 13 (natural armor)",
+        "Hit Points 126 (11d12 + 55)",
+        "Speed 40 ft.",
+        listOf(24, 9, 21, 3, 11, 6),
+        listOf(
+            "Senses passive Perception 10\n",
+            "Languages \u2014\n",
+            "Challenge 6 (2,300 XP)\n"
+        ),
+        listOf(
+            "Trampling Charge. If the bantha moves at least 20 feet straight toward a creature and then hits it with a ram attack on the same turn, that target must succeed on a DC 18 Strength saving throw or be knocked prone. If the target is prone, the bantha can make one stomp attack against it as a bonus action.\n"
+        ),
+        listOf(
+            "Ram. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) kinetic damage.\n",
+            "Stomp. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 29 (4d10 + 7) kinetic damage."
+        )
+    ),
+    Creature(
+        "B1 Battle Droid",
+        "Medium droid, unaligned",
+        "Armor Class 14 (armor plating)",
+        "Hit Points 7 (2d8 - 2)",
+        "Speed 30 ft.",
+        listOf(9, 14, 9, 13, 10, 7),
+        listOf(
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 10\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 1/8 (25 XP)\n"
+        ),
+        listOf(
+            "Battle Droid Swarm. When an ally of the battle droid hits a hostile creature that it can see with a weapon attack, the battle droid can use its reaction to make one weapon attack against that creature.\n",
+            "Circuitry. The droid has disadvantage on saving throws against effects that deal ion or lightning damage.\n"
+        ),
+        listOf(
+            "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
+            "Stock Strike. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) kinetic damage."
+        )
     )
 ).sortedBy {
     it.name
