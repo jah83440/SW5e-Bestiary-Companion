@@ -1,5 +1,6 @@
 package com.app.sw5ebestiary
 
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,13 +30,17 @@ class AddCreatureAdapter(
         private val checkBox: CheckBox = itemView.findViewById(R.id.checkbox)
 
         fun bind(creatureItem: CreatureItem, onCreatureSelected: (CreatureItem) -> Unit) {
+            checkBox.setOnCheckedChangeListener(null)
             nameTextView.text = creatureItem.creature.name
             checkBox.isChecked = creatureItem.isSelected
+
+
 
             checkBox.setOnCheckedChangeListener { _, isChecked ->
                 creatureItem.isSelected = isChecked
                 onCreatureSelected(creatureItem)
             }
+
         }
     }
 }

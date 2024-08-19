@@ -46,13 +46,18 @@ class CustomListAdapter (private var lists : List<CreatureList>, private val con
         holder.itemView.setOnLongClickListener {
             isDeletionMode = true
             (context as ListsActivity).binding.deleteButton.visibility = VISIBLE
+            context.binding.cancelButton.visibility = VISIBLE
             notifyDataSetChanged() // Refresh the list to show checkboxes
             true
         }
         holder.nameTextView.setOnClickListener {
-            currentList = list
-            val intent = Intent(context, ListLoadActivity::class.java)
-            context.startActivity(intent)
+            if(!isDeletionMode)
+            {
+                currentList = list
+                val intent = Intent(context, ListLoadActivity::class.java)
+                context.startActivity(intent)
+            }
+
         }
     }
 
@@ -70,5 +75,8 @@ class CustomListAdapter (private var lists : List<CreatureList>, private val con
             deleteCustomList(context, current.id)
         }
         notifyDataSetChanged()
+    }
+    fun cancelDelete(){
+        isDeletionMode = false
     }
 }

@@ -43,7 +43,15 @@ class ListsActivity : AppCompatActivity() {
         // Handle the delete button click
         binding.deleteButton.setOnClickListener {
             adapter.deleteSelectedItems()
-            binding.deleteButton.visibility = GONE // Hide the delete button after deletion
+            binding.deleteButton.visibility = GONE
+            binding.cancelButton.visibility = GONE
+            onResume()
+        }
+
+        binding.cancelButton.setOnClickListener {
+            adapter.cancelDelete()
+            binding.deleteButton.visibility = GONE
+            binding.cancelButton.visibility = GONE
             onResume()
         }
     }
