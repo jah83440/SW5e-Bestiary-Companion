@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background2"
     tools:context=".MakeListActivity">
 
     <LinearLayout
@@ -16,12 +17,18 @@
             android:layout_height="48dp"
             android:hint="@string/listName"
             android:inputType="text"
+            android:textColorHint="@color/primary"
+            android:textColor="@color/primary"
+            android:backgroundTint="@color/primary"
             android:layout_marginTop="32dp"
+            android:textCursorDrawable="@drawable/custom_cursor"
             android:autofillHints="" />
         <Button
             android:id="@+id/saveList"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@color/primary"
             android:text="@string/saveList"
             android:layout_marginTop="32dp"
             android:layout_marginStart="16dp"

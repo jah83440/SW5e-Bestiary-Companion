@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background2"
     android:padding="16dp">
 
     <TextView
@@ -12,6 +13,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+        android:textColor="@color/primary"
         android:textSize="22sp"
         android:textStyle="bold"
         android:text="@string/userLists" />
@@ -20,7 +22,7 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/lightGrey"
+        android:background="@color/primary"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="8dp" />
 
@@ -42,18 +44,24 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@color/primary"
             android:text="@string/makeList" />
         <Button
             android:id="@+id/delete_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/deleteList"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@color/primary"
             android:visibility="gone"
             android:layout_marginBottom="16dp"/>
         <Button
             android:id="@+id/cancel_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondary"
+            android:textColor="@color/primary"
             android:text="@string/cancelDelete"
             android:visibility="gone" />
 

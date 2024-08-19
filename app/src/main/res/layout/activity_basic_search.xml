@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background2"
     android:padding="16dp">
 
     <EditText
@@ -11,6 +12,10 @@
         android:layout_height="48dp"
         android:hint="@string/search"
         android:inputType="text"
+        android:textColorHint="@color/primary"
+        android:textColor="@color/primary"
+        android:backgroundTint="@color/primary"
+        android:textCursorDrawable="@drawable/custom_cursor"
         android:autofillHints="" />
 
     <androidx.recyclerview.widget.RecyclerView

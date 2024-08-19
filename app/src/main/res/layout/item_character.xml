@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/primary"
         android:clickable="true"
         android:focusable="true" />
 </LinearLayout>
