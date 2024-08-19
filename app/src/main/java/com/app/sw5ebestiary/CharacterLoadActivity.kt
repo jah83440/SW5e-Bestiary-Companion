@@ -1,6 +1,6 @@
 package com.app.sw5ebestiary
 
-import android.graphics.Color
+
 import android.graphics.Typeface
 import android.os.Bundle
 import android.text.SpannableString
@@ -13,6 +13,7 @@ import android.view.View.GONE
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.app.sw5ebestiary.databinding.ActivityCharacterLoadBinding
 import kotlin.math.abs
 import kotlin.math.ceil
@@ -24,7 +25,7 @@ class CharacterLoadActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCharacterLoadBinding.inflate(layoutInflater)
         gestureDetector = GestureDetector(this, SwipeGestureListener())
-        populateTextViews(Color.parseColor("#AFC6D6"))
+        populateTextViews(ContextCompat.getColor(this, R.color.background2))
         enableEdgeToEdge()
         setContentView(binding.root)
     }

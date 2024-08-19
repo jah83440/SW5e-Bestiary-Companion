@@ -5,8 +5,8 @@
     <!--<color name="primary">#C40F0F</color>-->
     <color name="primary">#530B04</color>
     <color name="secondary">#0D99CC</color>
-    <color name="background2">#AFC6D6</color>
-    <color name="background">#FDFDFE</color>
+    <color name="background">#AFC6D6</color>
+    <color name="background2">#FDFDFE</color>
     <color name="lightGrey">#C9D6DB</color>
     <color name="darkGrey">#BDC8CC</color>
     <color name="alert">#F44336</color>
