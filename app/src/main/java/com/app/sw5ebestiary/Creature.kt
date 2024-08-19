@@ -23,7 +23,7 @@ data class CreatureItem(
 )
 data class CreatureList(
     val name : String,
-    val creatures : MutableList<Creature>,
+    var creatures : MutableList<Creature>,
     val id : Int = getNextId()
 )
 {

@@ -1,6 +1,7 @@
 package com.app.sw5ebestiary
 
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -31,8 +32,10 @@ class CharacterAdapter(private var creatures : List<Creature>, private val conte
 
 
 
+
     override fun getItemCount() = creatures.size
 
+    @SuppressLint("NotifyDataSetChanged")
     fun updateList(newList: List<Creature>) {
         creatures = newList
         notifyDataSetChanged()

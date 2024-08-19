@@ -26,4 +26,5 @@
     <string name="saveList">Save List</string>
     <string name="deleteList">Delete Selected Lists</string>
     <string name="cancelDelete">Cancel</string>
+    <string name="editList">Edit List</string>
 </resources>

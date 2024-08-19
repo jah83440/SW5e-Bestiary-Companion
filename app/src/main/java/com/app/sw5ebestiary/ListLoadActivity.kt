@@ -1,9 +1,12 @@
 package com.app.sw5ebestiary
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.GestureDetector
 import android.view.MotionEvent
 import androidx.activity.enableEdgeToEdge
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.app.sw5ebestiary.databinding.ActivityListLoadBinding
@@ -13,6 +16,8 @@ class ListLoadActivity : AppCompatActivity() {
     private lateinit var binding : ActivityListLoadBinding
     private lateinit var adapter : CharacterAdapter
     private lateinit var gestureDetector: GestureDetector
+    private lateinit var editListLauncher: ActivityResultLauncher<Intent>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityListLoadBinding.inflate(layoutInflater)
@@ -23,6 +28,19 @@ class ListLoadActivity : AppCompatActivity() {
         binding.textView.text = currentList?.name
         binding.recyclerView.adapter = adapter
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
+        editListLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { _ ->
+
+        }
+
+        binding.editButton.setOnClickListener {
+            val intent = Intent(this, EditListActivity::class.java)
+            editListLauncher.launch(intent)
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        adapter.updateList(currentList?.creatures!!)
     }
 
     private inner class SwipeGestureListener : GestureDetector.SimpleOnGestureListener(){
