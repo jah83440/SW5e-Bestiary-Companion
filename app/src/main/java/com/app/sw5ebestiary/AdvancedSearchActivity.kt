@@ -6,7 +6,10 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.GestureDetector
 import android.view.MotionEvent
+import android.view.View
 import android.view.inputmethod.InputMethodManager
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -18,6 +21,7 @@ class AdvancedSearchActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAdvancedSearchBinding
     private lateinit var adapter : CharacterAdapter
     private lateinit var gestureDetector: GestureDetector
+    private var searchMode : String = "Name"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,16 +32,45 @@ class AdvancedSearchActivity : AppCompatActivity() {
         showKeyboard(binding.searchInput)
         gestureDetector = GestureDetector(this, SwipeGestureListener())
         adapter = CharacterAdapter(creatures, this)
+        val spinner = binding.advSearchDropdown
+        val spinnerAdapter: ArrayAdapter<CharSequence> = ArrayAdapter.createFromResource(this, R.array.advSearchOption, R.layout.custom_spinner_item)
+        spinnerAdapter.setDropDownViewResource(R.layout.custom_spinner_dropdown_item)
+        spinner.adapter = spinnerAdapter
+        spinner.setSelection(0)
+        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+                searchMode = parent?.getItemAtPosition(position).toString()
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+
+            }
+        }
         binding.recyclerView.adapter = adapter
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.searchInput.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 val query = s.toString()
                 val filteredList = creatures.filter {
-                    it.name.contains(query, ignoreCase = true) || it.classification.contains(query, ignoreCase = true) || it.traitsSectionOne?.last()?.substring(
-                        it.traitsSectionOne.last().indexOf(" ").plus(1), it.traitsSectionOne.last().indexOf("(")
-                    )?.trim()
-                        ?.equals(query, ignoreCase = true) ?: false
+                    when (searchMode) {
+                        "Name" -> {
+                            it.name.contains(query, ignoreCase = true)
+                        }
+                        "Type", "Alignment", "Size" -> {
+                            it.classification.contains(query, ignoreCase = true)
+                        }
+                        else -> {
+                            it.traitsSectionOne?.last()?.substring(
+                                it.traitsSectionOne.last().indexOf(" ").plus(1), it.traitsSectionOne.last().indexOf("(")
+                            )?.trim()
+                                ?.equals(query, ignoreCase = true) ?: false
+                        }
+                    }
                 }
                 adapter.updateList(filteredList)
             }

@@ -1,11 +1,11 @@
 package com.app.sw5ebestiary
 
-import kotlin.text.Typography.bullet
 import android.content.Context
 import android.content.SharedPreferences
-import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import kotlin.text.Typography.bullet
+
 data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>?, val traitsSectionTwo : List<String>?, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null, val id : Int = getNextId())
 {
     companion object{
@@ -76,13 +76,11 @@ fun getCustomLists(context: Context): List<CreatureList> {
 
     // Loop through all stored entries
     sharedPreferences.all.forEach { entry ->
-        Log.e("Viewing an entry in sharedPreferences", entry.key)
         val json = entry.value as String
         val type = object : TypeToken<CreatureList>() {}.type
         val customList: CreatureList = gson.fromJson(json, type)
         customLists.add(customList)
     }
-    Log.i("getCustomLists result", "$customLists")
     return customLists
 }
 
@@ -619,6 +617,250 @@ val creatures = listOf(
         listOf(
             "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
             "Stock Strike. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) kinetic damage."
+        )
+    ),
+    Creature(
+        "B1-X Battle Droid",
+        "Medium droid, unaligned",
+        "Armor Class 15 (armor plating)",
+        "Hit Points 16 (3d8 + 3)",
+        "Speed 30 ft.",
+        listOf(11, 16, 12, 14, 10, 9),
+        listOf(
+            "Skills Perception +2\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 12\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 1/2 (100 XP)\n"
+        ),
+        listOf(
+            "Battle Droid Swarm. When an ally of the battle droid hits a hostile creature that it can see with a weapon attack, the battle droid can use its reaction to make one weapon attack against that creature.\n",
+            "Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n"
+        ),
+        listOf(
+            "Blaster Pistol. Ranged Weapon Attack: +5 to hit, range 40/160 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+            "Stock Strike. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) kinetic damage.\n"
+        ),
+        reactions = listOf(
+            "Redirect Attack. When a creature the battle droid can see targets it with an attack, the battle droid chooses another battle droid within 5 feet of it. The two battle droids swap places, and the chosen battle droid becomes the target instead."
+        )
+    ),
+    Creature(
+        "B2 Super Battle Droid",
+        "Medium droid, unaligned",
+        "Armor Class 16 (armor plating)",
+        "Hit Points 26 (4d8 + 8)",
+        "Speed 30 ft.",
+        listOf(13, 16, 14, 14, 12, 11),
+        listOf(
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 11\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 1 (200 XP)\n"
+        ),
+        listOf("Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n"),
+        listOf(
+            "Multiattack. The super battle droid makes two weapon attacks with its strike or wrist blaster.\n",
+            "Strike. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) kinetic damage.\n",
+            "Wrist Blaster. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+            "Wrist Blaster Volley (Recharge 6). The super battle droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking normal weapon damage on a failed save."
+        )
+    ),
+    Creature(
+        "B2-HA Super Battle Droid",
+        "Medium droid, unaligned",
+        "Armor Class 17 (armor plating)",
+        "Hit Points 84 (14d8 + 28)",
+        "Speed 30 ft.",
+        listOf(15, 16, 14, 14, 15, 11),
+        listOf(
+            "Skills Perception +4\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 14\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 4 (1,100 XP)\n"
+        ),
+        listOf("Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n"),
+        listOf(
+            "Multiattack. The super battle droid makes two weapon attacks with its strike or wrist blaster.\n",
+            "Strike. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage.\n",
+            "Wrist Blaster. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+            "Wrist Blaster Volley (Recharge 5-6). The super battle droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking normal weapon damage on a failed save.\n",
+            "Rocket Launcher (1/day). Each creature in a 20-foot-radius sphere centered on a point the battle droid can see within 150 feet must make a DC 13 Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one."
+        )
+    ),
+    Creature(
+        "BX Commando Droid",
+        "Medium droid, unaligned",
+        "Armor Class 15 (armor plating)",
+        "Hit Points 49 (9d8 + 9)",
+        "Speed 30 ft.",
+        listOf(12, 17, 13, 15, 13, 7),
+        listOf(
+            "Skills Perception +3, Stealth +5\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 12\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 2 (450 XP)\n"
+        ),
+        listOf(
+            "Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Droid Synergy. Once per turn, the commando droid can deal an extra 3 (1d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the commando droid that isn't incapacitated.\n"
+        ),
+        listOf(
+            "Blaster Carbine. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+            "Techblade. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.\n",
+            "Stealth Field Generator. The droid becomes invisible. Anything the droid is carrying is invisible as long as it is on the droid. The droid may end the invisibility as a free action. The invisibility ends if the droid attacks."
+        )
+    ),
+    Creature(
+        "BX-5C Commando Droid",
+        "Medium droid, unaligned",
+        "Armor Class 16 (armor plating)",
+        "Hit Points 96 (15d8 + 30)",
+        "Speed 30 ft.",
+        listOf(13, 19, 14, 15, 13, 7),
+        listOf(
+            "Saving Throws Dex +7\n",
+            "Skills Perception +4, Stealth +7\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 12\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 5 (1,800 XP)\n"
+        ),
+        listOf(
+            "Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Droid Synergy. Once per turn, the commando droid can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the commando droid that isn't incapacitated.\n"
+        ),
+        listOf(
+            "Multiattack. The supercommando droid makes two weapon attacks.\n",
+            "Blaster Carbine. Ranged Weapon Attack: +7 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+            "Techblade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.\n",
+            "Stealth Field Generator. The droid becomes invisible. Anything the droid is carrying is invisible as long as it is on the droid. The droid may end the invisibility as a free action. The invisibility ends if the droid attacks."
+        )
+    ),
+    Creature(
+        "Destroyer Droid",
+        "Large droid, unaligned",
+        "Armor Class 17 (armor plating)",
+        "Hit Points 142 (15d10 + 60)",
+        "Speed 15 ft. (attack form) or 60 ft. (ball form)",
+        listOf(14, 18, 18, 13, 15, 7),
+        listOf(
+            "Skills Perception +5\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 15\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 7 (2,900 XP)\n"
+        ),
+        listOf(
+            "Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Ball Form. As a bonus action, the destroyer droid can transform into or out of ball form. While in ball form, the destroyer droid has increased speed, but it can not attack.\n"
+            ),
+        listOf(
+            "Multiattack. The destroyer droid makes two weapon attacks.\n",
+            "Blaster Cannons. Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 11 (2d6 + 4) energy damage.\n",
+            "Blaster Volley. The destroyer droid sprays a 10-foot-cube area within normal range of its blaster cannons with shots. Each creature in the area must make a DC 15 Dexterity saving throw, taking normal weapon damage on a failed save.\n"
+        ),
+        reactions = listOf(
+            "Deflector Shield. The destroyer droid adds 3 to its AC against one attack that would hit it. To do so, the destroyer droid must see the attacker."
+        )
+    ),
+    Creature(
+        "DSD1 Dwarf Spider Droid",
+        "Large droid, unaligned",
+        "Armor Class 16 (armor plating)",
+        "Hit Points 32 (5d10 + 5)",
+        "Speed 40 ft., climb 40 ft.",
+        listOf(15, 16, 12, 10, 10, 9),
+        listOf(
+            "Skills Perception +4\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses truesight 120 ft., passive Perception 14\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 2 (450 XP)\n"
+        ),
+        listOf(
+            "Circuitry. The spider droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Spider Climb. The spider droid can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n"
+        ),
+        listOf(
+            "Blaster Cannon. Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 9 (1d12 + 3) energy damage.\n",
+            "Burst. The spider droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking 9 (1d12 + 3) energy damage on a failed save, or half as much on a successful one.\n",
+            "Claw. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d5 + 2) kinetic damage.\n",
+            "Self-Destruct. When the spider droid is reduced to half of its hit point maximum and is within 20 feet of a hostile creature, it attempts to self-destruct. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one."
+        )
+    ),
+    Creature(
+        "MagnaGuard Sentinel",
+        "Medium droid, unaligned",
+        "Armor Class 16 (armor plating)",
+        "Hit Points 58 (9d8 + 18)",
+        "Speed 30 ft., climb 30 ft.",
+        listOf(13, 19, 14, 15, 13, 9),
+        listOf(
+            "Saving Throws Dex +6\n",
+            "Skills Perception +3, Stealth +6, Intimidation +1\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic; energy from melee weapon attacks\n",
+            "Condition Immunities poison, disease\n",
+            "Senses truesight 120 ft., passive Perception 13\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 4 (1,100 XP)\n"
+        ),
+        listOf(
+            "Circuitry. The MagnaGuard has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Droid Synergy. Once per turn, the MagnaGuard can deal an extra 3 (1d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of a MagnaGuard ally that isn't incapacitated.\n",
+            "Leap. The MagnaGuard can expend all its movement on its turn to jump up to its current movement speed in any direction.\n",
+            "Mag-lock Limbs. The MagnaGuard can climb metal surfaces, including upside down on ceilings, without needing to make an ability check.\n"
+        ),
+        listOf(
+            "Multiattack. The MagnaGuard makes two electrostaff attacks.\n",
+            "Electrostaff. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) kinetic damage.\n",
+            "Blaster Pistol. Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 7 (1d6 + 4) energy damage.\n"
+        ),
+        reactions = listOf(
+            "Parry. The droid adds 3 to its AC against one melee attack that would hit it. To do so, the droid must see the attacker and be wielding a melee weapon."
+        )
+    ),
+    Creature(
+        "Battle Hydra",
+        "Huge aberration, neutral dark",
+        "Armor Class 14 (natural armor)",
+        "Hit Points 126 (11d12 + 55)",
+        "Speed 30 ft., fly 60 ft.",
+        listOf(20, 12, 20, 2, 12, 7),
+        listOf(
+            "Skills Perception +7\n",
+            "Damage Resistances energy; ion and kinetic from unenhanced weapons\n",
+            "Senses darkvision 60 ft., passive Perception 17\n",
+            "Languages \u2014\n",
+            "Challenge 9 (5,000 XP)\n"
+        ),
+        listOf(
+            "Reactive Heads. The hydra gets an extra reaction that can be used only for opportunity attacks.\n",
+            "Two Heads. The hydra has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.\n",
+            "Wakeful. When one of the hydra's heads is asleep, its other head is awake.\n"
+        ),
+        listOf(
+            "Multiattack. The hydra can make three attacks: two with its bite and one with its claws.\n",
+            "Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) kinetic damage.\n",
+            "Claws. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n",
+            "Stinger. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) kinetic damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
         )
     )
 ).sortedBy {

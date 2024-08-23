@@ -10,7 +10,7 @@
     <string name="main_logo">The SW5e Logo</string>
     <string name="main_menu">Main Menu</string>
     <string name="search">Name…</string>
-    <string name="adv_search">Name, Type, Size, Challenge Rating…</string>
+    <string name="adv_search">Search…</string>
     <string name="strength">STR</string>
     <string name="dexterity">DEX</string>
     <string name="constitution">CON</string>
@@ -27,4 +27,11 @@
     <string name="deleteList">Delete Selected Lists</string>
     <string name="cancelDelete">Cancel</string>
     <string name="editList">Edit List</string>
+    <string-array name="advSearchOption">
+        <item>Name</item>
+        <item>Type</item>
+        <item>Alignment</item>
+        <item>Size</item>
+        <item>CR</item>
+    </string-array>
 </resources>
