@@ -61,14 +61,25 @@ class AdvancedSearchActivity : AppCompatActivity() {
                         "Name" -> {
                             it.name.contains(query, ignoreCase = true)
                         }
-                        "Type", "Alignment", "Size" -> {
-                            it.classification.contains(query, ignoreCase = true)
+                        "Type"-> {
+                            val spaceIndex = it.classification.indexOf(" ")
+                            val commaIndex = it.classification.indexOf(",")
+                            it.classification.substring(spaceIndex, commaIndex).trim().contains(query, ignoreCase = true)
                         }
-                        else -> {
+                        "Alignment"-> {
+                            it.classification.substringAfter(", ").contains(query, ignoreCase = true)
+                        }
+                        "Size" -> {
+                            it.classification.substringBefore(" ").contains(query, ignoreCase = true)
+                        }
+                        "CR" -> {
                             it.traitsSectionOne?.last()?.substring(
                                 it.traitsSectionOne.last().indexOf(" ").plus(1), it.traitsSectionOne.last().indexOf("(")
                             )?.trim()
                                 ?.equals(query, ignoreCase = true) ?: false
+                        }
+                        else -> {
+                            true
                         }
                     }
                 }
