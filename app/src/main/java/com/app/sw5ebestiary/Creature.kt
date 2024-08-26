@@ -1059,7 +1059,8 @@ val creatures = listOf(
             "Broken Bottles. Melee Weapon Attack: +3 to hit, range 0 ft., one target in the cantina brawl's space. Hit: 17 (6d4 + 2) kinetic damage, or 8 (3d4 + 1) if the cantina brawl has half its hit points or fewer.\n",
             "Darts. Ranged Weapon Attack: +3 to hit, range 20/40 ft., one target. Hit: 10 (4d4) kinetic damage, or 5 (2d4) if the cantina brawl has half its hit points or fewer."
         )
-    )
+    ),
+    //page 34
 ).sortedBy {
     it.name
 }
