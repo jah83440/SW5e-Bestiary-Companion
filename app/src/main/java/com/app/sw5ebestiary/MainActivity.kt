@@ -2,6 +2,7 @@ package com.app.sw5ebestiary
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // little bit of diagnostics for progress tracking
+        Log.i("Creature Count", "${creatures.size} creatures loaded")
         binding.basicSearch.setOnClickListener {
             val intent = Intent(this, BasicSearchActivity::class.java)
             startActivity(intent)

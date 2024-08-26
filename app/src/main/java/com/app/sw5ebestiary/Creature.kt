@@ -862,6 +862,203 @@ val creatures = listOf(
             "Claws. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n",
             "Stinger. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) kinetic damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
         )
+    ),
+    Creature(
+        "Blurrg",
+        "Large beast, unaligned",
+        "Armor Class 11 (natural armor)",
+        "Hit Points 67 (9d10 + 18)",
+        "Speed 30 ft.",
+        listOf(20, 6, 15, 1, 7, 5),
+        listOf(
+            "Skills Athletics +6\n",
+            "Senses passive Perception 8\n",
+            "Languages \u2014\n",
+            "Challenge 2 (450 XP)\n"
+        ),
+        listOf(
+            "Siege Monster. The blurrg deals double damage to objects and structures.\n",
+            "Sure-Footed. The blurrg has advantage on Strength and Dexterity saving throws made against effects that would shove it or knock it prone.\n",
+            "Beast of Burden. The blurrg is considered to be a Huge animal for the purpose of determining its carrying capacity.\n"
+        ),
+        listOf(
+            "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) kinetic damage."
+        )
+    ),
+    Creature(
+        "Bogwing, Lesser",
+        "Tiny beast, unaligned",
+        "Armor Class 12",
+        "Hit Points 4 (3d4 - 3)",
+        "Speed 10 ft., fly 30 ft.",
+        listOf(5, 14, 9, 3, 13, 5),
+        listOf(
+            "Skills Perception +3\n",
+            "Senses passive Perception 13\n",
+            "Languages \u2014\n",
+            "Challenge 1/8 (25 XP)\n"
+        ),
+        listOf(
+            "Beast of Burden. The bogwing is considered to be a Medium animal for the purposes of determining its carrying capacity.\n"
+        ),
+        listOf(
+            "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage."
+        )
+    ),
+    Creature(
+        "Bogwing, Greater",
+        "Small beast, unaligned",
+        "Armor Class 13",
+        "Hit Points 14 (4d6)",
+        "Speed 10 ft., fly 40 ft.",
+        listOf(6, 16, 11, 3, 13, 5),
+        listOf(
+            "Skills Perception +3\n",
+            "Senses passive Perception 13\n",
+            "Languages \u2014\n",
+            "Challenge 1 (200 XP)\n"
+        ),
+        listOf(
+            "Beast of Burden. The bogwing is considered to be a Large animal for the purposes of determining its carrying capacity.\n"
+        ),
+        listOf(
+            "Multiattack. The bogwing can make two claw attacks.\n",
+            "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage."
+        )
+    ),
+    Creature(
+        "B'omarr Brain Walker",
+        "Medium construct, any dark",
+        "Armor Class 14 (armor plating)",
+        "Hit Points 54 (8d8 + 16)",
+        "Speed 30 ft.",
+        listOf(1, 11, 15, 16, 12, 16),
+        listOf(
+            "Saving Throws Int +6, Wis +4, Cha +6\n",
+            "Skills Lore +6, Deception +6, Perception +4, Persuasion +6\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances psychic\n",
+            "Condition Immunities charmed, frightened, paralyzed\n",
+            "Senses blindsight 60 ft., passive Perception 14\n",
+            "Languages Galactic Basic, Huttese\n",
+            "Challenge 3 (700 XP)\n"
+        ),
+        listOf(
+            "Circuitry. The B'omarr Brain Walker has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Innate Forcecasting. The B'omarr Brain Walker's forcecasting ability is Charisma (Force save DC 13). The B'omarr Brain Walker can innately cast the following force powers:At will: affect mind, force push/pull*1/day each: greater feedback, mind trap\n"
+        ),
+        listOf(
+            "Multiattack. The B'omarr Brain Walker makes two Mind Thrust attacks.\n",
+            "Mind Thrust. One creature within 60 feet of the B'omarr Brain Walker must make a DC 13 Wisdom saving throw, taking 13 (4d6) psychic damage on a failed save, or half as much on a successful one."
+        )
+    ),
+    Creature(
+        "B'omarr Monk Initiate",
+        "Medium humanoid, any neutral",
+        "Armor Class 12 (combat suit)",
+        "Hit Points 9 (2d8)",
+        "Speed 30 ft.",
+        listOf(8, 8, 8, 10, 14, 9),
+        listOf(
+            "Skills Medicine +4, Deception +2\n",
+            "Senses passive Perception 10\n",
+            "Languages Galactic Basic, Huttese\n",
+            "Challenge 1/8 (25 XP)\n"
+        ),
+        listOf(
+            "Unearthly Focus. The initiate has advantage on saving throws against being charmed or frightened.\n"
+        ),
+        listOf(
+            "Hold-Out Blaster. Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) energy damage."
+        )
+    ),
+    Creature(
+        "Bor Gullet",
+        "Large beast, unaligned",
+        "Armor Class 12 (natural armor)",
+        "Hit Points 180 (19d10 + 76)",
+        "Speed 10 ft., swim 10 ft.",
+        listOf(16, 8, 18, 20, 18, 17),
+        listOf(
+            "Saving Throws Con +9, Int +10, Wis +9\n",
+            "Skills Lore +10, Perception +9, Insight +14, Deception +8, Persuasion +8\n",
+            "Damage Resistances psychic\n",
+            "Damage Immunities poison\n",
+            "Condition Immunities poisoned\n",
+            "Senses blindsight 120 ft., passive Perception 19\n",
+            "Languages understands Galactic Basic but can't speak, telepathy 120 ft.\n",
+            "Challenge 13 (10,000 XP)\n"
+        ),
+        listOf(
+            "Creature Sense. The bor gullet is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each such creature, as well as each such creature's Intelligence score, but it can't sense anything else about it. Droids and creatures protected by a mind blank power or other similar power cannot be perceived in this manner.\n",
+            "Fortified Mind. The bor gullet has advantage on saving throws against being charmed and frightened, and it can't be put to sleep.\n",
+            "Legendary Resistance (3/day). If the bor gullet fails a saving throw, it can choose to succeed instead.\n",
+            "Psychic Link. The bor gullet can establish a psychic link with any creature that it successfully grapples with its tentacles. Until the psychic link ends, the bor gullet can perceive everything the target senses. The target is aware that its mind is linked, and the bor gullet can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Intelligence saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the bor gullet are more than 1 mile apart, with no consequences to the target. The bor gullet can form psychic links with up to ten creatures at a time.\n"
+        ),
+        listOf(
+            "Multiattack. The bor gullet makes three tentacle attacks.\n",
+            "Tentacle. Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit: 6 (1d6 + 3) kinetic damage, and the target is grappled (escape DC 16) if it is Large or smaller. Until the grapple ends, the target takes 9 (1d8 + 5) psychic damage at the start of each of its turns, and bor gullet can't use this tentacle on another target. The bor gullet has six tentacles.\n",
+            "Mind Blast (Recharge 5-6). The bor gullet emits psychic energy. Creatures of the bor gullet's choice within 60 feet of it must succeed on a DC 18 Intelligence saving throw or take 32 (5d10 + 5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n",
+            "Sense Thoughts. The bor gullet targets a creature with which it has a psychic link. The bor gullet gains insight into the target's emotional state and any thoughts that loom large in its mind (including worries, loves, and hates). The bor gullet can also make a Charisma (Deception) check with advantage to deceive the target's mind into thinking it believes one idea or feels a particular emotion. The target contests this attempt with a Wisdom (Insight) check. If the bor gullet succeeds, the mind believes the deception for 1 hour or until evidence of the lie is presented to the target.\n"
+        ),
+        legendaryActions = listOf(
+            "The bor gullet can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature's turn. The bor gullet regains spent legendary actions at the start of its turn.\n",
+            "Tentacle. The bor gullet makes a tentacle attack.\n",
+            "Break Concentration. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet breaks the creature's concentration on a power it is using. The creature also takes 1d4 psychic damage per level of the power.\n",
+            "Psychic Pulse. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. Enemies of the bor gullet within 10 feet of that creature take 10 (3d6) psychic damage.\n",
+            "Sever Psychic Link. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn."
+        )
+    ),
+    Creature(
+        "Brain Worm",
+        "Tiny beast, lawful dark",
+        "Armor Class 12",
+        "Hit Points 21 (6d4 + 6)",
+        "Speed 30 ft.",
+        listOf(6, 14, 13, 12, 11, 10),
+        listOf(
+            "Skills Perception +2, Stealth +4\n",
+            "Damage Vulnerabilities cold\n",
+            "Damage Resistances energy and kinetic from unenhanced weapons\n",
+            "Condition Immunities blinded\n",
+            "Senses blindsight 60 ft. (blind beyond this radius), passive Perception 12\n",
+            "Languages Geonosian (understands but can't speak)\n",
+            "Challenge 2 (450 XP)\n"
+        ),
+        listOf(
+            "Detect Sentience. The brain worm can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank force power.\n"
+        ),
+        listOf(
+            "Multiattack. The brain worm makes one Enter Orifice attack and uses Consume Mind.\n",
+            "Enter Orifice. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.\n",
+            "Consume Mind. The brain worm targets one creature it can see within 10 feet of it that has a brain. The target must succeed on a DC 12 Intelligence saving throw against this magic or take 11 (2d10) psychic damage. Also on a failure, roll 3d6: if the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is stunned until it regains at least one point of Intelligence.\n",
+            "Body Thief. The brain worm initiates an Intelligence contest with an incapacitated humanoid with 5 feet of it. If it wins the contest, th brain worm burrows into the target's brain and takes control of the target's body. While inside a creature, the brain worm has total cover against attacks and other effects originating outside its host. The brain worm retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Geonosian, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including force powers, tech powers, and languages.newlineIf the host body takes 20 points of cold damage in a single round, the brain worm must make a DC 15 Constitution saving throw using its own Constitution score, not the host's. On a failure, the brain worm leaves the body, slithering out to a space within 5 ft. of the host. After exiting the host, it is paralyzed until the start of its next turn.newlineIf the host body dies, the brain worm must leave it. The brain worm is also forced out if the target regains its devoured brain by means of a master heal force power. By spending 5 feet of its movement, the brain worm can voluntarily leave the body, slithering out to the nearest unoccupied space within 5 feet of it."
+        )
+    ),
+    Creature(
+        "Cantina Brawl",
+        "Huge swarm of Medium humanoids, unaligned",
+        "Armor Class 12 (combat suit)",
+        "Hit Points 67 (9d12 + 9)",
+        "Speed 30 ft.",
+        listOf(14, 12, 13, 11, 10, 9),
+        listOf(
+            "Damage Resistances kinetic\n",
+            "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned\n",
+            "Senses passive Perception 10\n",
+            "Languages Galactic Basic and any one other language\n",
+            "Challenge 3 (700 XP)\n"
+        ),
+        listOf(
+            "Liquid Courage (Recharge 5-6). As a bonus action, the cantina brawl imbibes nearby alcohol to gain access to a hidden reservoir of audacity and grit. The cantina brawl gains 7 (2d6) temporary hp for 1 minute.\n",
+            "Swarm. The cantina brawl can occupy another creature's space and vice versa, and the cantina brawl can move through any opening large enough for a medium humanoid. Except for Liquid Courage, the cantina brawl can't regain hp or gain temporary hp.\n"
+        ),
+        listOf(
+            "Multiattack. The cantina brawl makes two melee attacks or two darts attacks.\n",
+            "Stool. Melee Weapon Attack: +4 to hit, range 0 ft., one target in the cantina brawl's space. Hit: 14 (4d4 + 4) kinetic damage, or 7 (2d4 + 2) if the cantina brawl has half its hit points or fewer.\n",
+            "Broken Bottles. Melee Weapon Attack: +3 to hit, range 0 ft., one target in the cantina brawl's space. Hit: 17 (6d4 + 2) kinetic damage, or 8 (3d4 + 1) if the cantina brawl has half its hit points or fewer.\n",
+            "Darts. Ranged Weapon Attack: +3 to hit, range 20/40 ft., one target. Hit: 10 (4d4) kinetic damage, or 5 (2d4) if the cantina brawl has half its hit points or fewer."
+        )
     )
 ).sortedBy {
     it.name

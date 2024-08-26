@@ -254,7 +254,10 @@ class CharacterLoadActivity : AppCompatActivity() {
 
             }
             "actions" -> {
-                val actionsFlags = unformatted.split("\n").filter{it!=""}
+                val actionsFlags = unformatted.split("\n").filter{it!=""}.toMutableList()
+                actionsFlags.replaceAll {
+                    it.replace("newline", "\n\n")
+                }
                 actionsFlags.forEachIndexed {index, it ->
                     if(it.contains(".")){
                         val currentSpan = SpannableString(it)
