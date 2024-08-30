@@ -157,6 +157,10 @@ class CharacterLoadActivity : AppCompatActivity() {
                 binding.reactionsDivider.visibility = GONE
                 binding.reactionsTextView.visibility = GONE
             }
+            if(creature.traitsSectionTwo == null){
+                binding.traitsTwoTextView.visibility = GONE
+                binding.traitsDivider.visibility = GONE
+            }
         }
     }
     private fun formatList(unformattedList : List<String>) : String{

@@ -6,7 +6,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlin.text.Typography.bullet
 
-data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>?, val traitsSectionTwo : List<String>?, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null, val id : Int = getNextId())
+data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>?, val traitsSectionTwo : List<String>? = null, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null, val id : Int = getNextId())
 {
     companion object{
         private var currentId = 0
@@ -1061,6 +1061,27 @@ val creatures = listOf(
         )
     ),
     //page 34
+
+    // added by Kaili
+    Creature(
+        "Security Officer",
+        "Medium humanoid, neutral dark",
+        "Armor Class 14 (battle armor)",
+        "Hit Points 13 (2d8 + 4)",
+        "Speed 30 ft.",
+        listOf(12, 11, 13, 10, 9, 12),
+        listOf(
+            "Skills Intimidation +3\n",
+            "Senses passive Perception 9\n",
+            "Languages Galactic Basic, Huttese\n",
+            "Challenge 1/2 (100 XP)\n"
+        ),
+        traitsSectionTwo = null,
+        listOf(
+            "Heavy Pistol. Ranged Weapon Attack: +4, range 40/160 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
+            "Vibrobaton. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 2) kinetic damage.\n"
+        )
+    )
 ).sortedBy {
     it.name
 }
