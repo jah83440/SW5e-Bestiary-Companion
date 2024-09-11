@@ -25,7 +25,7 @@
             "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage.\n",
             "Claw. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 6) kinetic damage."
         ],
-        "id": 3
+        "id": 1
     },
     {
         "name": "Acklay, Adult",
@@ -53,7 +53,7 @@
             "Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) kinetic damage.\n",
             "Claw. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 29 (4d10 + 7) kinetic damage."
         ],
-        "id": 4
+        "id": 2
     },
     {
         "name": "Aiwha",
@@ -83,7 +83,7 @@
         "actions": [
             "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) kinetic damage."
         ],
-        "id": 5
+        "id": 3
     },
     {
         "name": "Anooba",
@@ -111,7 +111,7 @@
         "actions": [
             "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
         ],
-        "id": 6
+        "id": 4
     },
     {
         "name": "Avatar of Abeloth",
@@ -938,6 +938,36 @@
         "id": 37
     },
     {
+        "name": "Condor Dragon",
+        "classification": "Large beast, unaligned",
+        "ac": "Armor Class 13 (natural armor)",
+        "hp": "Hit Points 67 (9d10 + 18)",
+        "speed": "Speed 20 ft., fly 80 ft.",
+        "scores": [
+            18,
+            10,
+            15,
+            4,
+            12,
+            6
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +4\n",
+            "Senses darkvision 60 ft., passive Perception 14\n",
+            "Languages \\u2014\n",
+            "Challenge 3 (700 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Unhindered Movement. The dragon's movement speed is not reduced while moving with a grappled creature.\n"
+        ],
+        "actions": [
+            "Multiattack. The dragon can make three attacks: two with its claws and one with its bite.\n",
+            "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.\n",
+            "Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) kinetic damage.\n"
+        ],
+        "id": 1
+    },
+    {
         "name": "DSD1 Dwarf Spider Droid",
         "classification": "Large droid, unaligned",
         "ac": "Armor Class 16 (armor plating)",
@@ -971,6 +1001,119 @@
             "Self-Destruct. When the spider droid is reduced to half of its hit point maximum and is within 20 feet of a hostile creature, it attempts to self-destruct. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one."
         ],
         "id": 27
+    },
+    {
+        "name": "Dark Lord Spirit",
+        "classification": "Medium undead, neutral dark",
+        "ac": "Armor Class 20 (natural armor)",
+        "hp": "Hit Points 313 (33d8 + 165)",
+        "speed": "Speed 40 ft.",
+        "scores": [
+            22,
+            15,
+            21,
+            23,
+            21,
+            26
+        ],
+        "traitsSectionOne": [
+            "Saving Throws Dex +9, Con +12, Wis +12\n",
+            "Skills Deception +15, Insight +12, Perception +12, Persuasion +15\n",
+            "Damage Resistances cold, fire, lightning\n",
+            "Damage Immunities poison; kinetic, ion and energy from unenhanced weapons\n",
+            "Condition Immunities charmed, exhaustion, frightened, poisoned\n",
+            "Senses truesight 120 ft., passive Perception 22\n",
+            "Languages all, telepathy 120 ft.\n",
+            "Challenge 24 (62,000 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Innate Forcecasting. The spirit's forcecasting ability is Charisma (force save DC 23). It can innately cast the following powers:At will: coerce mind, fear, improved feedback, sense force, sever force*3/day each: darkness, dominate mind, force project, force suppression, sanctuary, telekinesis*1/day each: dominate monster, improved force camouflage, mass animation\n",
+            "Legendary Resistance (3/day). If the spirit fails a saving throw, it can choose to succeed instead.\n",
+            "Tech Resistance. The spirit has advantage on saving throws against tech powers.\n"
+        ],
+        "actions": [
+            "Multiattack. The spirit attacks twice with Force Saber.\n",
+            "Force Saber. Melee Power Attack: +13 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) energy damage plus 10 (3d6) psychic damage.\n",
+            "Teleport. The spirit teleports up to 120 feet into an unoccupied space it can see.\n"
+        ],
+        "legendaryActions": [
+            "The spirit can take 3 legendary actions per round from the options below. Only one option can be used at a time and only at the end of another creature's turn.\n",
+            "Attack. The spirit attacks once with Force Saber.\n",
+            "Dark Lightning. Ranged Power Attack: +13 to hit, range 60 ft., one target. Hit: 14 (4d6) necrotic damage. The target must succeed on a DC 23 Strength saving throw or become shocked until the end of their next turn.\n",
+            "Sow Discord. The spirit casts coerce mind or fear.\n",
+            "Teleport. The spirit uses its teleport action.\n"
+        ],
+        "id": 1
+    },
+    {
+        "name": "Dark Side Spirit",
+        "classification": "Medium undead, neutral dark",
+        "ac": "Armor Class 13",
+        "hp": "Hit Points 40 (9d8)",
+        "speed": "Speed 30 ft., fly 40 ft. (hover)",
+        "scores": [
+            6,
+            17,
+            10,
+            17,
+            15,
+            16
+        ],
+        "traitsSectionOne": [
+            "Saving Throws Int +6, Wis +5\n",
+            "Skills Perception +5, Stealth +6\n",
+            "Damage Resistances acid, fire, sonic, kinetic\n",
+            "Damage Immunities cold, necrotic, poison\n",
+            "Condition Immunities charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained\n",
+            "Senses darkvision 60 ft., passive Perception 15\n",
+            "Languages the languages it knew in life\n",
+            "Challenge 5 (1,800 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Incorporeal Movement. The spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.\n"
+        ],
+        "actions": [
+            "Maddening Touch. Melee Power Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) psychic damage.\n",
+            "Whispers of Madness. The spirit chooses up to three creatures it can see within 60 ft. of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the spirit's choice that the spirit can see.\n",
+            "Howling Babble (Recharge 6). Each creature within 30 ft. of the spirit that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned.\n"
+        ],
+        "id": 5
+    },
+    {
+        "name": "Death Trooper",
+        "classification": "Medium humanoid (human), lawful dark",
+        "ac": "Armor Class 16 (battle armor)",
+        "hp": "Hit Points 97 (15d8 + 30)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            14,
+            19,
+            15,
+            11,
+            13,
+            11
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +7, Stealth +10, Survival +4\n",
+            "Senses truesight 15 ft., blindsight 30 ft., darkvision 60 ft., passive Perception 17\n",
+            "Languages Galactic Basic, one other of your choice\n",
+            "Challenge 6 (2,300 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Skirmish. The trooper can use Disengage as a bonus action.\n",
+            "Precise Shot (3/day). As a bonus action before making a ranged weapon attack, the trooper can take aim at a vital point of a target causing an extra 7 (2d6) energy damage on a hit.\n",
+            "Enhanced Sensors. The trooper has advantage on Wisdom (Perception) checks that rely on hearing or sight.\n",
+            "Enhanced Weapons. The troopers weapon attacks are enhanced.\n",
+            "Stealthy. The trooper can take the Hide action as a bonus action.\n",
+            "Surprise Attack. If the trooper surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.\n"
+        ],
+        "actions": [
+            "Multiattack. The trooper makes two melee attacks or four ranged attacks.\n",
+            "Techblade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7(1d6 + 4) kinetic damage.\n",
+            "Blaster Rifle. Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.\n",
+            "Volley (Recharge 5-6). The trooper shoots a rain of deadly blaster bolts in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d8 + 4) energy damage on a failed save, or half as much damage on a successful one.\n"
+        ],
+        "id": 1
     },
     {
         "name": "Destroyer Droid",
@@ -1008,6 +1151,130 @@
             "Deflector Shield. The destroyer droid adds 3 to its AC against one attack that would hit it. To do so, the destroyer droid must see the attacker."
         ],
         "id": 26
+    },
+    {
+        "name": "Dewback, Adolescent",
+        "classification": "Large beast, unaligned",
+        "ac": "Armor Class 11 (natural armor)",
+        "hp": "Hit Points 34 (4d10 + 12)",
+        "speed": "Speed 40 ft., swim 30 ft.",
+        "scores": [
+            19,
+            10,
+            16,
+            2,
+            13,
+            7
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +3\n",
+            "Senses passive Perception 13\n",
+            "Languages —\n",
+            "Challenge 1 (200 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Keen Smell. The dewback has advantage on Wisdom (Perception) checks that rely on smell.\n"
+        ],
+        "actions": [
+            "Multiattack. The dewback makes two attacks: one with its bite and one with its claws.\n",
+            "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) kinetic damage.\n",
+            "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) kinetic damage.\n"
+        ],
+        "id": 2
+    },
+    {
+        "name": "Dewback, Adult",
+        "classification": "Large beast, unaligned",
+        "ac": "Armor Class 12 (natural armor)",
+        "hp": "Hit Points 42 (5d10 + 15)",
+        "speed": "Speed 40 ft., swim 30 ft.",
+        "scores": [
+            20,
+            10,
+            16,
+            2,
+            13,
+            7
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +3\n",
+            "Senses passive Perception 13\n",
+            "Languages \\u2014\n",
+            "Challenge 2 (450 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Keen Smell. The dewback has advantage on Wisdom (Perception) checks that rely on smell.\n"
+        ],
+        "actions": [
+            "Multiattack. The dewback makes two attacks: one with its bite and one with its claws.\n",
+            "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) kinetic damage.\n",
+            "Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n"
+        ],
+        "id": 5
+    },
+    {
+        "name": "Field Medic",
+        "classification": "Medium humanoid, unaligned",
+        "ac": "Armor Class 14 (heavy combat suit, light shield)",
+        "hp": "Hit Points 16 (3d8 + 3)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            10,
+            12,
+            12,
+            14,
+            12,
+            10
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +3, Medicine +3\n",
+            "Senses passive Perception 13\n",
+            "Languages Galactic Basic\n",
+            "Challenge 1 (200 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Triage. Any friendly creature reduced to 0 HP within 15 feet of the field medic is automatically considered to be alive and stabilized.\n",
+            "Techcasting. The field medic is a 3rd-level techcaster. Its techcasting ability is Intelligence (power save DC 12, +4 to hit with tech attacks) and it has 14 tech points. The field medic knows the following tech powers:At Will: acid splash, temporary boost, warding shot*1st Level: element of surprise, kolto pack, poison dart*2nd Level: paralyze humanoid, toxin purge, shared shielding\n"
+        ],
+        "actions": [
+            "Blaster Carbine. Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.\n"
+        ],
+        "id": 5
+    },
+    {
+        "name": "Gladiator",
+        "classification": "Medium humanoid (any), chaotic dark",
+        "ac": "Armor Class 16 (combat suit, heavy shield)",
+        "hp": "Hit Points 112 (15d8 + 45)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            18,
+            15,
+            16,
+            10,
+            12,
+            15
+        ],
+        "traitsSectionOne": [
+            "Saving Throws Str +7, Dex +5, Con +6\n",
+            "Skills Athletics +10, Intimidation +5\n",
+            "Senses passive Perception 11\n",
+            "Languages Galactic Basic and one other\n",
+            "Challenge 5 (1,800 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Brave. The gladiator has advantage on saving throws against being frightened.\n",
+            "Brute. A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack).\n"
+        ],
+        "actions": [
+            "Multiattack. The gladiator makes two vibroblade attacks and one shield bash.\n",
+            "Vibroblade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.\n",
+            "Shield Bash. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) kinetic damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.\n"
+        ],
+        "reactions": [
+            "Parry. The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.\n"
+        ],
+        "id": 4
     },
     {
         "name": "HK-47 Assassin Droid",
@@ -1211,6 +1478,36 @@
         "id": 2
     },
     {
+        "name": "Mob",
+        "classification": "Huge swarm of Medium humanoids (any), unaligned",
+        "ac": "Armor Class 11",
+        "hp": "Hit Points 91 (14d12)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            17,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "traitsSectionOne": [
+            "Damage Resistances kinetic\n",
+            "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned\n",
+            "Senses passive Perception 10\n",
+            "Languages any one language (usually Galactic Basic)\n",
+            "Challenge 5 (1,800 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium humanoid. The swarm can't regain hit points or gain temporary hit points.\n"
+        ],
+        "actions": [
+            "Multiattack. The swarm makes two improvised weapons attacks.\n",
+            "Improvised Weapons. Melee or Ranged Weapon Attack: +6 to hit, reach 0 ft. or range 20/60 ft., one target in the swarm's space or within range. Hit: 13 (3d6 + 3) kinetic damage plus 10 (3d6) fire damage, or 8 (2d6 + 1) kinetic damage plus 7 (2d6) fire damage if the swarm has half of its hit points or fewer.\n"
+        ],
+        "id": 2
+    },
+    {
         "name": "R2 Series Astromech Droid",
         "classification": "Small droid, unaligned",
         "ac": "Armor Class 12 (armor plating)",
@@ -1245,6 +1542,67 @@
         "id": 13
     },
     {
+        "name": "Riot",
+        "classification": "Gargantuan swarm of Medium humanoids (any), unaligned",
+        "ac": "Armor Class 11",
+        "hp": "Hit Points 199 (19d20)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            20,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "traitsSectionOne": [
+            "Damage Resistances kinetic\n",
+            "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned\n",
+            "Senses passive Perception 10\n",
+            "Languages any one language (usually Galactic Basic)\n",
+            "Challenge 10 (5,900 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Strength in Numbers. The swarm has advantage on Strength and Constitution checks and saving throws.\n",
+            "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium humanoid. The swarm can't regain hit points or gain temporary hit points.\n"
+        ],
+        "actions": [
+            "Multiattack. The swarm makes three improvised weapons attacks.\n",
+            "Improvised Weapons. Melee or Ranged Weapon Attack: +9 to hit, reach 0 ft. or range 20/60 ft., one target in the swarm's space or within range. Hit: 15 (3d6 + 5) kinetic damage plus 10 (3d6) fire damage, or 9 (2d6 + 2) kinetic damage plus 7 (2d6) fire damage if the swarm has half of its hit points or fewer.\n"
+        ],
+        "id": 3
+    },
+    {
+        "name": "Scout",
+        "classification": "Medium humanoid (any), any alignment",
+        "ac": "Armor Class 13 (combat suit)",
+        "hp": "Hit Points 16 (3d8 + 3)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            11,
+            14,
+            12,
+            13,
+            12,
+            11
+        ],
+        "traitsSectionOne": [
+            "Skills Nature +3, Perception +3, Stealth +4, Survival +3\n",
+            "Senses passive Perception 13\n",
+            "Languages Galactic Basic and one other\n",
+            "Challenge 1/2 (100 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Keen Hearing and Sight. The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight.\n"
+        ],
+        "actions": [
+            "Multiattack. The scout makes two weapon attacks.\n",
+            "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
+            "Techblade. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) kinetic damage.\n"
+        ],
+        "id": 3
+    },
+    {
         "name": "Security Officer",
         "classification": "Medium humanoid, neutral dark",
         "ac": "Armor Class 14 (battle armor)",
@@ -1269,6 +1627,66 @@
             "Vibrobaton. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 2) kinetic damage.\n"
         ],
         "id": 1
+    },
+    {
+        "name": "Sergeant",
+        "classification": "Medium humanoid (any), any alignment",
+        "ac": "Armor Class 16 (durasteel armor)",
+        "hp": "Hit Points 39 (6d8 + 12)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            13,
+            15,
+            14,
+            10,
+            13,
+            12
+        ],
+        "traitsSectionOne": [
+            "Skills Athletics +3, Persuasion +3\n",
+            "Senses passive Perception 11\n",
+            "Languages Galactic Basic and one other\n",
+            "Challenge 3 (700 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Martial Advantage. One per turn, the sergeant can deal an extra 10 (3d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the sergeant that isn't incapacitated.\n"
+        ],
+        "actions": [
+            "Multiattack. The sergeant makes two weapon attacks.\n",
+            "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
+            "Vibrosword. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d12 + 1) kinetic damage.\n",
+            "Leadership (Recharges after a Short or Long Rest). For 1 minute, the sergeant can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a d4 to its roll provided it can hear and understand the sergeant. A creature can benefit from only one Leadership die at a time. This effect ends if the sergeant is incapacitated.\n"
+        ],
+        "id": 1
+    },
+    {
+        "name": "Soldier",
+        "classification": "Medium humanoid (any), any alignment",
+        "ac": "Armor Class 15 (light battle armor, light shield generator)",
+        "hp": "Hit Points 11 (2d8 + 2)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            12,
+            13,
+            12,
+            10,
+            11,
+            8
+        ],
+        "traitsSectionOne": [
+            "Skills Athletics +3\n",
+            "Senses passive Perception 10\n",
+            "Languages Galactic Basic and one other\n",
+            "Challenge 1/2 (100 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Martial Advantage. Once per turn, the soldier can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the soldier that isn't incapacitated.\n"
+        ],
+        "actions": [
+            "Blaster Carbine. Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.\n",
+            "Vibroblade. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) kinetic damage, or 6 (1d10 + 1) kinetic damage if used with two hands.\n"
+        ],
+        "id": 2
     },
     {
         "name": "Spy",
@@ -1326,5 +1744,36 @@
             "Burst. The thug sprays a 10-foot-cube area within normal range of its shotgun. Each creature in the area must make a DC 11 Dexterity saving throw, taking normal weapon damage on a failed save.\n"
         ],
         "id": 1
+    },
+    {
+        "name": "Uprising",
+        "classification": "Gargantuan swarm of Medium humanoids (any), unaligned",
+        "ac": "Armor Class 11",
+        "hp": "Hit Points 315 (30d20)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            24,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "traitsSectionOne": [
+            "Damage Resistances kinetic\n",
+            "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned\n",
+            "Senses passive Perception 10\n",
+            "Languages any one language (usually Galactic Basic)\n",
+            "Challenge 15 (13,000 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Strength in Numbers. The swarm has advantage on Strength and Constitution checks and saving throws.\n",
+            "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Medium humanoid. The swarm can't regain hit points or gain temporary hit points.\n"
+        ],
+        "actions": [
+            "Multiattack. The swarm makes four improvised weapons attacks.\n",
+            "Improvised Weapons. Melee or Ranged Weapon Attack: +12 to hit, reach 0 ft or range 20/60 ft., one target in the swarm's space or within range. Hit: 21 (4d6 + 7) kinetic damage plus 14 (4d6) fire damage, or 13 (3d6 + 3) kinetic damage plus 10 (36) fire damage if the swarm has half of its hit points or fewer.\n"
+        ],
+        "id": 4
     }
 ]

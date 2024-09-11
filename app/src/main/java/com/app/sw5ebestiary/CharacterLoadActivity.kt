@@ -18,6 +18,7 @@ import com.app.sw5ebestiary.databinding.ActivityCharacterLoadBinding
 import kotlin.math.abs
 import kotlin.math.ceil
 import kotlin.text.Typography.bullet
+
 class CharacterLoadActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCharacterLoadBinding
     private lateinit var gestureDetector: GestureDetector
@@ -180,11 +181,15 @@ class CharacterLoadActivity : AppCompatActivity() {
 
         when (flag) {
             "firstSection" -> {
-                val result = SpannableString(unformatted)
+                val workingString =
+                if(unformatted.contains("Languages \\u2014\n")){
+                    unformatted.substringBefore("Languages") + "Languages \u2014\n" + unformatted.substringAfter("Languages \\u2014\n")
+                } else ""
+                val result = if(workingString == "")SpannableString(unformatted) else SpannableString(workingString)
                 val traitsOneFlags = listOf("Saving Throws", "Skills", "Damage Vulnerabilities","Damage Resistances", "Damage Immunities", "Condition Immunities", "Senses", "Languages", "Challenge")
                 traitsOneFlags.forEach{
                     if(unformatted.contains(it)){
-                        val start = unformatted.indexOf(it)
+                        val start = result.toString().indexOf(it)
                         val end = start + it.length
                         val bold = StyleSpan(Typeface.BOLD)
                         result.setSpan(bold, start, end, Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
@@ -307,6 +312,13 @@ class CharacterLoadActivity : AppCompatActivity() {
                         val start = 0
                         val end = s.indexOf(".")
                         currentSpan.setSpan(boldItalic, start, end, Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+                        if(s.contains("Attack:")){
+                            val italic = StyleSpan(Typeface.ITALIC)
+                            val italicEnd = s.indexOf(":", end + 1)
+                            currentSpan.setSpan(italic, end + 1, italicEnd, Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+                            val hitItalic = StyleSpan(Typeface.ITALIC)
+                            currentSpan.setSpan(hitItalic, s.indexOf("Hit:"),s.indexOf("Hit:") + 4, Spanned.SPAN_INCLUSIVE_EXCLUSIVE)
+                        }
                         builder.append(currentSpan)
                         builder.append("\n\n")
                     }
