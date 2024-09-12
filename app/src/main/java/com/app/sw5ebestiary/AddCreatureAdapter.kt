@@ -1,6 +1,7 @@
 package com.app.sw5ebestiary
 
 
+import android.annotation.SuppressLint
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -10,7 +11,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class AddCreatureAdapter(
-    private val creatures: List<CreatureItem>,
+    private var creatures: List<CreatureItem>,
     private val onCreatureSelected: (CreatureItem) -> Unit
 ) : RecyclerView.Adapter<AddCreatureAdapter.CreatureViewHolder>() {
     private var dpValue : Int = 0
@@ -29,6 +30,11 @@ class AddCreatureAdapter(
     }
 
     override fun getItemCount(): Int = creatures.size
+    @SuppressLint("NotifyDataSetChanged")
+    fun updateList(filteredList: List<CreatureItem>) {
+        creatures = filteredList
+        notifyDataSetChanged()
+    }
 
     inner class CreatureViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val nameTextView: TextView = itemView.findViewById(R.id.creature_name)

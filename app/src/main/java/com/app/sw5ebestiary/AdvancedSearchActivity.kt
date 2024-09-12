@@ -48,7 +48,7 @@ class AdvancedSearchActivity : AppCompatActivity() {
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
-
+                searchMode = parent?.getItemAtPosition(0).toString()
             }
         }
         binding.recyclerView.adapter = adapter
