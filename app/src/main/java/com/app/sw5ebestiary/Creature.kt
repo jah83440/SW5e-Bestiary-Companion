@@ -102,4 +102,4 @@ var currentList : CreatureList? = null
 var creatures : List<Creature> = listOf()
 
 var creatureItemList : List<CreatureItem> = listOf()
-// everything from 38 to 189 still needs doing
+// everything from 41 to 189 still needs doing

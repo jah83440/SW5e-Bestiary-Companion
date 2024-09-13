@@ -6,8 +6,10 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.GestureDetector
+import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.View
+import android.view.inputmethod.EditorInfo
 //import android.util.Log
 import android.view.inputmethod.InputMethodManager
 import android.widget.AdapterView
@@ -73,6 +75,25 @@ class MakeListActivity : AppCompatActivity() {
             setResult(RESULT_OK, resultIntent)
             finish()
         }
+        binding.listName.setOnEditorActionListener {
+            v, actionId, event ->
+            if(actionId == EditorInfo.IME_ACTION_NEXT || event?.keyCode == KeyEvent.KEYCODE_ENTER){
+                binding.searchInput.requestFocus()
+                showKeyboard(binding.searchInput)
+                true
+            } else{
+                false
+            }
+        }
+        binding.searchInput.setOnEditorActionListener {
+                v, actionId, event ->
+            if(actionId == EditorInfo.IME_ACTION_NEXT || event?.keyCode == KeyEvent.KEYCODE_ENTER){
+                hideKeyboard(binding.searchInput)
+                true
+            } else{
+                false
+            }
+        }
         binding.searchInput.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 val query = s.toString()
@@ -82,24 +103,24 @@ class MakeListActivity : AppCompatActivity() {
                     } + creatureItemList.filter {
                         when (searchMode) {
                             "Name" -> {
-                                it.creature.name.contains(query, ignoreCase = true)
+                                it.creature.name.contains(query, ignoreCase = true) && !selectedCreatures.contains(it)
                             }
                             "Type"-> {
                                 val spaceIndex = it.creature.classification.indexOf(" ")
                                 val commaIndex = it.creature.classification.indexOf(",")
-                                it.creature.classification.substring(spaceIndex, commaIndex).trim().contains(query, ignoreCase = true)
+                                it.creature.classification.substring(spaceIndex, commaIndex).trim().contains(query, ignoreCase = true) && !selectedCreatures.contains(it)
                             }
                             "Alignment"-> {
-                                it.creature.classification.substringAfter(", ").contains(query, ignoreCase = true)
+                                it.creature.classification.substringAfter(", ").contains(query, ignoreCase = true) && !selectedCreatures.contains(it)
                             }
                             "Size" -> {
-                                it.creature.classification.substringBefore(" ").contains(query, ignoreCase = true)
+                                it.creature.classification.substringBefore(" ").contains(query, ignoreCase = true) && !selectedCreatures.contains(it)
                             }
                             "CR" -> {
                                 it.creature.traitsSectionOne?.last()?.substring(
                                     it.creature.traitsSectionOne.last().indexOf(" ").plus(1), it.creature.traitsSectionOne.last().indexOf("(")
                                 )?.trim()
-                                    ?.equals(query, ignoreCase = true) ?: false
+                                    ?.equals(query, ignoreCase = true) ?: false && !selectedCreatures.contains(it)
                             }
                             else -> {
                                 true
@@ -121,6 +142,10 @@ class MakeListActivity : AppCompatActivity() {
         imm.showSoftInput(editText, InputMethodManager.SHOW_IMPLICIT)
     }
 
+    private fun hideKeyboard(editText: EditText){
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(editText.windowToken, 0)
+    }
     private inner class SwipeGestureListener : GestureDetector.SimpleOnGestureListener(){
         private val swipeThreshold = 100
         private val swipeVelocityThreshold = 100

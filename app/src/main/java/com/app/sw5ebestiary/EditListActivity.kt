@@ -86,24 +86,24 @@ class EditListActivity : AppCompatActivity() {
                     } + creatureItemList.filter {
                         when (searchMode) {
                             "Name" -> {
-                                it.creature.name.contains(query, ignoreCase = true)
+                                it.creature.name.contains(query, ignoreCase = true) && !currentList?.creatures!!.contains(it.creature)
                             }
                             "Type"-> {
                                 val spaceIndex = it.creature.classification.indexOf(" ")
                                 val commaIndex = it.creature.classification.indexOf(",")
-                                it.creature.classification.substring(spaceIndex, commaIndex).trim().contains(query, ignoreCase = true)
+                                it.creature.classification.substring(spaceIndex, commaIndex).trim().contains(query, ignoreCase = true) && !currentList?.creatures!!.contains(it.creature)
                             }
                             "Alignment"-> {
-                                it.creature.classification.substringAfter(", ").contains(query, ignoreCase = true)
+                                it.creature.classification.substringAfter(", ").contains(query, ignoreCase = true) && !currentList?.creatures!!.contains(it.creature)
                             }
                             "Size" -> {
-                                it.creature.classification.substringBefore(" ").contains(query, ignoreCase = true)
+                                it.creature.classification.substringBefore(" ").contains(query, ignoreCase = true) && !currentList?.creatures!!.contains(it.creature)
                             }
                             "CR" -> {
                                 it.creature.traitsSectionOne?.last()?.substring(
                                     it.creature.traitsSectionOne.last().indexOf(" ").plus(1), it.creature.traitsSectionOne.last().indexOf("(")
                                 )?.trim()
-                                    ?.equals(query, ignoreCase = true) ?: false
+                                    ?.equals(query, ignoreCase = true) ?: false && !currentList?.creatures!!.contains(it.creature)
                             }
                             else -> {
                                 true
