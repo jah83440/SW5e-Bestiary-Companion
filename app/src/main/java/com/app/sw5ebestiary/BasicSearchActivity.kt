@@ -5,7 +5,9 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.GestureDetector
+import android.view.KeyEvent
 import android.view.MotionEvent
+import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
@@ -42,10 +44,23 @@ class BasicSearchActivity : AppCompatActivity() {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {}
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
         })
+        binding.searchInput.setOnEditorActionListener {
+                v, actionId, event ->
+            if(actionId == EditorInfo.IME_ACTION_NEXT || event?.keyCode == KeyEvent.KEYCODE_ENTER){
+                hideKeyboard(binding.searchInput)
+                true
+            } else{
+                false
+            }
+        }
     }
     private fun showKeyboard(editText: EditText) {
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.showSoftInput(editText, InputMethodManager.SHOW_IMPLICIT)
+    }
+    private fun hideKeyboard(editText: EditText){
+        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(editText.windowToken, 0)
     }
     private inner class SwipeGestureListener : GestureDetector.SimpleOnGestureListener(){
         private val swipeThreshold = 100
