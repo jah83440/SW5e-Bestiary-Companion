@@ -94,7 +94,6 @@ fun importJson(context : Context) : List<Creature>{
     val inputStream = assetManager.open("creatures.json")
     val jsonString = inputStream.bufferedReader().use { it.readText() }
     val list : List<Creature> = json.decodeFromString(jsonString)
-    println(list)
     return list.sortedBy {it.name}
 }
 var currentCreature : String = ""
@@ -102,4 +101,4 @@ var currentList : CreatureList? = null
 var creatures : List<Creature> = listOf()
 
 var creatureItemList : List<CreatureItem> = listOf()
-// everything from 41 to 189 still needs doing
+// everything from 46 to 189 still needs doing

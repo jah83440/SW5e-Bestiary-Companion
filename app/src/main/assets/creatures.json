@@ -1213,6 +1213,103 @@
         "id": 5
     },
     {
+        "name": "Dianoga, Adolescent",
+        "classification": "Large beast, unaligned",
+        "ac": "Armor Class 13 (natural armor)",
+        "hp": "Hit Points 51 (6d10 + 18)",
+        "speed": "Speed 15 ft., swim 30 ft.",
+        "scores": [
+            14,
+            13,
+            16,
+            4,
+            12,
+            5
+        ],
+        "traitsSectionOne": [
+            "Skills Stealth +3\n",
+            "Damage Resistances necrotic, poison\n",
+            "Senses darkvision 60 ft., passive Perception 11\n",
+            "Languages Dianoga\n",
+            "Challenge 2 (450 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Limited Amphibiousness. The dianoga can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.\n"
+        ],
+        "actions": [
+            "Multiattack. The dianoga can make two attacks: one with its tentacles and one with its bite.\n",
+            "Tentacles. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) kinetic damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained.\n",
+            "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until the poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.\n"
+        ],
+        "id": 1
+    },
+    {
+        "name": "Dianoga, Adult",
+        "classification": "Huge beast, unaligned",
+        "ac": "Armor Class 14 (natural armor)",
+        "hp": "Hit Points 105 (10d12 + 40)",
+        "speed": "Speed 15 ft., swim 60 ft.",
+        "scores": [
+            18,
+            15,
+            19,
+            6,
+            13,
+            6
+        ],
+        "traitsSectionOne": [
+            "Saving Throws Constitution +7\n",
+            "Skills Stealth +5\n",
+            "Damage Resistances necrotic, poison\n",
+            "Senses darkvision 60 ft., passive Perception 11\n",
+            "Languages Dianoga\n",
+            "Challenge 5 (1,800 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Grasping Tendrils. The dianoga can have up to seven at a time. Each tentacle can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying a tentacle deals no damage to the dianoga, which can extrude a replacement tentacle on its next turn. A tentacle can also be broken if a creature takes an action and succeeds on a DC 16 Strength check against it.\n",
+            "Limited Amphibiousness. The dianoga can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating.\n"
+        ],
+        "actions": [
+            "Multiattack. The dianoga can make three attacks: two with its tentacles and one with its bite.\n",
+            "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.\n",
+            "Tentacles. Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 11 (2d8 + 2) kinetic damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained.\n",
+            "Tentacle Slam. The dianoga slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) kinetic damage and be stunned until the end of the dianoga's next turn. On a successful save, the target takes half the kinetic damage and isn't stunned.\n"
+        ],
+        "id": 2
+    },
+    {
+        "name": "Dragonsnake",
+        "classification": "Large beast, unaligned",
+        "ac": "Armor Class 14 (natural armor)",
+        "hp": "Hit Point 85 (10d10 + 30)",
+        "speed": "Speed 20 ft., swim 40 ft.",
+        "scores": [
+            20,
+            15,
+            16,
+            2,
+            12,
+            5
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +4, Stealth +5\n",
+            "Damage Resistances acid, poison; energy, ion, and kinetic from unenhanced weapons\n",
+            "Senses passive Perception 14\n",
+            "Languages \\u2014\n",
+            "Challenge 8 (3,900 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Hold Breath. The dragonsnake can hold its breath for 1 hour.\n",
+            "Surprise Attack. If the dragonsnake surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.\n"
+        ],
+        "actions": [
+            "Multiattack. The dragonsnake can make three attacks: two with its claws and one with its bite.\n",
+            "Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) kinetic damage.\n",
+            "Claws. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n"
+        ],
+        "id": 3
+    },
+    {
         "name": "Field Medic",
         "classification": "Medium humanoid, unaligned",
         "ac": "Armor Class 14 (heavy combat suit, light shield)",
@@ -1319,6 +1416,45 @@
             "Rocket Boost. The assassin droid leaps up to 40 feet in any direction. This movement does not provoke opportunity attacks."
         ],
         "id": 8
+    },
+    {
+        "name": "Hyena-Class Bomber",
+        "classification": "Huge droid, unaligned",
+        "ac": "Armor Class 14 (armor plating)",
+        "hp": "Hit Points 168 (16d12 + 64)",
+        "speed": "Speed 30 ft.",
+        "scores": [
+            19,
+            10,
+            18,
+            13,
+            15,
+            7
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +6\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 16\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 6 (2,300 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Circuitry. The bomber has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Siege Monster. The bomber deals double damage to objects and structures.\n"
+        ],
+        "actions": [
+            "Multiattack. The bomber makes two light laser cannon attacks or two slam attacks.\n",
+            "Slam. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.\n",
+            "Light Laser Cannons. Ranged Weapon Attack: +0 to hit, range 100/200 ft., one target. Hit: 42 (5d12 + 10) energy damage.\n",
+            "Concussion Missile (4/maintenance). Ranged Weapon Attack: +2 to hit, range 100/200 ft., one target. Hit: 16 (3d10) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 10), taking 16 (3d10) energy damage on a failed save, or half as much on a successful one.\n",
+            "Proton Torpedo (4/maintenance). Ranged Weapon Attack: +2 to hit, range 300/600 ft., one target. Hit: 11 (2d10) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 10), taking 11 (2d10) energy damage on a failed save, or half as much on a successful one.\n"
+        ],
+        "reactions": [
+            "Deflector Shield. The bomber adds 3 to its AC against one attack that would hit it. To do so, the bomber must see the attacker.\n"
+        ],
+        "id": 4
     },
     {
         "name": "IG-86 Assassin Droid",
@@ -1775,5 +1911,43 @@
             "Improvised Weapons. Melee or Ranged Weapon Attack: +12 to hit, reach 0 ft or range 20/60 ft., one target in the swarm's space or within range. Hit: 21 (4d6 + 7) kinetic damage plus 14 (4d6) fire damage, or 13 (3d6 + 3) kinetic damage plus 10 (36) fire damage if the swarm has half of its hit points or fewer.\n"
         ],
         "id": 4
+    },
+    {
+        "name": "Vulture-Class Droid",
+        "classification": "Huge droid, unaligned",
+        "ac": "Armor Class 13 (armor plating)",
+        "hp": "Hit Points 90 (12d10 + 24)",
+        "speed": "Speed 30 ft., climb 30 ft.",
+        "scores": [
+            17,
+            12,
+            14,
+            9,
+            15,
+            7
+        ],
+        "traitsSectionOne": [
+            "Skills Perception +5\n",
+            "Damage Vulnerabilities ion\n",
+            "Damage Resistances necrotic, poison, psychic\n",
+            "Condition Immunities poison, disease\n",
+            "Senses darkvision 60 ft., passive Perception 15\n",
+            "Languages Binary, Galactic Basic\n",
+            "Challenge 3 (700 XP)\n"
+        ],
+        "traitsSectionTwo": [
+            "Circuitry. The starfighter has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+            "Fragile Flyer. The starfighter cannot enter flight mode if it has fewer than 70 hit points.\n",
+            "Mag-lock Limbs. The starfighter can climb metal surfaces, including upside down on ceilings, without needing to make an ability check.\n"
+        ],
+        "actions": [
+            "Multiattack. The starfighter makes two slam attacks.\n",
+            "Slam. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) kinetic damage.\n",
+            "Proton Torpedo (2/maintenance). Ranged Weapon Attack: +3 to hit, range 300/600 ft., one target. Hit: 9 (2d8) kinetic damage. Hit or miss, the target and each creature within 15 feet must make a Dexterity saving throw (DC 11), taking 9 (2d8) energy damage on a failed save, or half as much on a successful one.\n"
+        ],
+        "reactions": [
+            "Deflector Shield. The starfighter adds 3 to its AC against one attack that would hit it. To do so, the starfighter must se the attacker.\n"
+        ],
+        "id": 5
     }
 ]
