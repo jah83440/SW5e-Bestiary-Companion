@@ -136,7 +136,7 @@ class CharacterLoadActivity : AppCompatActivity() {
             chaTextView.text = cha
             chaTextView.setBackgroundColor(color)
 
-            traitsOneTextView.text = if(!creature.traitsSectionOne.isNullOrEmpty()) formatTraits(formatList(creature.traitsSectionOne), "firstSection") else ""
+            traitsOneTextView.text = formatTraits(formatList(creature.traitsSectionOne), "firstSection")
             traitsOneTextView.setBackgroundColor(color)
 
 
