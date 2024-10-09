@@ -24,8 +24,7 @@
         "actions": [
             "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage.\n",
             "Claw. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 6) kinetic damage."
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Acklay, Adult",
@@ -52,8 +51,7 @@
         "actions": [
             "Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) kinetic damage.\n",
             "Claw. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 29 (4d10 + 7) kinetic damage."
-        ],
-        "id": 2
+        ]
     },
     {
         "name": "Aiwha",
@@ -82,8 +80,7 @@
         ],
         "actions": [
             "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) kinetic damage."
-        ],
-        "id": 3
+        ]
     },
     {
         "name": "Anooba",
@@ -110,8 +107,7 @@
         ],
         "actions": [
             "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
-        ],
-        "id": 4
+        ]
     },
     {
         "name": "Avatar of Abeloth",
@@ -153,8 +149,7 @@
             "At Will Power. Abeloth casts an at will power.\n",
             "Attack. Abeloth attacks once with Shotosaber.\n",
             "Teleport. Abeloth uses her teleport action.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Awakened Carnivorous Plant",
@@ -183,8 +178,7 @@
         ],
         "actions": [
             "Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) kinetic damage plus 7 (2d6) acid damage."
-        ],
-        "id": 16
+        ]
     },
     {
         "name": "Awakened Shrub",
@@ -212,8 +206,7 @@
         ],
         "actions": [
             "Rake. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) kinetic damage."
-        ],
-        "id": 14
+        ]
     },
     {
         "name": "Awakened Tree",
@@ -241,8 +234,7 @@
         ],
         "actions": [
             "Slam. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 23 (4d8 + 5) kinetic damage."
-        ],
-        "id": 15
+        ]
     },
     {
         "name": "Awakened Vines",
@@ -270,8 +262,7 @@
         ],
         "actions": [
             "Vines. Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 22 (4d8 + 4) kinetic damage, and the target is Grappled (escape DC 14). Until this grapple ends, the creature is restrained, and the vines can't constrict another target."
-        ],
-        "id": 17
+        ]
     },
     {
         "name": "B'omarr Brain Walker",
@@ -304,8 +295,7 @@
         "actions": [
             "Multiattack. The B'omarr Brain Walker makes two Mind Thrust attacks.\n",
             "Mind Thrust. One creature within 60 feet of the B'omarr Brain Walker must make a DC 13 Wisdom saving throw, taking 13 (4d6) psychic damage on a failed save, or half as much on a successful one."
-        ],
-        "id": 33
+        ]
     },
     {
         "name": "B'omarr Monk Initiate",
@@ -332,8 +322,7 @@
         ],
         "actions": [
             "Hold-Out Blaster. Ranged Weapon Attack: +2 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) energy damage."
-        ],
-        "id": 34
+        ]
     },
     {
         "name": "B1 Battle Droid",
@@ -364,8 +353,7 @@
         "actions": [
             "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
             "Stock Strike. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) kinetic damage."
-        ],
-        "id": 20
+        ]
     },
     {
         "name": "B1-X Battle Droid",
@@ -400,8 +388,7 @@
         ],
         "reactions": [
             "Redirect Attack. When a creature the battle droid can see targets it with an attack, the battle droid chooses another battle droid within 5 feet of it. The two battle droids swap places, and the chosen battle droid becomes the target instead."
-        ],
-        "id": 21
+        ]
     },
     {
         "name": "B2 Super Battle Droid",
@@ -433,8 +420,7 @@
             "Strike. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) kinetic damage.\n",
             "Wrist Blaster. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
             "Wrist Blaster Volley (Recharge 6). The super battle droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking normal weapon damage on a failed save."
-        ],
-        "id": 22
+        ]
     },
     {
         "name": "B2-HA Super Battle Droid",
@@ -468,8 +454,7 @@
             "Wrist Blaster. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
             "Wrist Blaster Volley (Recharge 5-6). The super battle droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking normal weapon damage on a failed save.\n",
             "Rocket Launcher (1/day). Each creature in a 20-foot-radius sphere centered on a point the battle droid can see within 150 feet must make a DC 13 Dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one."
-        ],
-        "id": 23
+        ]
     },
     {
         "name": "BB Series Astromech Droid",
@@ -501,8 +486,7 @@
         ],
         "actions": [
             "Shockprod. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) lightning damage."
-        ],
-        "id": 11
+        ]
     },
     {
         "name": "BT-1 Assassin Droid",
@@ -542,8 +526,7 @@
             "Attack. The assassin droid makes one Blaster Cannon attack.\n",
             "Detect. The assassin droid makes a Wisdom (Perception) check.\n",
             "Rocket Boost. The assassin droid leaps up to 40 feet in any direction. This movement does not provoke opportunity attacks."
-        ],
-        "id": 7
+        ]
     },
     {
         "name": "BX Commando Droid",
@@ -576,8 +559,7 @@
             "Blaster Carbine. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
             "Techblade. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.\n",
             "Stealth Field Generator. The droid becomes invisible. Anything the droid is carrying is invisible as long as it is on the droid. The droid may end the invisibility as a free action. The invisibility ends if the droid attacks."
-        ],
-        "id": 24
+        ]
     },
     {
         "name": "BX-5C Commando Droid",
@@ -612,8 +594,7 @@
             "Blaster Carbine. Ranged Weapon Attack: +7 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
             "Techblade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.\n",
             "Stealth Field Generator. The droid becomes invisible. Anything the droid is carrying is invisible as long as it is on the droid. The droid may end the invisibility as a free action. The invisibility ends if the droid attacks."
-        ],
-        "id": 25
+        ]
     },
     {
         "name": "Bantha, Adolescent",
@@ -640,8 +621,7 @@
         "actions": [
             "Ram. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 6) kinetic damage.\n",
             "Stomp. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 6) kinetic damage."
-        ],
-        "id": 18
+        ]
     },
     {
         "name": "Bantha, Adult",
@@ -668,8 +648,7 @@
         "actions": [
             "Ram. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 25 (4d8 + 7) kinetic damage.\n",
             "Stomp. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 29 (4d10 + 7) kinetic damage."
-        ],
-        "id": 19
+        ]
     },
     {
         "name": "Battle Hydra",
@@ -702,8 +681,7 @@
             "Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) kinetic damage.\n",
             "Claws. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n",
             "Stinger. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) kinetic damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one."
-        ],
-        "id": 29
+        ]
     },
     {
         "name": "Blurrg",
@@ -732,8 +710,7 @@
         ],
         "actions": [
             "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (1d12 + 5) kinetic damage."
-        ],
-        "id": 30
+        ]
     },
     {
         "name": "Bogwing, Greater",
@@ -761,8 +738,7 @@
         "actions": [
             "Multiattack. The bogwing can make two claw attacks.\n",
             "Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage."
-        ],
-        "id": 32
+        ]
     },
     {
         "name": "Bogwing, Lesser",
@@ -789,8 +765,7 @@
         ],
         "actions": [
             "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage."
-        ],
-        "id": 31
+        ]
     },
     {
         "name": "Bor Gullet",
@@ -834,8 +809,7 @@
             "Break Concentration. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet breaks the creature's concentration on a power it is using. The creature also takes 1d4 psychic damage per level of the power.\n",
             "Psychic Pulse. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. Enemies of the bor gullet within 10 feet of that creature take 10 (3d6) psychic damage.\n",
             "Sever Psychic Link. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn."
-        ],
-        "id": 35
+        ]
     },
     {
         "name": "Brain Worm",
@@ -868,8 +842,7 @@
             "Enter Orifice. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.\n",
             "Consume Mind. The brain worm targets one creature it can see within 10 feet of it that has a brain. The target must succeed on a DC 12 Intelligence saving throw against this magic or take 11 (2d10) psychic damage. Also on a failure, roll 3d6: if the total equals or exceeds the target's Intelligence score, that score is reduced to 0. The target is stunned until it regains at least one point of Intelligence.\n",
             "Body Thief. The brain worm initiates an Intelligence contest with an incapacitated humanoid with 5 feet of it. If it wins the contest, th brain worm burrows into the target's brain and takes control of the target's body. While inside a creature, the brain worm has total cover against attacks and other effects originating outside its host. The brain worm retains its Intelligence, Wisdom, and Charisma scores, as well as its understanding of Geonosian, its telepathy, and its traits. It otherwise adopts the target's statistics. It knows everything the creature knew, including force powers, tech powers, and languages.newlineIf the host body takes 20 points of cold damage in a single round, the brain worm must make a DC 15 Constitution saving throw using its own Constitution score, not the host's. On a failure, the brain worm leaves the body, slithering out to a space within 5 ft. of the host. After exiting the host, it is paralyzed until the start of its next turn.newlineIf the host body dies, the brain worm must leave it. The brain worm is also forced out if the target regains its devoured brain by means of a master heal force power. By spending 5 feet of its movement, the brain worm can voluntarily leave the body, slithering out to the nearest unoccupied space within 5 feet of it."
-        ],
-        "id": 36
+        ]
     },
     {
         "name": "C1 Series Astromech Droid",
@@ -901,8 +874,7 @@
         ],
         "actions": [
             "Shockprod. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) lightning damage."
-        ],
-        "id": 12
+        ]
     },
     {
         "name": "Cantina Brawl",
@@ -934,8 +906,7 @@
             "Stool. Melee Weapon Attack: +4 to hit, range 0 ft., one target in the cantina brawl's space. Hit: 14 (4d4 + 4) kinetic damage, or 7 (2d4 + 2) if the cantina brawl has half its hit points or fewer.\n",
             "Broken Bottles. Melee Weapon Attack: +3 to hit, range 0 ft., one target in the cantina brawl's space. Hit: 17 (6d4 + 2) kinetic damage, or 8 (3d4 + 1) if the cantina brawl has half its hit points or fewer.\n",
             "Darts. Ranged Weapon Attack: +3 to hit, range 20/40 ft., one target. Hit: 10 (4d4) kinetic damage, or 5 (2d4) if the cantina brawl has half its hit points or fewer."
-        ],
-        "id": 37
+        ]
     },
     {
         "name": "Condor Dragon",
@@ -964,8 +935,7 @@
             "Multiattack. The dragon can make three attacks: two with its claws and one with its bite.\n",
             "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.\n",
             "Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) kinetic damage.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "DSD1 Dwarf Spider Droid",
@@ -999,8 +969,7 @@
             "Burst. The spider droid sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking 9 (1d12 + 3) energy damage on a failed save, or half as much on a successful one.\n",
             "Claw. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d5 + 2) kinetic damage.\n",
             "Self-Destruct. When the spider droid is reduced to half of its hit point maximum and is within 20 feet of a hostile creature, it attempts to self-destruct. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one."
-        ],
-        "id": 27
+        ]
     },
     {
         "name": "Dark Lord Spirit",
@@ -1042,8 +1011,7 @@
             "Dark Lightning. Ranged Power Attack: +13 to hit, range 60 ft., one target. Hit: 14 (4d6) necrotic damage. The target must succeed on a DC 23 Strength saving throw or become shocked until the end of their next turn.\n",
             "Sow Discord. The spirit casts coerce mind or fear.\n",
             "Teleport. The spirit uses its teleport action.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Dark Side Spirit",
@@ -1076,8 +1044,7 @@
             "Maddening Touch. Melee Power Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (4d6 + 3) psychic damage.\n",
             "Whispers of Madness. The spirit chooses up to three creatures it can see within 60 ft. of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the spirit's choice that the spirit can see.\n",
             "Howling Babble (Recharge 6). Each creature within 30 ft. of the spirit that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned.\n"
-        ],
-        "id": 5
+        ]
     },
     {
         "name": "Death Trooper",
@@ -1112,8 +1079,7 @@
             "Techblade. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7(1d6 + 4) kinetic damage.\n",
             "Blaster Rifle. Ranged Weapon Attack: +7 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.\n",
             "Volley (Recharge 5-6). The trooper shoots a rain of deadly blaster bolts in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 22 (4d8 + 4) energy damage on a failed save, or half as much damage on a successful one.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Destroyer Droid",
@@ -1149,8 +1115,7 @@
         ],
         "reactions": [
             "Deflector Shield. The destroyer droid adds 3 to its AC against one attack that would hit it. To do so, the destroyer droid must see the attacker."
-        ],
-        "id": 26
+        ]
     },
     {
         "name": "Dewback, Adolescent",
@@ -1179,8 +1144,7 @@
             "Multiattack. The dewback makes two attacks: one with its bite and one with its claws.\n",
             "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) kinetic damage.\n",
             "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) kinetic damage.\n"
-        ],
-        "id": 2
+        ]
     },
     {
         "name": "Dewback, Adult",
@@ -1209,8 +1173,7 @@
             "Multiattack. The dewback makes two attacks: one with its bite and one with its claws.\n",
             "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) kinetic damage.\n",
             "Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n"
-        ],
-        "id": 5
+        ]
     },
     {
         "name": "Dianoga, Adolescent",
@@ -1240,8 +1203,7 @@
             "Multiattack. The dianoga can make two attacks: one with its tentacles and one with its bite.\n",
             "Tentacles. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 4 (1d4 + 2) kinetic damage, and the target is grappled (escape DC 11). Until this grapple ends, the target is restrained.\n",
             "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until the poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Dianoga, Adult",
@@ -1274,8 +1236,7 @@
             "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured.\n",
             "Tentacles. Melee Weapon Attack: +6 to hit, reach 15 ft., one target. Hit: 11 (2d8 + 2) kinetic damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained.\n",
             "Tentacle Slam. The dianoga slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) kinetic damage and be stunned until the end of the dianoga's next turn. On a successful save, the target takes half the kinetic damage and isn't stunned.\n"
-        ],
-        "id": 2
+        ]
     },
     {
         "name": "Dragonsnake",
@@ -1306,8 +1267,7 @@
             "Multiattack. The dragonsnake can make three attacks: two with its claws and one with its bite.\n",
             "Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) kinetic damage.\n",
             "Claws. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) kinetic damage.\n"
-        ],
-        "id": 3
+        ]
     },
     {
         "name": "Field Medic",
@@ -1335,8 +1295,7 @@
         ],
         "actions": [
             "Blaster Carbine. Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.\n"
-        ],
-        "id": 5
+        ]
     },
     {
         "name": "Gladiator",
@@ -1370,8 +1329,7 @@
         ],
         "reactions": [
             "Parry. The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.\n"
-        ],
-        "id": 4
+        ]
     },
     {
         "name": "HK-47 Assassin Droid",
@@ -1414,8 +1372,7 @@
             "Attack. The assassin droid makes one weapon attack.\n",
             "Detect. The assassin droid makes a Wisdom (Perception) check.\n",
             "Rocket Boost. The assassin droid leaps up to 40 feet in any direction. This movement does not provoke opportunity attacks."
-        ],
-        "id": 8
+        ]
     },
     {
         "name": "Hyena-Class Bomber",
@@ -1453,8 +1410,7 @@
         ],
         "reactions": [
             "Deflector Shield. The bomber adds 3 to its AC against one attack that would hit it. To do so, the bomber must see the attacker.\n"
-        ],
-        "id": 4
+        ]
     },
     {
         "name": "IG-86 Assassin Droid",
@@ -1486,8 +1442,7 @@
         "actions": [
             "Sniper Rifle. Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 9 (1d12 + 3) energy damage.\n",
             "Stock Strike. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage."
-        ],
-        "id": 9
+        ]
     },
     {
         "name": "IG-88 Assassin Droid",
@@ -1527,8 +1482,7 @@
             "IG-88 can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The assassin droid regains spent legendary actions at the start of its turn.\n",
             "Attack. IG-88 makes one weapon attack.\n",
             "Detect. IG-88 makes a Wisdom (Perception) check."
-        ],
-        "id": 10
+        ]
     },
     {
         "name": "MagnaGuard Sentinel",
@@ -1567,8 +1521,7 @@
         ],
         "reactions": [
             "Parry. The droid adds 3 to its AC against one melee attack that would hit it. To do so, the droid must see the attacker and be wielding a melee weapon."
-        ],
-        "id": 28
+        ]
     },
     {
         "name": "Manifestation of Abeloth",
@@ -1610,8 +1563,7 @@
             "Abeloth can take 3 Legendary Actions, choosing from the options below. One legendary action can be used at a time, and only at the end of another's turn. Spent Legendary Actions are regained at the start of each turn.\n",
             "Draining Lightning. Ranged Power Attack: +17 to hit, range 15 ft., one target. Hit: 20 (2d10 + 9) lightning damage plus 11 (2d10) necrotic damage.\n",
             "Maddening Will. Abeloth uses her Will action, and must choose either the Beguiling Will or the Insane Will effect."
-        ],
-        "id": 2
+        ]
     },
     {
         "name": "Mob",
@@ -1640,8 +1592,7 @@
         "actions": [
             "Multiattack. The swarm makes two improvised weapons attacks.\n",
             "Improvised Weapons. Melee or Ranged Weapon Attack: +6 to hit, reach 0 ft. or range 20/60 ft., one target in the swarm's space or within range. Hit: 13 (3d6 + 3) kinetic damage plus 10 (3d6) fire damage, or 8 (2d6 + 1) kinetic damage plus 7 (2d6) fire damage if the swarm has half of its hit points or fewer.\n"
-        ],
-        "id": 2
+        ]
     },
     {
         "name": "R2 Series Astromech Droid",
@@ -1674,8 +1625,7 @@
         ],
         "actions": [
             "Shockprod. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) lightning damage."
-        ],
-        "id": 13
+        ]
     },
     {
         "name": "Riot",
@@ -1705,8 +1655,7 @@
         "actions": [
             "Multiattack. The swarm makes three improvised weapons attacks.\n",
             "Improvised Weapons. Melee or Ranged Weapon Attack: +9 to hit, reach 0 ft. or range 20/60 ft., one target in the swarm's space or within range. Hit: 15 (3d6 + 5) kinetic damage plus 10 (3d6) fire damage, or 9 (2d6 + 2) kinetic damage plus 7 (2d6) fire damage if the swarm has half of its hit points or fewer.\n"
-        ],
-        "id": 3
+        ]
     },
     {
         "name": "Scout",
@@ -1735,8 +1684,7 @@
             "Multiattack. The scout makes two weapon attacks.\n",
             "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
             "Techblade. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) kinetic damage.\n"
-        ],
-        "id": 3
+        ]
     },
     {
         "name": "Security Officer",
@@ -1761,8 +1709,7 @@
         "actions": [
             "Heavy Pistol. Ranged Weapon Attack: +4, range 40/160 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
             "Vibrobaton. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 2) kinetic damage.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Sergeant",
@@ -1792,8 +1739,7 @@
             "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n",
             "Vibrosword. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 7 (1d12 + 1) kinetic damage.\n",
             "Leadership (Recharges after a Short or Long Rest). For 1 minute, the sergeant can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or saving throw. The creature can add a d4 to its roll provided it can hear and understand the sergeant. A creature can benefit from only one Leadership die at a time. This effect ends if the sergeant is incapacitated.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Soldier",
@@ -1821,8 +1767,7 @@
         "actions": [
             "Blaster Carbine. Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.\n",
             "Vibroblade. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) kinetic damage, or 6 (1d10 + 1) kinetic damage if used with two hands.\n"
-        ],
-        "id": 2
+        ]
     },
     {
         "name": "Spy",
@@ -1852,8 +1797,7 @@
             "Multiattack. The spy makes two weapon attacks.\n",
             "Hold-out. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) energy damage.\n",
             "Techblade. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) kinetic damage.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Thug",
@@ -1878,8 +1822,7 @@
             "Shotgun. Ranged Weapon Attack: +3 to hit, range 30/120 ft., one target. Hit: 6 (2d4 + 1) kinetic damage.\n",
             "Vibromace. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 6 (1d10 + 1) kinetic damage.\n",
             "Burst. The thug sprays a 10-foot-cube area within normal range of its shotgun. Each creature in the area must make a DC 11 Dexterity saving throw, taking normal weapon damage on a failed save.\n"
-        ],
-        "id": 1
+        ]
     },
     {
         "name": "Uprising",
@@ -1909,8 +1852,7 @@
         "actions": [
             "Multiattack. The swarm makes four improvised weapons attacks.\n",
             "Improvised Weapons. Melee or Ranged Weapon Attack: +12 to hit, reach 0 ft or range 20/60 ft., one target in the swarm's space or within range. Hit: 21 (4d6 + 7) kinetic damage plus 14 (4d6) fire damage, or 13 (3d6 + 3) kinetic damage plus 10 (36) fire damage if the swarm has half of its hit points or fewer.\n"
-        ],
-        "id": 4
+        ]
     },
     {
         "name": "Vulture-Class Droid",
@@ -1947,7 +1889,6 @@
         ],
         "reactions": [
             "Deflector Shield. The starfighter adds 3 to its AC against one attack that would hit it. To do so, the starfighter must se the attacker.\n"
-        ],
-        "id": 5
+        ]
     }
 ]

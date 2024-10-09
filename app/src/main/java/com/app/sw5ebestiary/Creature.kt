@@ -8,16 +8,8 @@ import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 
 @Serializable
-data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>, val traitsSectionTwo : List<String>? = null, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null, val id : Int = getNextId())
-{
-    companion object{
-        private var currentId = 0
-        private fun getNextId() : Int{
-            currentId+=1
-            return currentId
-        }
-    }
-}
+data class Creature(val name : String, val classification : String, val ac : String, val hp : String, val speed : String, val scores : List<Int>, val traitsSectionOne : List<String>, val traitsSectionTwo : List<String>? = null, val actions : List<String>, val reactions : List<String>? = null, val legendaryActions : List<String>? = null)
+
 
 data class CreatureItem(
     val creature : Creature,
