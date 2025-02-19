@@ -75,10 +75,10 @@ class AdvancedSearchActivity : AppCompatActivity() {
                             it.classification.substringBefore(" ").contains(query, ignoreCase = true)
                         }
                         "CR" -> {
-                            it.traitsSectionOne?.last()?.substring(
-                                it.traitsSectionOne.last().indexOf(" ").plus(1), it.traitsSectionOne.last().indexOf("(")
-                            )?.trim()
-                                ?.equals(query, ignoreCase = true) ?: false
+                            it.traitsSectionOne.last().substring(
+                                it.traitsSectionOne.last().indexOf(" ") + 1, it.traitsSectionOne.last().indexOf("(")
+                            ).trim()
+                                .equals(query, ignoreCase = true)
                         }
                         else -> {
                             true
@@ -92,7 +92,7 @@ class AdvancedSearchActivity : AppCompatActivity() {
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {}
         })
         binding.searchInput.setOnEditorActionListener {
-                v, actionId, event ->
+                _, actionId, event ->
             if(actionId == EditorInfo.IME_ACTION_NEXT || event?.keyCode == KeyEvent.KEYCODE_ENTER){
                 hideKeyboard(binding.searchInput)
                 true

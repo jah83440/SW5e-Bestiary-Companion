@@ -69,7 +69,7 @@
         ],
         "traitsSectionOne": [
             "Skills Perception +3\n",
-            "Senses blindsight 120ft., passive Perception 13\n",
+            "Senses blindsight 120 ft., passive Perception 13\n",
             "Languages —\n",
             "Challenge 3 (700 XP)\n"
         ],
@@ -129,7 +129,7 @@
             "Damage Resistances cold, lightning, necrotic\n",
             "Damage Immunities poison; kinetic, ion, and energy from unenhanced weapons\n",
             "Condition Immunities charmed, exhaustion, frightened, paralyzed, poisoned\n",
-            "Senses truesight 120ft., passive Perception 19\n",
+            "Senses truesight 120 ft., passive Perception 19\n",
             "Languages all, telepathy 120 ft.\n",
             "Challenge 21 (33,000 XP)\n"
         ],
@@ -795,7 +795,7 @@
             "Creature Sense. The bor gullet is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each such creature, as well as each such creature's Intelligence score, but it can't sense anything else about it. Droids and creatures protected by a mind blank power or other similar power cannot be perceived in this manner.\n",
             "Fortified Mind. The bor gullet has advantage on saving throws against being charmed and frightened, and it can't be put to sleep.\n",
             "Legendary Resistance (3/day). If the bor gullet fails a saving throw, it can choose to succeed instead.\n",
-            "Psychic Link. The bor gullet can establish a psychic link with any creature that it successfully grapples with its tentacles. Until the psychic link ends, the bor gullet can perceive everything the target senses. The target is aware that its mind is linked, and the bor gullet can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Intelligence saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the bor gullet are more than 1 mile apart, with no consequences to the target. The bor gullet can form psychic links with up to ten creatures at a time.\n"
+            "psychic Link. The bor gullet can establish a psychic link with any creature that it successfully grapples with its tentacles. Until the psychic link ends, the bor gullet can perceive everything the target senses. The target is aware that its mind is linked, and the bor gullet can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Intelligence saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the bor gullet are more than 1 mile apart, with no consequences to the target. The bor gullet can form psychic links with up to ten creatures at a time.\n"
         ],
         "actions": [
             "Multiattack. The bor gullet makes three tentacle attacks.\n",
@@ -807,8 +807,8 @@
             "The bor gullet can take 3 legendary actions, choosing from the options below. It can take only one legendary action at a time and only at the end of another creature's turn. The bor gullet regains spent legendary actions at the start of its turn.\n",
             "Tentacle. The bor gullet makes a tentacle attack.\n",
             "Break Concentration. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet breaks the creature's concentration on a power it is using. The creature also takes 1d4 psychic damage per level of the power.\n",
-            "Psychic Pulse. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. Enemies of the bor gullet within 10 feet of that creature take 10 (3d6) psychic damage.\n",
-            "Sever Psychic Link. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn."
+            "psychic Pulse. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. Enemies of the bor gullet within 10 feet of that creature take 10 (3d6) psychic damage.\n",
+            "Sever psychic Link. The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn."
         ]
     },
     {
@@ -1556,7 +1556,7 @@
         ],
         "actions": [
             "Multiattack. Abeloth makes two tentacle attacks.\n",
-            "Tentacles. Melee Weapon Attack: +17 to hit, reach 5ft., one target. Hit: 28 (3d12 + 9) kinetic damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. If the target's hit point maximum is reduced to 0, they die and their essence is absorbed into Abeloth.\n",
+            "Tentacles. Melee Weapon Attack: +17 to hit, reach 5 ft., one target. Hit: 28 (3d12 + 9) kinetic damage. If the target is a creature, it must succeed on a DC 23 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. If the target's hit point maximum is reduced to 0, they die and their essence is absorbed into Abeloth.\n",
             "Will. Abeloth turns her will upon one creature she can see within 120 feet. That target must make a DC 23 Wisdom saving throw. Unless the target is incapacitated, it can avert it's attention to automatically succeed on the save. If the target does so, it can't see Abeloth until the start of its next turn. If the target again focuses on Abeloth in the meantime, it must immediately make the save. If the target fails the save, the target suffers one of the following effects of Abeloth's choice or at random:\n1. Beguiling Will. The target is stunned until the start of Abeloth's next turn.\n2. Hypnotic Will. The target is charmed by Abeloth until the start of Abeloth's next turn. Abeloth chooses how the charmed target uses its actions, reactions, and movement. Because this effect requires Abeloth's strong effort, she can't use her Maddening Will legendary action until the start of her next turn.\n3. Insane Will. The target suffers the effect of the confusion power without making a saving throw. The effect lasts until the start of Abeloth's next turn. Abeloth doesn't need to concentrate on the power.\n"
         ],
         "legendaryActions": [
@@ -1890,5 +1890,3152 @@
         "reactions": [
             "Deflector Shield. The starfighter adds 3 to its AC against one attack that would hit it. To do so, the starfighter must se the attacker.\n"
         ]
-    }
+    },
+
+        {
+            "name": "IG-227 Hailfire-Class Droid",
+            "classification": "Huge droid, unaligned",
+            "ac": "Armor Class 16 (armor plating)",
+            "hp": "Hit Points 168 (16d12 + 64)",
+            "speed": "Speed 50 ft.",
+            "scores": [
+                20,
+                18,
+                19,
+                10,
+                10,
+                1
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +9, Wis +5, Cha +0 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poison, disease \n",
+                "Senses darkvision 120 ft., passive Perception 10 \n",
+                "Languages Binary, Galactic Basic \n",
+                "Challenge 14 (15,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The droid tank has disadvantage on saving throws against effects that would deal ion or lightning damage.\n"
+            ],
+            "actions": [
+                "Multiattack. The droid tank makes two medium laser cannon attacks.\n",
+                "Crushing Stride. The droid tank moves up to its speed in a straight line. During this move, it can enter Large or smaller creatures' spaces. A creature whose space the droid tank enters must make a DC 18 Dexterity saving throw. On a successful save, the creature is pushed 5 feet to the nearest space out of the droid tank's path. On a failed save, the creature falls prone and takes 28 (8d6) bludgeoning damage. If the droid tank remains in the prone creature's space, the creature is also restrained until it's no longer in the same space as the droid tank. While restrained in this way, the creature, or another creature within 5 feet of it, can make a DC 18 Strength check. On a success, the creature is shunted to an unoccupied space of its choice within 5 feet of the droid tank and is no longer restrained.\n",
+                "Medium Laser Cannon. Ranged Weapon Attack: +9 to hit, range 100/400 ft., one target. Hit: 20 (3d10 + 4) energy damage.\n",
+                "Missile Launchers (10/Day). The droid tank launches three missiles at points within 240 feet of it that it can see. Each creature within a 10-foot radius sphere of each point must make a DC 18 Dexterity saving throw, taking 21 (6d6) fire and 21 (6d6) kinetic damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one sphere is affected only once. Large and larger constructs and structures have disadvantage on the saving throw, and suffer an additional 21 (6d6) fire and 21 (6d6) kinetic damage if they fail the save by 10 or more.\n"
+            ]
+        },
+        {
+            "name": "Energy Spider",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 13",
+            "hp": "Hit Points 18 (4d6 + 4)",
+            "speed": "Speed 30 ft., climb 30 ft.",
+            "scores": [
+                12,
+                16,
+                13,
+                3,
+                12,
+                4
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +7, Perception +3 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Immunities energy \n",
+                "Senses blindsight 10 ft., darkvision 120 ft., passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Sunlight Sensitivity. While in sunlight, the spider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.\n",
+                "Spider Climb. The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n",
+                "Web Sense. While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.\n",
+                "Web Walker. The spider ignores movement restrictions caused by webbing.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) kinetic damage.\n",
+                "Web (Recharge 5-6). Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).\n"
+            ]
+        },
+        {
+            "name": "Exogorth, Adolescent",
+            "classification": "Huge beast, unaligned",
+            "ac": "Armor Class 17 (Natural Armor)",
+            "hp": "Hit Points 168 (16d12 + 64)",
+            "speed": "Speed 50 ft., burrow 30 ft.",
+            "scores": [
+                23,
+                16,
+                18,
+                1,
+                10,
+                8
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Con +8, Wis +4\n",
+                "Damage Resistances acid and poison (interior only); energy, ion, and kinetic from unenhanced weapons (exterior only) \n",
+                "Senses Blindsight 30 Ft., Tremorsense 60 Ft., passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 11 (7,200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Tunneler. The exogorth can burrow through solid rock at half its burrow speed and leaves a 5-foot-diameter tunnel in its wake.\n",
+                "Legendary Resistance (1/day). If the exogorth fails a saving throw, it can choose to succeed instead.\n",
+                "Huge Strength. The exogorth's melee weapon attacks are considered enhanced.\n",
+                "Siege Monster. The exogorth deals double damage to objects and structures.\n",
+                "Space-borne. The exogorth can survive in the vacuum of space.\n"
+            ],
+            "actions": [
+                "Multiattack. The exogorth makes two attacks: one with its bite and one with its tail.\n",
+                "Bite. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) kinetic damage. If the target is a Medium or smaller creature, it must succeed on a DC 16 Dexterity saving throw or be swallowed by the exogorth. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the exogorth, and it takes 14 (4d6) acid damage at the start of each of the exogorth's turns. If the exogorth takes 30 damage or more on a single turn from a creature inside it, the exogorth must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the exogorth. If the exogorth dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone.\n",
+                "Tail. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) kinetic damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone\n"
+            ]
+        },
+        {
+            "name": "Exogorth, Adult",
+            "classification": "Gargantuan beast, unaligned",
+            "ac": "Armor Class 18 (Natural Armor)",
+            "hp": "Hit Points 247 (15d20 + 90)",
+            "speed": "Speed 50 ft., burrow 30 ft.",
+            "scores": [
+                28,
+                7,
+                22,
+                1,
+                8,
+                4
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Con +11, Wis +4\n",
+                "Damage Resistances acid and poison (interior only); energy, ion, and kinetic from unenhanced weapons (exterior only) \n",
+                "Senses Blindsight 30 Ft., Tremorsense 60 Ft., passive Perception 9 \n",
+                "Languages — \n",
+                "Challenge 15 (13,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Tunneler. The exogorth can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake.\n",
+                "Legendary Resistance (3/day). If the exogorth fails a saving throw, it can choose to succeed instead.\n",
+                "Gargantuan Strength. The exogorth's melee weapon attacks are considered enhanced.\n",
+                "Siege Monster. The exogorth deals double damage to objects and structures. \n",
+                "Space-borne. The exogorth can survive in the vacuum of space.\n"
+            ],
+            "actions": [
+                "Multiattack. The exogorth makes two attacks: one with its bite and one with its tail.\n",
+                "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) kinetic damage. If the target is a Large or smaller creature, it must succeed on a DC 19 Dexterity saving throw or be swallowed by the exogorth. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the exogorth, and it takes 21 (6d6) acid damage at the start of each of the exogorth's turns. If the exogorth takes 30 damage or more on a single turn from a creature inside it, the exogorth must succeed on a DC 21 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the exogorth. If the exogorth dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using20 feet of movement, exiting prone.\n",
+                "Tail. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 19 (3d6 + 9) kinetic damage. If the target is a creature, it must succeed on a DC 19 Strength saving throw or be knocked prone.\n"
+            ]
+        },
+        {
+            "name": "Fambaa",
+            "classification": "Huge beast, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 85 (10d12 + 20)",
+            "speed": "Speed 30 ft., swim 30 ft.",
+            "scores": [
+                22,
+                9,
+                15,
+                3,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Con +5 \n",
+                "Senses passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Amphibious. The fambaa can breathe air and water.\n",
+                "Siege Monster. The fambaa deals double damage to objects and structures.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 11 (3d6 + 6) kinetic damage.\n",
+                "Stomp. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.\n"
+            ]
+        },
+        {
+            "name": "Fambaa Howdah",
+            "classification": "Huge beast, unaligned",
+            "ac": "Armor Class 16 (durasteel armor)",
+            "hp": "Hit Points 102 (12d12 + 24)",
+            "speed": "Speed 30 ft., swim 30 ft.",
+            "scores": [
+                22,
+                9,
+                15,
+                3,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Con +5 \n",
+                "Senses passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 5 (1,800 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Amphibious. The fambaa can breathe air and water.\n",
+                "Howdah. The fambaa carries a fortified platform on its back. Up to six Medium creatures can ride on the platform without squeezing. Creatures on the platform have three-quarters cover against attacks and effects from outside it. If the fambaa dies, creatures on the platform are placed in occupied spaces within 10 feet of the fambaa.\n",
+                "Siege Monster. The fambaa deals double damage to objects and structures.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 11 (3d6 + 6) kinetic damage.\n",
+                "Stomp. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) kinetic damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.\n"
+            ]
+        },
+        {
+            "name": "Fexian Skullborer",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 14",
+            "hp": "Hit Points 20 (8d6 - 8)",
+            "speed": "Speed 20 ft., climb 20 ft.",
+            "scores": [
+                4,
+                18,
+                8,
+                6,
+                12,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +7 \n",
+                "Skills Stealth +7, Perception +4 \n",
+                "Damage Immunities poison \n",
+                "Condition Immunities poisoned \n",
+                "Senses darkvision 60 ft., passive Perception 14 \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Diving Ambush. If the skullborer drops on to target from above and hits it with a bite attack on the same turn, the target takes an extra 3 (1d6) kinetic damage per 10 feet fallen, up to 14 (4d6). If the skullborer misses, it takes half normal falling damage for distance fallen.\n",
+                "Poisonous Skin. Any creature that grapples the skullborer or otherwise comes into direct contact with the skullborer's skin must succeed on a DC 14 Constitution saving throw or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success.\n",
+                "Superior Camouflage. The skullborer can turn invisible as an action or bonus action.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 6 (1d4 + 4) kinetic damage. If the target isMedium or smaller, it is grappled (escape DC 14) and must succeed on a DC 14 Constitution saving throw or be stunned until this grapple ends.\n",
+                "Extract Brain. Melee Weapon Attack: +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the skullborer. Hit: 36 (8d8) kinetic damage. If this damage reduces the target to 0 hit points, the skullborer kills the target by extracting and devouring its brain.\n"
+            ]
+        },
+        {
+            "name": "Flesh Raider",
+            "classification": "Medium aberration, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 8 (1d12 + 2)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                12,
+                10,
+                14,
+                10,
+                10,
+                10
+            ],
+            "traitsSectionOne": [
+                "Senses passive Perception 10 \n",
+                "Languages Rakata \n",
+                "Challenge 1/8 (25 XP)\n"
+            ],
+            "actions": [
+                "Blade Strike. Melee Weapon Attack: +3 to hit, reach 5 ft. Hit: 4 (1d6 + 1) kinetic damage.\n",
+                "Feasting Bite (1/day). Melee Weapon Attack: +3 to hit, reach5 ft., Hit: 3 (1d4 + 1) kinetic damage and the flesh raider takes a chunk of flesh out of its target, swallowing it whole and gaining temporary hit points equal to its constitution modifier.\n"
+            ]
+        },
+        {
+            "name": "Flesh Raider Berserker",
+            "classification": "Medium aberration, unaligned",
+            "ac": "Armor Class 13",
+            "hp": "Hit Points 19 (2d12 + 6)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                14,
+                10,
+                16,
+                10,
+                10,
+                10
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Strength +4 \n",
+                "Skills Athletics +4 \n",
+                "Senses passive Perception 10 \n",
+                "Languages Rakata \n",
+                "Challenge 1 (200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Rage. On it's turn, the flesh raider berserker can enter a rage as a bonus action in combat. The rage lasts for 1 minute and can be used once per day, gaining the following abilities: +2 damage on all melee attacks. Resistance to kinetic damage.\n"
+            ],
+            "actions": [
+                "Blade Strike. Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 6 (1d8 + 2) kinetic damage.\n",
+                "Feasting Bite (3/day). Melee Weapon Attack: +4 to hit, reach5 ft., Hit: 4 (1d4 + 2) kinetic damage and the flesh raider berserker takes a chunk of flesh out of its target, swallowing it whole and gaining temporary hit points equal to its constitution modifier.\n"
+            ]
+        },
+        {
+            "name": "Flesh Raider Apprentice",
+            "classification": "Medium aberration, unaligned",
+            "ac": "Armor Class 13",
+            "hp": "Hit Points 30 (4d10 + 8)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                12,
+                10,
+                14,
+                10,
+                10,
+                12
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Strength +4, Charisma +3 \n",
+                "Skills Athletics +4 \n",
+                "Senses passive Perception 10 \n",
+                "Languages Rakata, Galactic Basic \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Forcecasting. The Flesh Raider Apprentice is a 4th-level forcecaster. Its forcecasting ability is Charisma (Power save DC 12, +3 to hit with force attacks) and it has 13 force points. The Flesh Raider Apprentice knows the following force powers: \n•At-will: denounce, lightning charge, saber reflect, saber ward. \n•1st-level: curse, sap vitality. \n•2nd-level: drain vitality, force camouflage.\n"
+            ],
+            "actions": [
+                "Multiattack. The Flesh Raider Apprentice makes 2\n",
+                "Lightsaber Strikes. \n",
+                "Lightsaber Strike. Melee Weapon Attack: +4 to hit, reach 5 ft. Hit: 5 (1d8 + 1) kinetic damage.\n",
+                "Feasting Bite (1/day). Melee Weapon Attack: +3 to hit, reach 5 ft., Hit: 3 (1d4 + 1) kinetic damage and the flesh raider apprentice takes a chunk of flesh out of its target, swallowing it whole and gaining temporary hit points equal to its constitution modifier.\n"
+            ]
+        },
+        {
+            "name": "Flutterplume",
+            "classification": "Medium beast, unaligned",
+            "ac": "Armor Class 10",
+            "hp": "Hit Points 5 (1d8 + 1)",
+            "speed": "Speed 10 ft., fly 50 ft.",
+            "scores": [
+                7,
+                10,
+                13,
+                2,
+                12,
+                4
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 0 (25 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Smell. The flutterplume has advantage on Wisdom (Perception) checks that rely on sight or smell.\n",
+                "Pack Tactics. The flutterplume has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 ft. of the creature and the ally isn't incapacitated.\n"
+            ],
+            "actions": [
+                "Beak. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: (1d4) piercing damage\n"
+            ]
+        },
+        {
+            "name": "Force Storm Eye",
+            "classification": "Gargantuan elemental, neutral",
+            "ac": "Armor Class 19",
+            "hp": "Hit Points 264 (16d20 + 96)",
+            "speed": "Speed 0 ft., fly 120 ft. (hover)",
+            "scores": [
+                23,
+                28,
+                23,
+                2,
+                21,
+                18
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Wis +12, Cha +11 \n",
+                "Damage Resistances energy, ion, and kinetic from unenhanced weapons \n",
+                "Damage Immunities lightning, poison, sonic \n",
+                "Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned \n",
+                "Senses truesight 120 ft., passive Perception 15 \n",
+                "Languages — \n",
+                "Challenge 23 (50,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Air Form. The eye can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.\n",
+                "Flyby. The eye doesn't provoke opportunity attacks when it flies out of an enemy's reach.\n",
+                "Legendary Resistance (3/day). If the eye fails a saving throw, it can choose to succeed instead.\n",
+                "Siege Conditions. The eye deals double damage to objects and structures.\n"
+            ],
+            "actions": [
+                "Multiattack. The eye attacks twice with thunder slam.\n",
+                "Thunder Slam. Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 23 (4d6 + 9) sonic damage.\n",
+                "Lightning Storm (Recharge 6). All other creatures within 120 ft. of the eye must each make a DC 20 Dexterity saving throw, taking 27 (6d8) lightning damage on a failed save, or half as much damage on a successful one. If a target's saving throw fails by 5 or more, the creature is also stunned until the end of its next turn.\n"
+            ],
+            "legendaryActions": [
+                "The eye can take 3 legendary actions. Choosing from the options below, one option can be used at a time and only at the end of another creature's turn. The eye regains spent legendary actions at the start of its turn.\n",
+                "Move. The eye moves up to its speed.\n",
+                "Lightning Strike (Costs 2 Actions). The eye can cause a bolt of lightning to strike a point anywhere under its storm. Each creature within 5 feet of that point must make a DC 20 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much sonic damage on a successful one.\n",
+                "Screaming Gale (Costs 3 Actions). The eye releases a blast of thunder and wind in a line that is 1 mile long and 20 ft. wide. Objects in that area take 22 (4d10) sonic damage. Each creature there must succeed on a DC 21 Dexterity saving throw or take 22 (4d10) sonic damage and be flung up to 60 ft. in a direction away from the line. If a thrown target collides with immovable object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 ft. it was thrown before impact. If the target would collide with another creature instead, that other creature must succeed on a DC19 Dexterity saving throw or take the same damage and be knocked prone.\n"
+            ]
+        },
+        {
+            "name": "Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 15 (light battle armor)",
+            "hp": "Hit Points 13 (2d8 + 4)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                13,
+                16,
+                15,
+                9,
+                11,
+                10
+            ],
+            "traitsSectionOne": [
+                "Senses darkvision 60 ft., passive Perception 10 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "actions": [
+                "Blaster Rifle. Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 7 (1d8 + 3) energy damage.\n",
+                "Stock Strike. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Trooper Captain",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 16 (durasteel armor)",
+            "hp": "Hit Points 90 (10d8 + 45)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                13,
+                16,
+                15,
+                9,
+                11,
+                10
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +4, Dex +6, Con +5 \n",
+                "Skills Athletics +4, Perception +2, Persuasion +4 \n",
+                "Senses darkvision 60 ft., passive Perception 13 \n",
+                "Languages Galactic Basic, two others \n",
+                "Challenge 4 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Brave. The captain has advantage on saving throws against being frightened.\n"
+            ],
+            "actions": [
+                "Multiattack. The captain makes two blaster rifle attacks and throws a fragmentation grenade, if available.\n",
+                "Blaster Rifle. Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.\n",
+                "Frag Grenade (3/Day). The captain throws a grenade, choosing a point within 40 ft. Each creature within 10feet must make a DC 12 Dexterity saving throw. a creature takes 2d6 kinetic damage on a failed save, or half as much as on a successful one.\n",
+                "Stock Strike. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage.\n"
+            ],
+            "reactions": [
+                "Leadership (Recharges after Short or Long Rest). The Trooper Captain can utter a special command or warning whenever a nonhostile creature that it can see within30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the\n",
+                "Trooper Captain. A creature can benefit from only one Leadership die at a time.\n"
+            ]
+        },
+        {
+            "name": "Squad Of Troopers",
+            "classification": "Gargantuan swarm of medium humanoids, any alignment",
+            "ac": "Armor Class 15 (light battle armor)",
+            "hp": "Hit Points 156 (24d8 + 48)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                19,
+                16,
+                15,
+                9,
+                11,
+                10
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5, Wis +3 \n",
+                "Skills Perception +3 \n",
+                "Condition Immunities charmed, grappled, paralyzed, petrified, prone, restrained, stunned \n",
+                "Senses darkvision 60 ft., passive Perception 10 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 5 (1800 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Squad. The squad can occupy another creature's space and vice versa, and can move through openings large enough for a Medium humanoid. The squad is immune to any power or effect that would alter its form.\n",
+                "Reactive. The squad can take one reaction each turn.\n"
+            ],
+            "actions": [
+                "Multiattack. The squad makes four blaster rifle attacks, or two blaster rifle attacks if it has half its hit points or fewer.\n",
+                "Blaster Rifle. Ranged Weapon Attack: +5 to hit, range 100/400 ft., one target. Hit: 7 (1d8 + 3) energy damage.\n",
+                "Massed Fire. The squad fires en masse at a point within 150 ft. Each creature of the squad's choice in a 10-foot-radius sphere centered on that point must make a DC 13 Dexterity saving throw. On a failed save, a creature takes36 (8d8) piercing damage, or 18 (4d8) piercing damage if the squad has half its hit points or fewer. On a successful save, it takes half as much damage.\n"
+            ]
+        },
+        {
+            "name": "Demolitions Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 16 (durasteel armor)",
+            "hp": "Hit Points 16 (2d10 + 6)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                13,
+                14,
+                16,
+                11,
+                10,
+                9
+            ],
+            "traitsSectionOne": [
+                "Senses darkvision 60 ft., passive Perception 10 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "actions": [
+                "Fragmentation Grenade (3/day). The trooper throws a grenade, choosing a point within 35 ft. Each creature within 10 feet must make a DC 12 Dexterity saving throw. A creature takes 2d6 kinetic damage on a failed save, or half as much as on a successful one.\n",
+                "Set Mine (2/day). After setting this mine, a laser line imperceptible to normal vision extends up to 15 feet out. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 13 Dexterity saving throw. On a failed save, a creature takes3d6 kinetic damage, or half as much on a successful one.\n",
+                "Breaching Charge (2/day). After spending at least 30 seconds setting the charge, the trooper may attach the charge to a surface. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator, which the trooper has. Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep. Additionally, each creature within 20 feet of the charge must make a DC 15 Dexterity saving throw. A creature takes 3d6 fire damage and 3d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.\n",
+                "Blaster Pistol. Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 5 (1d6 + 2) energy damage.\n"
+            ]
+        },
+        {
+            "name": "Flame Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 16 (durasteel armor)",
+            "hp": "Hit Points 45 (6d10 + 15)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                15,
+                16,
+                16,
+                9,
+                10,
+                11
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +4 \n",
+                "Senses passive Perception 10 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "actions": [
+                "Flamethrower. Each creature in a 30-foot cone must make a DC 13 Dexterity saving throw. A creature takes13 (3d8) fire damage on a failed save, or half as much on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.\n",
+                "Blaster Pistol. Ranged Weapon Attack: +5 to hit, range 40/160 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+                "Bash. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Headhunter Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 14 (combat suit)",
+            "hp": "Hit Points 23 (5d8)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                11,
+                16,
+                10,
+                12,
+                15,
+                10
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5 \n",
+                "Skills Stealth +7, Perception +4, Acrobatics +5 \n",
+                "Senses passive Perception 14 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Cunning Action. On each of its turns, the trooper can use a bonus action to take the Dash, Disengage, or Hide action.\n",
+                "Sneak Attack (1/Turn). The trooper deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 ft. of an ally of the trooper that isn't incapacitated and the trooper doesn't have disadvantage on the attack roll.\n"
+            ],
+            "actions": [
+                "Sniper Rifle. Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 9 (1d12 + 3) energy damage.\n",
+                "Vibrodagger. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Heavy Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 17 (powered durasteel armor)",
+            "hp": "Hit Points 42 (5d10 + 15)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                15,
+                16,
+                17,
+                9,
+                10,
+                10
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +4 \n",
+                "Senses passive Perception 10 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "actions": [
+                "Assault Cannon. Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 8 (1d10 + 3) energy damage.\n",
+                "Burst. The trooper sprays a 10-foot-cube area within normal range with shots. Each creature in the area must make a DC 13 Dexterity saving throw, taking 8 (1d10 + 3) energy damage on a failed save, or half as much on a successful one.\n",
+                "Bash. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Jetpack Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 15 (light battle armor)",
+            "hp": "Hit Points 32 (5d8 + 10)",
+            "speed": "Speed 30 ft., fly 30 ft.",
+            "scores": [
+                13,
+                16,
+                14,
+                11,
+                13,
+                10
+            ],
+            "traitsSectionOne": [
+                "Senses passive Perception 11 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Jetpack. Activating or deactivating the jetpack requires a bonus action and, while active, the trooper has a flying speed of 30 feet. The jetpack lasts for a maximum of 10 minutes.\n"
+            ],
+            "actions": [
+                "Multiattack. The trooper makes two attacks, one with its blaster pistol and one with its wrist launcher.\n",
+                "Blaster Pistol. Ranged Weapon Attack: +5 to hit, range 40/160 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+                "Wrist Launcher. Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 6 (1d6 + 3) kinetic damage, and each creature within 5 feet must make a DC 13 Dexterity saving throw, taking 3 (1d6) kinetic damage on a failed save, or half on a successful save.\n"
+            ]
+        },
+        {
+            "name": "Scout Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 15 (light battle armor)",
+            "hp": "Hit Points 13 (2d8 + 4)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                11,
+                15,
+                12,
+                14,
+                13,
+                9
+            ],
+            "traitsSectionOne": [
+                "Skills Nature +4, Perception +5, Stealth +6, Survival +5, Piloting +4 \n",
+                "Senses darkvision 60 ft., passive Perception 15 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Sight. The scout trooper has advantage on Wisdom (Perception) checks that rely on hearing or sight.\n"
+            ],
+            "actions": [
+                "Multiattack. The scout trooper makes two weapon attacks.\n",
+                "Hold-out Blaster. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2)\n",
+                "Vibrodagger. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2)\n"
+            ]
+        },
+        {
+            "name": "Sniper Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 15 (light battle armor)",
+            "hp": "Hit Points 13 (2d8 + 4)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                11,
+                15,
+                12,
+                14,
+                13,
+                9
+            ],
+            "traitsSectionOne": [
+                "Skills Nature +4, Perception +5, Stealth +6, Survival +5, Piloting +4 \n",
+                "Senses darkvision 60 ft., passive Perception 15 \n",
+                "Languages Galactic Basic, one other \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Sight. The scout trooper has advantage on Wisdom (Perception) checks that rely on hearing or sight.\n"
+            ],
+            "actions": [
+                "Sniper Rifle. Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 8 (1d12 + 2)\n",
+                "Vibrodagger. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2)\n"
+            ]
+        },
+        {
+            "name": "Shore Trooper",
+            "classification": "Medium humanoid, any alignment",
+            "ac": "Armor Class 16 (battle armor)",
+            "hp": "Hit Points 26 (4d8 + 8)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                13,
+                16,
+                14,
+                11,
+                11,
+                12
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +3, Perception +2, Persuasion +3 \n",
+                "Senses darkvision 60 ft., passive Perception 11 \n",
+                "Languages Galactic Basic, two others \n",
+                "Challenge 1 (200 XP)\n"
+            ],
+            "actions": [
+                "Multiattack. The trooper makes two blaster rifle or stock strike attacks.\n",
+                "Blaster Rifle. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 7 (1d6 + 3) energy damage.\n",
+                "Stock Strike. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) kinetic damage.\n",
+                "Thermal Grenade (1/Day). The captain throws a grenade, choosing a point within 40 ft. Each creature within 10feet must make a DC 14 Dexterity saving throw. a creature takes 2d6 fire and 2d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone.\n"
+            ]
+        },
+        {
+            "name": "Mounted Trooper",
+            "classification": "Medium (Large when mounted) Humanoid, any alignment",
+            "ac": "Armor Class 19",
+            "hp": "Hit Points 75 (10d8 + 30)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                14,
+                12,
+                17,
+                10,
+                14,
+                8
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +4 Damage Resistance fire \n",
+                "Condition Immunities exhaustion \n",
+                "Senses passive Perception 12 \n",
+                "Languages Galactic Basic, one other of your choice \n",
+                "Challenge 2 (450)\n"
+            ],
+            "traitsSectionTwo": [
+                "Charge. If the mounted trooper moves at least 20 feet straight toward a creature while mounted and then hits with a vibrolance attack on the same turn, it can make a trample attack against the creature as a bonus action.\n",
+                "Locked Saddle. The trooper cannot be knocked prone, dismounted, or moved against it's will while mounted.\n",
+                "Mounted Warrior. While the trooper is mounted, the mount cannot be charmed or frightened.\n"
+            ],
+            "actions": [
+                "Vibrolance. Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 8 (1d12 + 2) kinetic damage.\n",
+                "Assault Cannon. \n",
+                "Ranged Weapon Attack. +3 to hit, range 80/320 ft., one target. Hit: 6 (1d10 + 1) energy damage.\n",
+                "Trample (Mounted Only). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) kinetic damage and the target must succeed on a DC 13 Strength saving throw or be knocked prone.\n",
+                "Flamethrower (Recharges after a Short or Long Rest). The trooper unleashes a torrent of flame in a 15 ft. cone. All creatures in that area must make a DC 13 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one.\n"
+            ]
+        },
+        {
+            "name": "74-Z Speeder Bike",
+            "classification": "Large construct, unaligned",
+            "ac": "Armor Class 14 (armor plating)",
+            "hp": "Hit Points 39 (6d10 + 6)",
+            "speed": "Speed 0 ft., fly 50 ft.",
+            "scores": [
+                11,
+                17,
+                13,
+                10,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poison, disease \n",
+                "Senses \u2014 \n",
+                "Languages \u2014 \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Comm Jammers. The construct suppresses all electronic communications devices within 60 feet of it.\n",
+                "Circuitry. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Piloted. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.\n"
+            ],
+            "actions": [
+                "Multiattack. The construct makes two attacks with its blaster cannon.\n",
+                "Blaster Cannon. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n"
+            ],
+            "reactions": [
+                "Redirect. If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage.\n"
+            ]
+        },
+        {
+            "name": "AT-AT",
+            "classification": "Gargantuan construct, unaligned",
+            "ac": "Armor Class 20 (armor plating)",
+            "hp": "Hit Points 330 (20d20 + 120)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                27,
+                14,
+                23,
+                10,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +14, Con +12 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances psychic \n",
+                "Damage Immunities poison, necrotic \n",
+                "Condition Immunities poisoned, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed, disease \n",
+                "Senses \u2014 \n",
+                "Languages \u2014 \n",
+                "Challenge 19 (22,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Heavy Durasteel Armor. The outer layer of the AT-AT is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 30 points, the AT-AT takes no damage from that attack. If the AT-AT takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.\n",
+                "Piloted. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.\n",
+                "Towering. Creatures of Large size or smaller can stand in the AT-AT's space.\n",
+                "Troop Transport. The AT-AT can transport a maximum of 40 stormtroopers and five speeder bikes, which it can deploy using its Deploy Troops legendary action, or which can be fought by creatures inside of the AT-AT.\n",
+                "Vulnerable Interior. The AT-AT's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.\n"
+            ],
+            "actions": [
+                "Multiattack. The AT-AT can use its Frightful Presence. It then makes three attacks: one with its laser cannon volley and two with its medium repeaters.\n",
+                "Laser Cannon Volley. The AT-AT chooses a point within 320 ft. and lets loose a blast from each of its heavy laser cannons that explodes in a 15 ft. cube around that point. Each creature within the cube must succeed on a DC 16 Dexterity saving throw, taking 54 (12d8) energy damage on a failed save, or half as much damage on a successful one.\n",
+                "Medium Repeaters. Ranged Weapon Attack: +8 to hit, range 240/360 ft., one target. Hit: 22 (4d10) energy damage.\n",
+                "Stomp. All creatures standing within the AT-AT's space or within 5ft of it must make a DC 20 Dexterity saving throw, taking 78 (12d12) kinetic damage on a failed save, or half as much damage on a successful one.\n",
+                "Frightful Presence. Each creature of the AT-AT's choice within 240 feet of the AT-AT and aware of it must succeed on a DC 16 Wisdom saving throw or become Frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-AT's Frightful Presence for 24 hours.\n"
+            ],
+            "legendaryActions": [
+                "The AT-AT can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The AT-AT regains spent legendary actions at the start of their turn.\n",
+                "Stomp. The AT-AT makes a stomp attack.\n",
+                "Repeating Blasters. The AT-AT makes a single attack with its medium repeaters.\n",
+                "Deploy Troops (Costs 2 Actions). The AT-AT mobilizes some of the soldiers traveling within it. It deploys 1d4 + 2 Troopers and 1 74-Z Speeder Bike. These troops appear in any unoccupied spaces within 10 ft. of the AT-AT.\n"
+            ]
+        },
+        {
+            "name": "AT-RT",
+            "classification": "Large construct, unaligned",
+            "ac": "Armor Class 15 (armor plating)",
+            "hp": "Hit Points 58 (9d10 + 9)",
+            "speed": "Speed 50 ft.",
+            "scores": [
+                15,
+                16,
+                12,
+                10,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5\n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poison, disease \n",
+                "Senses — \n",
+                "Languages — \n",
+                "Challenge 4 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Piloted. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.\n"
+            ],
+            "actions": [
+                "Multiattack. The construct makes two attacks with its repeating blaster cannon or uses its mortar launcher.\n",
+                "Repeating Blaster Cannon. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 10 (2d6 + 3) energy damage.\n",
+                "Mortar Launcher. The construct launches a mortar at a point it can see within 100 feet. Each creature in a 20-foot radius centered on that point must make a Dexterity saving throw. A target takes 14 (4d6) damage on a failed save, or half as much on a successful one.\n"
+            ],
+            "reactions": [
+                "Redirect. If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage.\n"
+            ]
+        },
+        {
+            "name": "AT-ST",
+            "classification": "Huge construct, unaligned",
+            "ac": "Armor Class 17 (armor plating)",
+            "hp": "Hit Points 168 (16d12 + 64)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                23,
+                16,
+                19,
+                10,
+                14,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +10, Con +8 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances psychic \n",
+                "Damage Immunities poison, necrotic \n",
+                "Condition Immunities poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed \n",
+                "Senses — \n",
+                "Languages — \n",
+                "Challenge 11 (7,200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Piloted. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.\n",
+                "Circuitry. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Vulnerable Interior. The AT-ST's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.\n"
+            ],
+            "actions": [
+                "Multiattack. The AT-ST can use its Frightful Presence. It then makes two attacks with its medium repeating blasters or takes the Stomp action.\n",
+                "Medium Repeating Blasters. Ranged Weapon Attack: +7 to hit, range 120/240 ft., one target. Hit: 25 (4d10 + 3) energy damage.\n",
+                "Stomp All creatures standing within the AT-ST's space or within 5 feet of it must make a DC 18 Dexterity saving throw, taking 39 (6d12) kinetic damage on a failed save, or half as much damage on a successful one.\n",
+                "Frightful Presence: Each creature of the AT-ST's choice that is within 80 feet of the AT-ST and aware of it must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-ST's Frightful Presence for the next 24hours.\n"
+            ]
+        },
+        {
+            "name": "AT-TE",
+            "classification": "Gargantuan construct, unaligned",
+            "ac": "Armor Class 18 (armor plating)",
+            "hp": "Hit Points 248 (16d20 + 80)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                25,
+                16,
+                21,
+                10,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +12, Con +10 \n",
+                "Damage Resistances psychic \n",
+                "Damage Immunities poison, necrotic, ion \n",
+                "Condition Immunities poisoned, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed, disease \n",
+                "Senses \u2014 \n",
+                "Languages \u2014 \n",
+                "Challenge 18 (20,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Electromagnetic Shielding. The AT-TE is Immune to ion damage.\n",
+                "Heavy Durasteel Armor. The outer layer of the AT-TE is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 15 points, the AT-TE takes no damage from that attack. If the AT-TE takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.\n",
+                "Piloted. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.\n",
+                "Towering. Creatures of Medium size or smaller can stand in the AT-TE's space.\n",
+                "Troop Transport. The AT-TE can transport a maximum of 20 stormtroopers and five speeder bikes, which it can deploy using its Deploy Troops legendary action, or which can be fought by creatures inside of the AT-TE\n",
+                "Vulnerable Interior. The AT-TE's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.\n"
+            ],
+            "actions": [
+                "Multiattack. The AT-TE makes four attacks: one with its laser cannon volley and three with its medium repeaters.\n",
+                "Laser Cannon Volley. The AT-TE chooses a point within 240ft and lets loose a blast from its heavy laser cannon that explodes in a 15ft cube around that point. Each creature within the cube must succeed on a DC 16 Dexterity saving throw, taking 33 (6d10) energy damage on a failed save, or half as much damage on a successful one.\n",
+                "Medium Repeaters. Ranged Weapon Attack: +8 to hit, range 120/240 ft., one target. Hit: 19 (3d10 + 3) energy damage.\n"
+            ],
+            "legendaryActions": [
+                "The AT-TE can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The AT-TE regains spent legendary actions at the start of their turn.\n",
+                "Repeating Blasters. The AT-TE makes a single attack with its medium repeaters.\n",
+                "Deploy Troops (Costs 2 Actions). The AT-TE mobilizes some of the soldiers traveling within it. It deploys 1d4 + 2 Troopers. These troops appear in any unoccupied spaces within 10 ft. of the AT-TE\n"
+            ]
+        },
+        {
+            "name": "Armored Assault Tank (AAT)",
+            "classification": "Huge Construct, unaligned",
+            "ac": "Armor Class 19",
+            "hp": "Hit Points 168(16d12 + 64)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                20,
+                22,
+                19,
+                10,
+                14,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +9, Con +8 \n",
+                "Damage Vulnerabilities ion \n",
+                "Condition Immunities poisoned, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed, disease \n",
+                "Challenge 13 (10,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The construct has disadvantage on saving throws against effects that would deal ion or lightning damage. Operated by a Pilot & Gunner roll a separate initiative for both\n",
+                "Piloted. The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. Pilot Controls movement, Ram action, & Rocket launchers\n",
+                "Gunner. The construct requires an active gunner to operate the vehicles weaponry. Gunner controls Plasma Cannon & Medium Repeating Blasters Freedom of\n",
+                "Movement. The AAT ignores difficult terrain and can pass through occupied hostile spaces\n",
+                "Vulnerable Interior. The AAT's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.\n"
+            ],
+            "actions": [
+                "Pilot of the AAT can use the Ram action and make 1 attack utilizing the Rocket Launcher.\n",
+                "Ram. Any creature within the AAT's movement path must make a DC 17 Dexterity saving throw, taking 26 (4d12) kinetic damage on a failed save and is knocked prone, or half as much damage on a successful one.\n",
+                "Rocket Launchers (6/day Reload 1 turn) Ranged Weapon: range 100/400 DC 14 launches a barrage of rockets at a target and any creature within 10 ft. Taking 6d6 kinetic damage on a failed save and half as much on a successful one\n",
+                "Gunner can make two attacks using the medium repeating blasters\n",
+                "Medium Repeating Blasters. Ranged Weapon Attack: +10 to hit, range 120/240 ft., one target. Hit: 25 (4d10 + 6) energy damage.\n",
+                "Plasma Cannon (Recharge 5-6). The AAT launches a plasma shell 150/300 ft range target must be at least 15 ft away from the AAT. Blast has a 15ft Radius. Each creature in that area must make a DC 18 Dexterity saving throw, taking 52 (8d12) fire damage on a failed save, or half as much damage on a successful one. (If shot is over 150ft targets have advantage on dex save)\n"
+            ]
+        },
+        {
+            "name": "TX-225A OCCUPIER TANK",
+            "classification": "Huge construct, unaligned",
+            "ac": "Armor Class 16 (armor plating)",
+            "hp": "Hit Points 85 (9d8 + 45)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                23,
+                18,
+                21,
+                10,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +9, Con +7 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances psychic \n",
+                "Damage Immunities poison, necrotic \n",
+                "Condition Immunities poisoned, disease, frightened, petrified, restrained, incapacitated, stunned, prone, blinded, charmed \n",
+                "Senses — \n",
+                "Challenge 6 (2,300 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The tank has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Heavy Durasteel Armor. The outer layer of the tank is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 15 points, the tank takes no damage from that attack. If the tank takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.\n",
+                "Piloted. The tank requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct. Vulnerable Interior The tank's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.\n"
+            ],
+            "actions": [
+                "Multiattack. The tank makes two laser cannon attacks\n",
+                "Laser Cannon. Ranged Weapon Attack +7 to hit, 100/400 ft., one target. Hit: 15 (2d10 + 4) energy damage\n",
+                "Blaster Cannon Volley (Recharge 5-6). the tank launches a barrage of cannon fire at a point within 120 feet. Each creature within 20 feet of that point must make a DC 15 Dexterity saving throw, taking 17 (5d6) energy damage on a failed save, or half as much damage on a successful one.\n",
+                "Frightful Presence: Each creature of the tank's choice that is within 80 feet of the tank and aware of it must succeed on a DC 12 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the tank's Frightful Presence for the next 24 hours.\n"
+            ]
+        },
+        {
+            "name": "Officer, Junior",
+            "classification": "Medium humanoid, unaligned",
+            "ac": "Armor Class 12 (combat suit)",
+            "hp": "Hit Points 13 (3d8)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                10,
+                12,
+                10,
+                14,
+                11,
+                12
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +2, Intimidate +3 \n",
+                "Senses Passive Perception 12 \n",
+                "Languages Galactic Basic \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+            ],
+            "actions": [
+                "Blaster Carbine. Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.\n",
+                "Command Ally. The junior officer targets one ally within 30 feet of it. If the target can hear the officer, the target can make one weapon attack as a reaction and gains advantage on the attack roll.\n"
+            ],
+            "reactions": [
+            ]
+        },
+        {
+            "name": "Navy Pilot",
+            "classification": "Medium humanoid (human), lawful balanced",
+            "ac": "Armor Class 13 (combat suit)",
+            "hp": "Hit Points 9 (2d8)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                8,
+                14,
+                10,
+                14,
+                12,
+                11
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +4, Int +4 \n",
+                "Skills Perception +3, Piloting +4 \n",
+                "Senses passive Perception 13 \n",
+                "Languages Galactic Basic \n",
+                "Challenge 1/8 (25 XP)\n"
+            ],
+            "actions": [
+                "Light Pistol. Ranged Weapon Attack: +4 to hit, range 40/160 ft., one target. Hit: 4 (1d4 + 2) energy damage.\n"
+            ]
+        },
+        {
+            "name": "Navy Trooper",
+            "classification": "Medium humanoid, unaligned",
+            "ac": "Armor Class 14 (combat suit)",
+            "hp": "Hit Points 13 (3d8)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                10,
+                14,
+                10,
+                11,
+                11,
+                10
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +2, Perception +2 \n",
+                "Senses Passive Perception 12 \n",
+                "Languages Galactic Basic \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "actions": [
+                "Multiattack. The Navy Trooper makes two blaster carbine attacks.\n",
+                "Blaster Carbine. Ranged Weapon Attack: +4 to hit, range 60/240 ft., one target. Hit: 5 (1d6 + 2) energy damage.\n"
+            ]
+        },
+        {
+            "name": "Officer, Senior",
+            "classification": "Medium humanoid, unaligned",
+            "ac": "Armor Class 15 (battle armor)",
+            "hp": "Hit Points 38 (7d8 + 7)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                10,
+                12,
+                12,
+                16,
+                11,
+                13
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +2, Intimidate +3 \n",
+                "Senses Passive Perception 12 \n",
+                "Languages Galactic Basic \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+            ],
+            "actions": [
+                "Blaster Carbine. Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit: 4 (1d6 + 1) energy damage.\n",
+                "Call to Attack. Up to three allies within 120 feet of this officer that can hear it can each use their reaction to make one weapon attack.\n",
+                "Rally Allies. The officer targets up to three allies within120 feet that can hear it and are currently suffering from a fear or charm effect. The fear or charm effect is removed.\n"
+            ],
+            "reactions": [
+            ]
+        },
+        {
+            "name": "Grand Admiral",
+            "classification": "Medium humanoid, unaligned",
+            "ac": "Armor Class 19 (heavy combat suit and medium shield generator) or 21 (tactical advantage/superiority)",
+            "hp": "Hit Points 255 (30d8 + 120)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                13,
+                20,
+                18,
+                27,
+                23,
+                20
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +10, Int +9, Wis +7, Cha \n",
+                "Skills Athletics +8, Deception +12, Insight +20, Investigation +22, Lore +22, Perception +20, Persuasion +12 \n",
+                "Damage Resistances psychic \n",
+                "Senses Darkvision 120 ft., passive Perception 30 \n",
+                "Languages Galactic basic, Cheunh, and any 3 others \n",
+                "Challenge 20 (25,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Hardened Mind. When the Grand Admiral makes a saving throw against illusions or to resist charm and fear effects, it may add its Intelligence modifier (8) to the roll.\n",
+                "Hyper Intelligence. The Grand Admiral's techcasting ability is Intelligence (tech save DC 23, +15 to hit with tech attacks). The Grand Admiral innately knows the following tech powers: At-will: assess the situation, analyze, decryption program, detect enhancement, spot the weakness, detect invisibility, detect traps 3/day each: element of surprise, explosion, tactical advantage, ballistic shield, salvo, friendly fire, greater analyze 1/day each: contingency, find the path, tactical superiority, stun, predictive AI\n",
+                "Leadership (1/rest). For 1 minute, the Grand Admiral can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Grand Admiral. A creature can benefit from only one Leadership die at a time. This effect ends if the Grand Admiral is incapacitated.\n",
+                "Legendary Resistance (3/day). If the Grand Admiral fails a saving throw, it can choose to succeed instead.\n",
+                "Sidearm Mastery. The Grand Admiral's ranged weapon attacks ignore half cover against targets within 15 feet of the\n",
+                "Grand Admiral. The Grand Admiral gains a +3 bonus to attack rolls made with a pistol.\n",
+                "Targeted Analysis. The Grand Admiral's attack rolls cannot suffer from disadvantage.\n",
+                "Tech Resistance. The Grand Admiral has advantage on saving throws against tech powers.\n"
+            ],
+            "actions": [
+                "Multiattack. The Grand Admiral makes three melee weapon attacks or three ranged weapon attacks.\n",
+                "Heavy Pistol. Ranged Weapon Attack: +15 to hit, range 40/160 ft., one target. Hit: 16 (1d8 + 2d6 + 5) energy damage.\n",
+                "Techblade. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) kinetic damage.\n",
+                "Unarmed Strike. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (1d4 + 2d6 + 5) kinetic damage.\n",
+                "All-Out Attack (1/rest). The Grand Admiral chooses a number of allies up to its Intelligence modifier (8) within 60 feet who can see or hear it. The chosen allies may then immediately use their reaction to make one weapon attack against a target of the Grand Admiral's choice. It may choose the target for each attack separately.\n"
+            ],
+            "reactions": [
+                "Calculated Timing. The Grand Admiral can focus a target down with the help with an ally. Once per round, whenever a creature is attacked by someone other than the Grand Admiral, the Grand Admiral can use its reaction to make one weapon attack against them.\n"
+            ],
+            "legendaryActions": [
+                "The Grand Admiral can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The Grand Admiral regains spent legendary actions at the start of its turn.\n",
+                "Move. The Grand Admiral can move up to its speed without provoking opportunity attacks.\n",
+                "Casting. The Grand Admiral can cast an at-will power.\n",
+                "Attack. The Grand Admiral makes one Heavy Pistol, Techblade, or Unarmed Strike attack.\n"
+            ]
+        },
+        {
+            "name": "Gamorrean Guard",
+            "classification": "Medium humanoid (Gamorrean), chaotic dark",
+            "ac": "Armor Class 15 (Natural Armor)",
+            "hp": "Hit Points 84 (9d8 + 36)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                18,
+                12,
+                18,
+                9,
+                11,
+                9
+            ],
+            "traitsSectionOne": [
+                "Damage Resistances Kinetic and Energy from unenhanced weapons \n",
+                "Senses passive Perception 10 \n",
+                "Languages Gamorrese, Galactic Basic (understands but can't speak) \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Reckless. At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn.\n",
+                "Brutal Critical. When the guards scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.\n"
+            ],
+            "actions": [
+                "Vibroaxe. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (1d12 + 6)\n"
+            ]
+        },
+        {
+            "name": "Ghest",
+            "classification": "Huge beast, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 104 (11d12 + 33)",
+            "speed": "Speed 20 ft., swim 60 ft.",
+            "scores": [
+                21,
+                9,
+                17,
+                2,
+                10,
+                7
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +5, Perception +3 \n",
+                "Damage Resistances kinetic \n",
+                "Senses passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 6 (2,300 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Ambusher. In the first round of a combat, the ghest has advantage on attack rolls against any creature it surprised.\n",
+                "Hold Breath. The ghest can hold its breath for 30 minutes.\n"
+            ],
+            "actions": [
+                "Multiattack. The ghest can make two attacks: one with its bite and one with its claws.\n",
+                "Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target.Hit: 21 (3d10 + 5) kinetic damage and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the ghest can't bite another target.\n",
+                "Claws. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) kinetic damage.\n",
+                "Swallow. The ghest makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the ghest, and it takes 10 (3d6) acid damage at the start of each of the ghest's turns. The ghest can have only one target swallowed at a time.If the ghest takes 25 damage or more on a single turn from a creature inside it, the ghest must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the swallowed creatures, which fall prone in a space within 10 feet of the ghest. If the ghest dies,the swallowed creatures are no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.\n"
+            ]
+        },
+        {
+            "name": "Gizka",
+            "classification": "Tiny beast, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 1 (1d4 - 2)",
+            "speed": "Speed 20 ft.",
+            "scores": [
+                2,
+                14,
+                7,
+                2,
+                10,
+                5
+            ],
+            "traitsSectionOne": [
+                "Senses blindsight 120 ft. (blind beyond this radius), passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 0 (10 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Echolocation. The gizka can't use its blindsight while deafened.\n",
+                "Standing Leap. The gizka's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Gizka Swarm",
+            "classification": "Medium swarm of tiny beasts, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 22 (5d8)",
+            "speed": "Speed 20 ft.",
+            "scores": [
+                7,
+                14,
+                10,
+                3,
+                14,
+                5
+            ],
+            "traitsSectionOne": [
+                "Damage Resistances energy, kinetic \n",
+                "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned \n",
+                "Senses blindsight 120 ft. (blind beyond this radius), passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 1/4 (50 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny gizka. The swarm can't regain hit points or gain temporary hit points.\n",
+                "Echolocation. The swarm can't use its blindsight while deafened.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) kinetic damage or 3 (1d6) kinetic damage if the swarm has half of its hit points or fewer.\n"
+            ]
+        },
+        {
+            "name": "Gorax",
+            "classification": "Huge humanoid, unaligned",
+            "ac": "Armor Class 17 (natural armor)",
+            "hp": "Hit Points 126 (11d12 + 55)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                23,
+                15,
+                20,
+                7,
+                11,
+                6
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +3, Con +8, Wis +3 \n",
+                "Skills Athletics +9, Perception +3, Intimidation +1 \n",
+                "Senses darkvision 60 ft., passive Perception 13 \n",
+                "Languages Gorax \n",
+                "Challenge 6 (2,300 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Hearing. The gorax has advantage on Wisdom (Perception) checks that rely on hearing.\n",
+                "Stench. Any creature other than a gorax that starts its turn within 10 feet of the gorax must succeed on a DC 15 Constitution saving throw or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of any gorax for 1 hour.\n",
+                "Sunlight Sensitivity. While in sunlight, the gorax has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.\n"
+            ],
+            "actions": [
+                "Multiattack. The gorax makes two greatclub attacks.\n",
+                "Stomp. Melee Weapon Attack: +9 to hit, reach 5 ft., oneMedium or smaller creature. Hit: 27 (6d6 + 5) kinetic damage and the target is grappled (escape DC 15).Until this grapple ends, the target is prone. The grapple ends early if the gorax moves.\n",
+                "Greatclub. Melee Weapon Attack: +9 to hit, reach 15 ft.,one target. Hit: 19 (3d8 + 6) kinetic damage.\n",
+                "Rock. Ranged Weapon Attack: +9 to hit, range 60/240 ft.,one target. Hit: 28 (4d10 + 6) kinetic damage. If the target is a creature, it must succeed on a DC 17Strength saving throw or be knocked prone.\n"
+            ]
+        },
+        {
+            "name": "Gundark, Adolescent",
+            "classification": "Medium beast, unaligned",
+            "ac": "Armor Class 13 (natural armor)",
+            "hp": "Hit Points 22 (5d8)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                14,
+                12,
+                11,
+                4,
+                12,
+                8
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses darkvision 60 ft., passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Rampage. When the gundark reduces a creature to 0 hit points with a melee attack on its turn, the gundark can take a bonus action to move up to half its speed and make a claw attack. Keen Hearing and\n",
+                "Smell. The gundark has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n"
+            ],
+            "actions": [
+                "Multiattack. The gundark can make two claw attacks.\n",
+                "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 +3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Gundark, Adult",
+            "classification": "Medium beast, unaligned",
+            "ac": "Armor Class 13 (natural armor)",
+            "hp": "Hit Points 44 (8d8 + 8)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                16,
+                12,
+                13,
+                5,
+                15,
+                8
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +4 \n",
+                "Senses darkvision 60 ft., passive Perception 14 \n",
+                "Languages — \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Rampage. When the gundark reduces a creature to 0 hit points with a melee attack on its turn, the gundark can take a bonus action to move up to half its speed and make a claw attack. Keen Hearing and\n",
+                "Smell. The gundark has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n"
+            ],
+            "actions": [
+                "Multiattack. The gundark can make four attacks: two with its claws and two with its gigantic claws.\n",
+                "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 +3) kinetic damage.\n",
+                "Gigantic Claw. Melee Weapon Attack: +5 to hit, reach 5 ft.,one target. Hit: 12 (2d8 +3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Gundark Alpha",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 14",
+            "hp": "Hit Points 157 (15d10 + 75)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                20,
+                15,
+                20,
+                3,
+                9,
+                7
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses Darkvision 120 ft., passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 9 (5000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Siege Monster. The gundark deals double damage to objects and structures. Keen Sight and\n",
+                "Smell. The gundark has advantage on Wisdom (Perception) checks that rely on sight or smell.\n"
+            ],
+            "actions": [
+                "Multiattack. The gundark makes two attacks with its claws.It then makes one bite attack or one pummel attack.\n",
+                "Claw. Melee Weapon Attack: +9 to hit, reach 5ft, one target, Hit: 12 (2d6 + 5) kinetic damage. The target is grappled(escape DC 15) if that claw isn't already grappling a creature. Until the grapple ends, the creature is restrained.\n",
+                "Bite. Melee Weapon Attack: +9 to hit, reach 5ft, one target. Hit: 9 (1d8 + 5) kinetic damage.\n",
+                "Pummel. The monster makes one claw attack against a creature it is grappling. If the attack hits, the monster takes the claw's damage.\n"
+            ]
+        },
+        {
+            "name": "Gundark Matriarch",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 15 (natural armor)",
+            "hp": "Hit Points 90 (12d10 + 24)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                18,
+                14,
+                15,
+                6,
+                15,
+                9
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +4, Con +4 \n",
+                "Skills Perception +4 \n",
+                "Senses darkvision 60 ft., passive Perception 14 \n",
+                "Languages — \n",
+                "Challenge 4 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Blood Thirst. If the matriarch isn't incapacitated, any other gundark can make a melee attack as a bonus action while within 10 feet of the matriarch.\n",
+                "Rampage. When the matriarch reduces a creature to 0 hit points with a melee attack on its turn, the matriarch can take a bonus action to move up to half its speed and make a claw attack. Keen Hearing and\n",
+                "Smell. The matriarch has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n"
+            ],
+            "actions": [
+                "Multiattack. The matriarch can make four attacks: two with its claws and two with its gigantic claws.\n",
+                "Claw. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) kinetic damage.\n",
+                "Gigantic Claw. Melee Weapon Attack: +5 to hit, reach 5 ft.,one target. Hit: 17 (3d8 + 4) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Gutkurr",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 16 (natural armor)",
+            "hp": "Hit Points 45 (6d10 + 12)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                16,
+                14,
+                15,
+                2,
+                8,
+                5
+            ],
+            "traitsSectionOne": [
+                "Damage Resistances energy, kinetic, and ion from unenhanced weapons \n",
+                "Senses darkvision 60 ft., passive Perception 9 \n",
+                "Languages — \n",
+                "Challenge 4 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Wounded Fury. While it has 10 hit points or fewer, the gutkurr has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.\n"
+            ],
+            "actions": [
+                "Multiattack. The gutkurr can make two claw attacks.\n",
+                "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Hawk-bat",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 7 (2d6)",
+            "speed": "Speed 10 ft., climb 10 ft., fly 60 ft.",
+            "scores": [
+                4,
+                14,
+                10,
+                3,
+                14,
+                5
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +6 \n",
+                "Senses blindsight 60 ft., passive Perception 16 \n",
+                "Languages — \n",
+                "Challenge 1/4 (50 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Echolocation. The hawk-bat loses blindsight when deafened. Keen Hearing and\n",
+                "Sight. The hawk-bat has advantage on Wisdom (Perception) checks that rely on hearing and sight.\n",
+                "Pack Tactics. The hawk-bat has advantage on an attack roll against a creature if at least one of the hawk-bat's allies is within 5 ft. of the creature and the ally isn't incapacitated.\n"
+            ],
+            "actions": [
+                "Talons. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Hawk-bat Swarm",
+            "classification": "Large swarm of small beasts, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 44 (8d10)",
+            "speed": "Speed 10 ft., climb 10 ft., fly 60 ft.",
+            "scores": [
+                8,
+                14,
+                10,
+                3,
+                14,
+                5
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +6 \n",
+                "Damage Resistances energy, kinetic \n",
+                "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned \n",
+                "Senses blindsight 60 ft., passive Perception 16 \n",
+                "Languages — \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Small hawk-bats. The swarm can't regain hit points or gain temporary hit points.\n",
+                "Echolocation. The swarm can't use its blindsight while deafened. Keen Hearing and\n",
+                "Sight. The swarm has advantage on Wisdom (Perception) checks that rely on hearing and sight.\n"
+            ],
+            "actions": [
+                "Talons. Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 11 (2d8 + 2) kinetic damage or 7 (1d8 + 2) kinetic damage if the swarm has half of its hit points or fewer.\n"
+            ]
+        },
+        {
+            "name": "Hssiss",
+            "classification": "Large aberration, chaotic dark",
+            "ac": "Armor Class 18 (natural armor)",
+            "hp": "Hit Points 125 (15d10 + 45)",
+            "speed": "Speed 30 ft. swim 40 ft.",
+            "scores": [
+                19,
+                14,
+                17,
+                9,
+                12,
+                8
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5, Con +6, Wis +3, Cha +5 \n",
+                "Skills Perception +6, Stealth +5 \n",
+                "Senses Darkvision 60ft, passive Perception 13 \n",
+                "Languages Can't speak but understands commands in Sith \n",
+                "Challenge 7 (2,900 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Amphibious. The dragon can breathe air and water. Sith-born. Dark forcecasters and Sith (species) have advantage on Animal Handling checks against\n",
+                "Hssiss. \n"
+            ],
+            "actions": [
+                "Multiattack. The Hssiss makes three attacks, once with its bite and twice with its claws.\n",
+                "Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 14 (3d8 + 4) kinetic damage. The creature must then succeed on a Constitution saving throw (DC17) or become poisoned and take 6 (2d6) poison damage per turn. The target is also grappled (escapeDC 16). Until this grapple ends, the target is restrained,and the Hssiss can’t bite another target\n",
+                "Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (3d6 + 4) kinetic damage. The creature must then succeed on a Constitution saving throw (DC15) or become poisoned and take 6 (2d6) poison damage per turn.Invisibility: The Hssiss magically turns Invisible until it attacks, or until its Concentration ends (as if concentrating on a power).\n"
+            ]
+        },
+        {
+            "name": "Isb Infiltrator",
+            "classification": "Medium humanoid (human), lawful dark side",
+            "ac": "Armor Class 15 (heavy combat suit)",
+            "hp": "Hit Points 36 (8d8)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                8,
+                16,
+                10,
+                16,
+                12,
+                14
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5, Int +5 \n",
+                "Skills Acrobatics +5, Perception +3, Stealth +5 \n",
+                "Senses passive Perception 13 \n",
+                "Languages Galactic Basic, one other of your choice \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Cunning Action. On each of its turns, the infiltrator can use a bonus action to take the Dash, Disengage, or Hide action.\n",
+                "Evasion. If the infiltrator is subjected to an effect that allows it to make a Dex saving throw to take only half damage, the infiltrator instead takes no damage on a success, and half damage on a fail.\n",
+                "Techcasting. The infiltrator is a 3rd-level techcaster. Its techcasting ability is\n",
+                "Intelligence (tech save DC 13, +5 to hit with tech powers). It has 15 tech points and knows the following tech powers: At will: electrical burst, encrypted message, on/off 1st-level: holographic disguise, smoke cloud, tranquilizer 2nd-level: infiltrate, scorching ray\n"
+            ],
+            "actions": [
+                "Blaster Carbine. Ranged Weapon Attack: +5 to hit, range 60/240 ft., one target. Hit: 6 (1d6 + 3) energy damage.The attack deals an extra 14 (4d6) damage when the infiltrator has advantage on the attack roll, or when the target is within 5 feet of an ally of the infiltrator and the infiltrator doesn't have disadvantage on the attack roll.\n"
+            ],
+            "reactions": [
+                "Uncanny Dodge. The infiltrator halves the damage that it takes from an attack that hits it.\n"
+            ]
+        },
+        {
+            "name": "Isb Officer",
+            "classification": "Medium humanoid (human), lawful dark side",
+            "ac": "Armor Class 16 (light combat suit, medium shield)",
+            "hp": "Hit Points 44 (8d10)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                8,
+                16,
+                10,
+                15,
+                13,
+                15
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5, Wis +3 \n",
+                "Skills Perception +3, Persuasion +4 \n",
+                "Senses passive Perception 13 \n",
+                "Languages Galactic Basic, one other of your choice \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "actions": [
+                "Multiattack. The Officer makes two attacks.\n",
+                "Blaster Pistol. Ranged Weapon Attack: +5 to hit, range 40/160 ft., one target. Hit: 6 (1d6 + 3) energy damage.\n",
+                "Rally Troops. (recharge 5-6) The Officer rallies his troops,giving all allies within 60 feet advantage on their next attack roll.\n"
+            ]
+        },
+        {
+            "name": "IT-O INTERROG. UNIT",
+            "classification": "Tiny droid, unaligned",
+            "ac": "Armor Class 11",
+            "hp": "Hit Points 6 (4d4 - 4)",
+            "speed": "Speed 0 ft., fly 40 ft. (hover)",
+            "scores": [
+                3,
+                10,
+                8,
+                6,
+                10,
+                12
+            ],
+            "traitsSectionOne": [
+                "Skills Intimidation +5, Insight +4 \n",
+                "Damage Vulnerabilities ion, lightning \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities diseased, poisoned \n",
+                "Senses passive Perception 10, passive Insight 14 \n",
+                "Languages Binary, knows Basic but can't speak it \n",
+                "Challenge 1/4 (50 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Flyby. The IT-O Unit doesn't provoke opportunity attacks when it flies out of an enemy's reach.\n"
+            ],
+            "actions": [
+                "Dart Launcher. Ranged Weapon Attack: +3 to hit, range 15/60 ft., one target. Hit: 1 kinetic damage plus 7 (2d6) poison damage. On a hit, the target must succeed on a\n",
+                "Con. saving throw (DC 12) or become stunned for one round.\n"
+            ]
+        },
+        {
+            "name": "Grand Inquisitor",
+            "classification": "Medium humanoid, lawful dark side",
+            "ac": "Armor Class 17 (heavy combat suit)",
+            "hp": "Hit Points 143 (22d8 + 44)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                11,
+                20,
+                14,
+                13,
+                16,
+                21
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +10, Wis +8, Cha +10 \n",
+                "Skills Acrobatics +10, Intimidation +10, Perception +8, Stealth +10 \n",
+                "Senses darkvision 60 ft., passive Perception 14 \n",
+                "Languages Galactic Basic, two more of your choice \n",
+                "Challenge 14 (11,500 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Detect Force. The inquisitor can sense the presence and direction of a creature who can cast force powers within 120 ft. Force-\n",
+                "Casting. The inquisitor is a 12th-level force-caster. It's force-casting ability is\n",
+                "Charisma (force save DC 18, +10 to hit with power attacks). It regains its extended force points when it finishes a long rest. It knows the following powers: \n•At-Will: denounce, force disarm, force push, mind trick, saber throw, slow \n•1st-5th level (41 Force Points): animate weapon, dominate mind, improved dark side tendrils, choke, force suppression, horror, force jump, sense force, sever force, siphon life, stun\n",
+                "Force Resistance. The inquisitor has advantage on saving throws against force powers and resistance to damage dealt by force powers.\n",
+                "War Casting. When the inquisitor uses an action to cast a force power, they can use a bonus action to make a Spinning Double Saber attack.\n"
+            ],
+            "actions": [
+                "Multiattack. The inquisitor makes three spinning doublesaber attacks.\n",
+                "Spinning Double Saber. Melee Weapon Attack: +10 to hit,reach 5 ft., one target. Hit: 23 (4d8 + 5) energy damage.\n",
+                "Dark Lightning. Ranged Power Attack: +10 to hit, range 120 ft., one or two targets. Hit: 28 (8d6) necrotic damage. the target must succeed on a DC 18 Strength saving throw or become restrained until the end of the inquisitor's next turn.\n"
+            ]
+        },
+        {
+            "name": "Inquisitor Master",
+            "classification": "Medium humanoid, lawful dark side",
+            "ac": "Armor Class 16 (heavy combat suit)",
+            "hp": "Hit Points 110 (20d8 + 20)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                11,
+                18,
+                12,
+                13,
+                12,
+                17
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +7, Cha +6 \n",
+                "Skills Acrobatics +7, Intimidation +6, perception +4 \n",
+                "Senses darkvision 60 ft., passive Perception 14 \n",
+                "Languages Galactic Basic, two more of your choice \n",
+                "Challenge 8 (3,900 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Casting. The inquisitor is a 10th-level force-caster. It's force-casting ability is\n",
+                "Charisma (force save DC 14, +6 to hit with power attacks). It regains its extended force points when it finishes a long rest. It knows the following powers: \n•At-Will: denounce, force disarm, force push, mind trick, saber throw, slow \n•1st-4th level (33 Force Points): animate weapon, improved dark side tendrils, choke, drain life, force sight, force suppression, horror, force jump, sense force, sever force, stun\n",
+                "Force Resistance. The inquisitor has advantage on saving throws against force powers.\n",
+                "War Casting. When the inquisitor uses an action to cast a force power, they can use a bonus action to make a Double Saber attack.\n"
+            ],
+            "actions": [
+                "Spinning Double Saber. Melee Weapon Attack: +7 to hit,reach 5 ft., one target. Hit: 17 (3d8 + 4) energy damage.\n",
+                "Double Saber. Melee Weapon Attack: +7 to hit, reach 5 ft.,one target. Hit: 8 (1d8 + 4) energy damage.\n",
+                "Dark Lightning. Ranged Power Attack: +6 to hit, range 120 ft., one or two targets. Hit: 14 (4d6) necrotic damage.The target must succeed on a DC 16 Strength saving throw or become restrained until the end of the inquisitor's next turn.\n"
+            ]
+        },
+        {
+            "name": "Inquisitor Knight",
+            "classification": "Medium humanoid, lawful dark side",
+            "ac": "Armor Class 15 (heavy combat suit)",
+            "hp": "Hit Points 36 (8d8)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                11,
+                16,
+                10,
+                13,
+                12,
+                16
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5, Cha +5 \n",
+                "Skills Acrobatics +5, Intimidation +5 \n",
+                "Senses darkvision 60 ft., passive Perception 11 \n",
+                "Languages Galactic Basic, one more of your choice \n",
+                "Challenge 4 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Casting. The inquisitor is a 5th-level force-caster. It's force-casting ability is\n",
+                "Charisma (force save DC 13, +5 to hit with power attacks). It regains its extended force points when it finishes a long rest. It knows the following powers: \n•At-Will: denounce, force disarm, saber throw, slow \n•1st-2rd level (18 Force Points): dark side tendrils, fear, force jump, force sight, hex, sense force, stun\n",
+                "Force Resistance. The inquisitor has advantage on saving throws against force powers.\n",
+                "War Casting. When the inquisitor uses an action to cast a force power, they can use a bonus action to make a Double Saber attack.\n"
+            ],
+            "actions": [
+                "Spinning Double Saber. Melee Weapon Attack: +5 to hit,reach 5 ft., one target. Hit: 12 (2d8 + 3) energy damage.\n",
+                "Double Saber. Melee Weapon Attack: +5 to hit, reach 5 ft.,one target. Hit: 7 (1d8 + 3) energy damage.\n"
+            ]
+        },
+        {
+            "name": "Purge Trooper",
+            "classification": "Medium humanoid (human), lawful dark side",
+            "ac": "Armor Class 16 (battle armor)",
+            "hp": "Hit Points 77 (14d8 + 14)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                12,
+                16,
+                12,
+                11,
+                13,
+                11
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5, Wis +5 \n",
+                "Skills Perception +5, Stealth +5, Survival +3 \n",
+                "Senses passive Perception 15 \n",
+                "Languages Galactic Basic, one other of your choice \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Jedi Hunter. The trooper has advantage on Wisdom (survival) checks to track humanoids that can cast force powers and on Intelligence (lore) checks to recall information about Jedi and the\n",
+                "Force. \n",
+                "Force Combat Training. The trooper has advantage on saving throws against Force powers.\n",
+                "Surprise Attack. If the trooper surprises a creature and hits it with an attack during the first round of combat , the target takes an extra 7 (2d6) damage from the attack.\n"
+            ],
+            "actions": [
+                "Multiattack. The trooper makes two melee or three ranged attacks.\n",
+                "Blaster Rifle. Ranged Weapon Attack: +6 to hit, range 100/400 ft., one target. Hit: 8 (1d8 + 4) energy damage.\n",
+                "Electrostaff. \n",
+                "Melee Weapon Attack. +6 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.\n",
+                "Volley (Recharge 6). The trooper makes one ranged attack against every enemy within 10 feet of a point it can see.\n"
+            ]
+        },
+        {
+            "name": "Jawa Scrapper",
+            "classification": "Small humanoid (jawa), neutral",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 13 (3d6 + 3)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                8,
+                14,
+                12,
+                11,
+                10,
+                8
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +6 \n",
+                "Senses darkvision 60 ft., passive Perception 10 \n",
+                "Languages Jawaese, understands but doesn't speak Galactic Basic \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Nimble Escape. The jawa can take the Disengage or Hide action as a bonus action on each of its turns.\n"
+            ],
+            "actions": [
+                "ion Blaster. Ranged Weapon Attack: +4 to hit, range 40/160 ft., one creature. Hit: 3 (1d4 + 2) ion damage.\n",
+                "ion Grenade (3/day). The jawa throws a grenade at a point it can see within 20 ft. Each creature within 10 feet must make a DC 12 Dexterity saving throw. A creature takes 2d4 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted.\n"
+            ]
+        },
+        {
+            "name": "Jawa Tinkerer",
+            "classification": "Small humanoid (jawa), neutral",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 10 (3d6)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                8,
+                14,
+                10,
+                14,
+                10,
+                8
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +6, technology +6 \n",
+                "Senses darkvision 60 ft., passive Perception 10 \n",
+                "Languages Jawaese, understands but doesn't speak Galactic Basic \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Nimble Escape. The jawa can take the Disengage or Hide action as a bonus action on each of its turns. Tech-\n",
+                "Casting. The jawa is a 1st-level tech-caster. Its tech- casting ability is\n",
+                "Intelligence (save DC 12, +4 to hit with power attacks). The jawa has 6 tech points and knows the following powers: At will: electroshock, mending, on/off 1st level: oil slick, overload, repair droid\n"
+            ],
+            "actions": [
+                "Beg. The jawa cowers pathetically to distract nearby foes. Until the end of its next turn, its allies gain advantage on attack rolls against any target within 10 feet of the jawa.\n"
+            ]
+        },
+        {
+            "name": "Jawa Shaman",
+            "classification": "Small humanoid (jawa), neutral",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 27 (6d6 + 6)",
+            "speed": "Speed 30 ft. walk",
+            "scores": [
+                10,
+                14,
+                12,
+                10,
+                14,
+                8
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +6, lore +6 \n",
+                "Senses darkvision 60 ft., passive Perception 12 \n",
+                "Languages Jawaese, understands but doesn't speak Galactic Basic \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Nimble Escape. The jawa can take the Disengage or Hide action as a bonus action on each of its turns. Force-\n",
+                "Casting. The jawa is a 4th-level force-caster. Its force-casting ability is\n",
+                "Wisdom (save DC 12, +4 to hit with power attacks). The jawa has 18 force points and knows the following powers: \n•At will: affect mind, give life, spare the dying \n•1st level: beast trick, heal, heroism \n•2nd level: restoration, stun\n"
+            ],
+            "actions": [
+                "Vibrostaff. Melee Weapon Attack: +2 to hit, reach 5 ft.,one target. Hit: 5 (2d4) kinetic damage.Grovel, Cower, and\n",
+                "Beg. The jawa cowers pathetically to distract nearby foes. Until the end of its next turn, its allies gain advantage on attack rolls against any target within 10 feet of the jawa.\n"
+            ]
+        },
+        {
+            "name": "JUNK DROID",
+            "classification": "Medium droid, unaligned",
+            "ac": "Armor Class 13 (armor scraps)",
+            "hp": "Hit Points 13 (2d8 + 4)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                10,
+                14,
+                15,
+                6,
+                8,
+                5
+            ],
+            "traitsSectionOne": [
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poison, disease \n",
+                "Senses. darkvision 60 ft., passive Perception 9 \n",
+                "Languages Binary, Galactic Basic \n",
+                "Challenge 1/4 (50 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n"
+            ],
+            "actions": [
+                "Multiattack. The junkyard droid makes two blaster carbine attacks or two vibroblade attacks.\n",
+                "Blaster Carbine. Ranged Weapon Attack: +4 to hit, range 60/240 ft., one target. Hit: 5 (1d6 + 2) energy damage.\n",
+                "Vibroblade. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "JUNK BEHEMOTH",
+            "classification": "Huge droid, unaligned",
+            "ac": "Armor Class 12 (armor scraps)",
+            "hp": "Hit Points 57 (6d12 + 18)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                16,
+                12,
+                17,
+                6,
+                8,
+                5
+            ],
+            "traitsSectionOne": [
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poison, disease \n",
+                "Senses. darkvision 60 ft., passive Perception 9 \n",
+                "Languages Binary, Galactic Basic \n",
+                "Challenge 1 (200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Circuitry. The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.\n"
+            ],
+            "actions": [
+                "Multiattack. The junk behemoth makes two blaster cannon attacks or two slam attacks.\n",
+                "Blaster Cannon. Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d10 + 1) energy damage.\n",
+                "Slam. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Kolkpravis Warrior",
+            "classification": "Medium humanoid (kaleesh), lawful balanced",
+            "ac": "Armor Class 14 (heavy combat suit)",
+            "hp": "Hit Points 22 (4d8 + 4)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                12,
+                14,
+                12,
+                11,
+                10,
+                14
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +4 \n",
+                "Skills Perception +2, Stealth +4 \n",
+                "Senses darkvision 60ft, passive Perception 12 \n",
+                "Languages Kaleesh, Galactic Basic \n",
+                "Challenge 1 (200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The Kolkpravis Warrior has advantage on Wisdom (Perception) checks that rely on smell. Rampage: When the Kolkpravis Warrior reduces a creature to 0 Hit Points with a melee Attack on its turn, the Kolkpravis Warrior can take a Bonus Action to move up to half its speed and make a bite\n",
+                "Attack. \n"
+            ],
+            "actions": [
+                "Multiattack. The Kolkpravis Warrior makes two melee attacks with its Shoni Spear or two ranged attack with its slugthrower.\n",
+                "Lig Sword. Melee Weapon Attack: 34 to hit, reach 5ft, one target. Hit: 5 (1d8 + 1) kinetic damage.\n",
+                "Shoni Spear. Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) kinetic damage.\n",
+                "Sudden Rush. Until the end of the turn, the Kolkpravis Warrior's speed increases by 60 feet and it doesn't provoke opportunity attacks.\n"
+            ]
+        },
+        {
+            "name": "Kolkpravis Tarkhan",
+            "classification": "Medium humanoid (kaleesh), lawful balanced",
+            "ac": "Armor Class 16 (battle armor)",
+            "hp": "Hit Points 55 (10d8 + 15)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                15,
+                14,
+                14,
+                12,
+                10,
+                16
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +4 \n",
+                "Skills Perception +2, Stealth +4 \n",
+                "Senses darkvision 60ft, passive Perception 10 \n",
+                "Languages Kaleesh, Galactic Basic \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The Tarkhan has advantage on Wisdom (Perception) checks that rely on smell. Rampage: When the Tarkhan reduces a creature to 0 Hit Points with a melee Attack on its turn, the Kolkpravis Tarkhan can take a Bonus Action to move up to half its speed and make a bite\n",
+                "Attack. \n"
+            ],
+            "actions": [
+                "Multiattack. The Tarkhan makes two melee attacks with its\n",
+                "Greater Shoni Spear. \n",
+                "Lig Sword. Melee Weapon Attack: +5 to hit, reach 5ft, one target. Hit: 6 (1d8 + 3) kinetic damage.\n",
+                "Greater Shoni Spear. . Melee or Ranged Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) kinetic damage.\n",
+                "Outland Rifle. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) kinetic damage.\n",
+                "Battle Cry (1/Day). Each creature of the Tarkhan’s choice that is within 30 feet of it, can hear it, and not already affected by Battle Cry gain advantage on attack rolls until the start of the Tarkhan’s next turn. The war chief can then make one attack as a bonus action.\n"
+            ]
+        },
+        {
+            "name": "Kolkpravis Blackarm",
+            "classification": "Medium humanoid (kaleesh), lawful balanced",
+            "ac": "Armor Class 15 (light battle armor)",
+            "hp": "Hit Points 49 (9d8 + 9)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                16,
+                14,
+                13,
+                11,
+                11,
+                15
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +5, Perception +4, Stealth +4 \n",
+                "Senses darkvision 60ft, passive Perception 12 \n",
+                "Languages Kaleesh, Galactic Basic \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Attack. \n",
+                "Keen Smell. The Blackarm has advantage on Wisdom (Perception) checks that rely on smell.\n"
+            ],
+            "actions": [
+                "Multiattack. The Blackarm makes two attacks, either with its Greater Shoni Spear or its Outland Rifle, and usesIncite Rampage if it can.\n",
+                "Lig Sword. Melee Weapon Attack: +5 to hit, reach 5ft, one target. Hit: 6 (1d8 + 2) kinetic damage.\n",
+                "Greater Shoni Spear. Melee or Ranged Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) kinetic damage.\n",
+                "Outland Rifle. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) kinetic damage.\n",
+                "Incite Rampage (Recharge 5-6). One creature theKolkpravis' Blackarm can see within 30 feet of it can use its reaction to make a melee attack if it can hear the Kolkpravis Blackarm and has the Rampage trait.\n"
+            ]
+        },
+        {
+            "name": "Kolkpravis Baatar",
+            "classification": "Medium humanoid (kaleesh), lawful balanced",
+            "ac": "Armor Class 17 (powered battle armor)",
+            "hp": "Hit Points 72 (11d8 + 28)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                18,
+                14,
+                18,
+                11,
+                11,
+                16
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +6, Con +6, Wis +2 \n",
+                "Skills Athletics +5, Intimidation +5 \n",
+                "Senses darkvision 60ft, passive Perception 10 \n",
+                "Languages Kaleesh, Galactic Basic \n",
+                "Challenge 4 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The Kolkpravis Baatar has advantage on Wisdom (Perception) checks that rely on smell. Rampage: When the Kolkpravis Baatar reduces a creature to 0 Hit Points with a melee Attack on its turn, the Kolkpravis Warrior can take a Bonus Action to move up to half its speed and make a bite\n",
+                "Attack. Shurpak’s\n",
+                "Fury. The Baatar deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks).\n"
+            ],
+            "actions": [
+                "Multiattack. The Kolkpravis Baatar makes two attacks with its Greater Lig Sword or its\n",
+                "Shoni Spear. \n",
+                "Greater Lig Sword. Melee Weapon Attack: +6 to hit, reach5ft, one target. Hit: 12 (1d8 + 4 plus 1d8) kinetic damage.\n",
+                "Shoni Spear. Melee or Ranged Weapon Attack: +6 to hit,reach 5 ft. or range 20/60 ft., one target. Hit: 11 (1d6 + 4plus 1d8) kinetic damage.\n",
+                "Leadership (Recharges after a Short or Long Rest). For 1minute, the Baatar can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the\n",
+                "Baatar. A creature can benefit from only one Leadership die at a time. This effect ends if the Baatar is incapacitated.\n"
+            ]
+        },
+        {
+            "name": "Kolkpravis Khan",
+            "classification": "Medium humanoid (kaleesh), lawful balanced",
+            "ac": "Armor Class 18 (powered battle armor)",
+            "hp": "Hit Points 82 (11d8 + 38)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                19,
+                16,
+                18,
+                11,
+                11,
+                17
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +7, Con +7, Cha +6 \n",
+                "Skills Athletics +7, Intimidation +6 \n",
+                "Senses darkvision 60ft, passive Perception 10 \n",
+                "Languages Kaleesh, Galactic Basic \n",
+                "Challenge 6 (1,100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The Kolkpravis Khan has advantage on Wisdom (Perception) checks that rely on smell. Rampage: When the Kolkpravis Khan reduces a creature to 0 Hit Points with a melee Attack on its turn, the Kolkpravis Warrior can take a Bonus Action to move up to half its speed and make a bite\n",
+                "Attack. Shurpak’s\n",
+                "Fury. The Khan deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks).\n"
+            ],
+            "actions": [
+                "Multiattack. The Kolkpravis Khan makes three melee attacks with its Lig Sword or its\n",
+                "Greater Shoni Spear. \n",
+                "Lig Sword. Melee Weapon Attack: +7 to hit, reach 5ft, one target. Hit: 12 (1d8 + 4 plus 1d8) kinetic damage.\n",
+                "Greater Shoni Spear. Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 13 (1d10 +4 plus 1d8) kinetic damage.\n",
+                "Outland Rifle. Ranged Weapon Attack: +6 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 3) kinetic damage\n",
+                "Leadership (Recharges after a Short or Long Rest). For 1minute, the Khan can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the\n",
+                "Khan. A creature can benefit from only one Leadership die at a time. This effect ends if the Khan is incapacitated.\n"
+            ],
+            "reactions": [
+                "Parry. The Khan adds 3 to his AC against one melee attack that would hit him. To do so, the Khan must see the attacker and be wielding a melee weapon.\n"
+            ]
+        },
+        {
+            "name": "Kolkpravis Khagan",
+            "classification": "Medium humanoid (kaleesh), lawful balanced",
+            "ac": "Armor Class 18 (powered battle armor)",
+            "hp": "Hit Points 113 (15d8 + 53)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                20,
+                16,
+                18,
+                11,
+                13,
+                19
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +9, Con +8, Cha +8 \n",
+                "Skills Athletics +9, Intimidation +8 \n",
+                "Senses darkvision 60ft, passive Perception 10 \n",
+                "Languages Kaleesh, Galactic Basic \n",
+                "Challenge 9 (5,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The Kolkpravis Khan has advantage on Wisdom (Perception) checks that rely on smell. Aura of\n",
+                "Rage. If the Khagan isn’t incapacitated, any creature with the Rampage trait can make a bite attack as a bonus action while within 10 feet of the\n",
+                "Khagan. Shurpak’s\n",
+                "Fury. The Khagan deals an extra 4 (1d8) damage when it hits with a weapon attack (included in the attacks).\n"
+            ],
+            "actions": [
+                "Multiattack. The Kolkpravis Khagan makes three melee attacks once with Blade of Plague and twice with\n",
+                "Blade of Pain. Blade of Plague Melee Weapon Attack: +9 to hit, reach 5ft,one target. Hit: 13 (1d8 + 5 plus 1d8) kinetic damage and the target must succeed on a DC 16 Constitution saving throw or become\n",
+                "Poisoned. Blade of Pain Melee Weapon Attack: +9 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 13 (1d8 + 5 plus 1d8) kinetic damage plus 20 (4d10) lightning damage.\n",
+                "Leadership (Recharges after a Short or Long Rest). For 1 minute,the Khan can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the\n",
+                "Khan. A creature can benefit from only one Leadership die at a time. This effect ends if the Khan is incapacitated.\n"
+            ],
+            "reactions": [
+                "Parry. The Khan adds 3 to his AC against one melee attack that would hit him. To do so, the Khagan must seethe attacker and be wielding a melee weapon.\n"
+            ]
+        },
+        {
+            "name": "Cyborg Khagan",
+            "classification": "Medium humanoid (Villainous, kaleesh), balanced dark",
+            "ac": "Armor Class 17 (natural armor)",
+            "hp": "Hit Points 77 (14d8 + 14)",
+            "speed": "Speed 40 ft., climb 20 ft.",
+            "scores": [
+                20,
+                16,
+                13,
+                14,
+                10,
+                10
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Con +5, Int +6 \n",
+                "Skills Athletics +9, History +6, Intimidation +4, Perception +4, Stealth +7 \n",
+                "Damage Vulnerabilities ion \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poisoned \n",
+                "Senses darkvision 60 ft., passive Perception 14 \n",
+                "Languages Galactic Basic, Huttese, Kaleesh, Neimodian \n",
+                "Challenge 10 (5,900 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Villainous Hit Points. Cyborg Khagan has multiple pools of hit points, each of which is tracked separately. Damage and healing only applies to the currently active hit point pool. When a pool is depleted of all hit points, it becomes inactive. Only one pool can be active at any time. If a hit point pool is depleted, the Cyborg Khagan immediately saves against all ongoing conditions and effects. Any abilities which can reset do so. If all pools of hit points are inactive, Cyborg Khagan is killed. If Cyborg Khagan takes a long rest, it fully heals the currently active pool and fully heals one depleted pool.\n",
+                "Villainous Exhaustion. Cyborg Khagan rolls initiative with advantage. Cyborg Khagan starts with a number of villainous actions equal to one less than it's villainous multiplier. If a hit point pool is depleted, Cyborg Khagan also loses one villainous action. Cyborg Khagan may use a villainous action after any other creature takes a turn. If Cyborg Khagan does so, it regains its reaction. A villainous action is a complete turn. They have an action, bonus action and may move up to their full speed. The villainous actions refresh at the start of Cyborg Khagan's turn and any remaining actions from the previous turn are lost.\n",
+                "Jedi Slayer. Cyborg Khagan has advantage on saving throws versus Force Powers used by enemies within 5 ft. When an enemy within 5 ft. uses a force power, Cyborg Khagan can make a melee attack against that character as a reaction. When Cyborg Khagan damages an enemy character, they have disadvantage on Concentration saves to maintain their Force powers.\n",
+                "Rage. On Cyborg Khagan’s turn, he may choose to go into a Rage as a bonus action. While in a rage, his attacks deal +3 damage, he has Advantage on strength-based skill checks and saving throws, and he has resistance to kinetic and energy damage. As part of the bonus action to go into a Rage, he can make a Lightsaber or unarmed attack. While in a Rage, all attacks against him have\n",
+                "Advantage. The Rage lasts for 1 minute, or until Cyborg Khagan ends his rage as a Bonus action, or until Cyborg Khagan falls unconscious or loses all hit points in his current health pool. More Machine than\n",
+                "Man. Cyborg Khagan has disadvantage on saving throws against effects that would deal ion or lightning damage.\n",
+                "Cowardice. While Cyborg Khagan has only one health pool remaining, he has Advantage on Stealth and Acrobatics checks, and he can take the Dash or Disengage actions as a Bonus action.\n"
+            ],
+            "actions": [
+                "Multiattack. On each of his turns, Cyborg Khagan can use one of Crush Them!, Frightful Presence, or WhirlingAdvance and then make one Unarmed Slam, Lightsaber,or Blaster attack; or he may make two attacks.\n",
+                "Lightsaber. \n",
+                "Melee Weapon Attack. +9 to hit, reach 5 ft., one target. Hit: 1d6 + 5 energy damage.\n",
+                "Unarmed Slam. \n",
+                "Melee Weapon Attack. +9 to hit, reach 5 ft.,one target. Hit: 1d6 + 5 kinetic damage\n",
+                "Heavy Blaster Pistol. \n",
+                "Ranged Weapon Attack. +7 to hit, range 40/160 ft., one target. Hit: 1d8 + 3 energy damage.Crush Them!. Choose an ally within 30’. That ally can use their reaction to make an attack. If that attack hits, it deals an additional 1d8 damage.\n",
+                "Frightful Presence. Choose any number of characters within 80'. Each of those characters who fails a Wisdom saving throw (DC 14) becomes frightened for 1 minute. a creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the Cyborg Khagan’sFrightful Presence for the next 24 hours.\n",
+                "Whirling Advance. Whirling his blades, Cyborg Khagan advances with a shield of sparks and light. Choose a character within 30’ to make a\n",
+                "Dexterity Save (DC 19). Ona fail, the target is pushed 10 feet, Cyborg Khagan moves into their current square ignoring opportunity attacks,and he has Advantage on his next attack against them this combat. On a success, Cyborg Khagan moves into a square adjacent to the target and Opportunity Attacks against Cyborg Khagan have Disadvantage during that move.\n"
+            ],
+            "reactions": [
+                "Parry. When Cyborg Khagan is attacked and hit by an adjacent character while he is holding one or more Lightsabers, he may use his reaction to reduce the damage taken by 1d10 + 15. If the damage is reduced to0, he may use this reaction to make a Lightsaber attack against the attacker.\n"
+            ]
+        },
+        {
+            "name": "Katarn",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 13",
+            "hp": "Hit Points 37 (5d10 + 10)",
+            "speed": "Speed 50 ft., climb 50 ft.",
+            "scores": [
+                14,
+                16,
+                14,
+                2,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +5 \n",
+                "Skills Perception +3, Stealth +7 \n",
+                "Senses passive Perception 13 \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Diving Ambush. If the katarn drops on a target from above and then hits it with a bite attack on the same turn, the target takes an extra 3 (1d6) kinetic damage per 10 feet fallen, up to 21 (6d6). If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the katarn misses, it takes half normal falling damage. Keen Sight and\n",
+                "Smell. The katarn has advantage on Wisdom (Perception) checks that rely on sight and smell.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 11 (2d8 + 2) kinetic damage.\n",
+                "Claws. Melee Weapon Attack: +5 to hit, reach 15 ft., one target. Hit: 6 (1d8 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Kath Hound",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 10 (3d6)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                12,
+                15,
+                11,
+                3,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses darkvision 30 ft., passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Smell. The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n",
+                "Pack Tactics. The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 ft. of the creature and the ally isn't incapacitated.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Horned Kath Hound",
+            "classification": "Medium beast, unaligned",
+            "ac": "Armor Class 13 (natural armor)",
+            "hp": "Hit Points 22 (4d8 + 4)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                14,
+                15,
+                12,
+                3,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses darkvision 30 ft., passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Smell. The hound has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n",
+                "Charge. If the hound moves at least 20 ft. straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the hound can make another attack with its tusks against it as a bonus action.\n",
+                "Pack Tactics. The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 ft. of the creature and the ally isn't incapacitated.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.\n",
+                "Tusk. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "K’lor’slug",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 13 (natural armor)",
+            "hp": "Hit Points 4 (1d6 + 1)",
+            "speed": "Speed 30 ft. climb 30 ft.",
+            "scores": [
+                5,
+                14,
+                12,
+                1,
+                12,
+                2
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses blindsight 30 ft. passive Perception 11 \n",
+                "Challenge 1/4 ( XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Swarm Tactics. The K’lor’slug has advantage on an attack roll against a creature if at least one of the k’lor’slug’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.\n"
+            ]
+        },
+        {
+            "name": "Knobby White Spiderling",
+            "classification": "Tiny plant, unaligned",
+            "ac": "Armor Class 11",
+            "hp": "Hit Points 10 (4d4)",
+            "speed": "Speed 20 ft.",
+            "scores": [
+                11,
+                12,
+                11,
+                2,
+                10,
+                5
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +3 \n",
+                "Damage Vulnerabilities fire \n",
+                "Senses darkvision 60 ft., passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 1 (200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Distress Spores. When the spider takes damage, all other spiders within 240 feet of it can sense its pain.\n"
+            ],
+            "actions": [
+                "Slam. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) kinetic damage.\n",
+                "Stinger. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 3 (1d6) kinetic damage, and the target must make a DC 14 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.\n"
+            ]
+        },
+        {
+            "name": "Knobby White Spider",
+            "classification": "Large plant, unaligned",
+            "ac": "Armor Class 15 (natural armor)",
+            "hp": "Hit Points 112 (15d10 + 30)",
+            "speed": "Speed 20 ft.",
+            "scores": [
+                18,
+                8,
+                15,
+                2,
+                10,
+                5
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +2 \n",
+                "Damage Vulnerabilities fire \n",
+                "Damage Resistances kinetic; energy and ion from unenhanced weapons \n",
+                "Condition Immunities blinded, deafened, exhaustion \n",
+                "Senses blindsight 60 ft. (blind beyond this radius), passive Perception 10 \n",
+                "Languages — \n",
+                "Challenge 5 (1,800)\n"
+            ],
+            "traitsSectionTwo": [
+                "Distress Spores. When the spider takes damage, all other spiders within 240 feet of it can sense its pain.\n",
+                "False Appearance. While the spider remains motionless, it is indistinguishable from a normal gnarltree.\n"
+            ],
+            "actions": [
+                "Multiattack. The spider makes two slam attacks.\n",
+                "Slam. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.\n",
+                "Pacifying Spores (3/Day). The spider ejects spores in 15-foot cone. All creatures in the area must succeed on aDC 14 Constitution saving throw or be stunned for 1minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n",
+                "Stinger. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) kinetic damage, and the target must make a DC 15 Constitution saving throw, taking18 (4d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.\n"
+            ]
+        },
+        {
+            "name": "Monkey-lizard",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 12 (natural armor)",
+            "hp": "Hit Points 3 (1d6)",
+            "speed": "Speed 30 ft., climb 30 ft.",
+            "scores": [
+                8,
+                14,
+                11,
+                5,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Senses passive Perception 11 \n",
+                "Languages — \n",
+                "Challenge 0 (10 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Pack Tactics. The monkey-lizard has advantage on attack rolls against a creature if at least one of the monkey- lizard's allies is within 5 feet of the creature and the ally isn't incapacitated.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4-1) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Monkey-lizard Swarm",
+            "classification": "Medium swarm of Tiny beasts, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 24 (7d8-7)",
+            "speed": "Speed 30 ft., climb 30 ft.",
+            "scores": [
+                6,
+                14,
+                8,
+                3,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +5 \n",
+                "Damage Resistances energy, kinetic \n",
+                "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned \n",
+                "Senses passive Perception 15 \n",
+                "Languages – \n",
+                "Challenge 1/2 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Pack Tactics. The swarm has advantage on attack rolls against a creature while at more than half of its hit points.\n",
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny porg. The swarm can't regain hit points or gain temporary hit points.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) kinetic damage, or 3(1d6) kinetic damage if the swarm has half of its hit points or fewer.\n"
+            ]
+        },
+        {
+            "name": "Krayt Dragon, Juvenile",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 18 (natural armor)",
+            "hp": "Hit Points 168 (16d10 + 80)",
+            "speed": "Speed 40 ft. burrow 80 ft.",
+            "scores": [
+                23,
+                10,
+                21,
+                5,
+                11,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +4, Con +9 Skill Perception +8, Stealth +4 \n",
+                "Senses darkvision 120ft, passive perception 18 \n",
+                "Challenge 9 (5,000 XP)\n"
+            ],
+            "actions": [
+                "Multiattack. The dragon makes three attacks: one with its bite and two with its claws.\n",
+                "Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) kinetic damage plus 4 (2d4) poison damage. The target must then succeed on a Constitution saving throw (DC 15) or become poisoned.\n",
+                "Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) kinetic damage plus 4 (2d4) poison damage.\n",
+                "Poisonous Saliva (Recharge 5-6). The dragon spits its poisonous saliva in a 30-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) poison damage on a failed save,or half as much damage on a successful one.\n"
+            ]
+        },
+        {
+            "name": "Krayt Dragon, Adult",
+            "classification": "Huge beast, unaligned",
+            "ac": "Armor Class 19 (natural armor)",
+            "hp": "Hit Points 262 (21d12 + 126)",
+            "speed": "Speed 40 ft., burrow 40 ft.",
+            "scores": [
+                25,
+                10,
+                22,
+                6,
+                14,
+                17
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Str +12, Con +11, Wis +7 \n",
+                "Skills Perception +7, Stealth +5 \n",
+                "Damage Resistances energy, ion, and kinetic from unenhanced weapons \n",
+                "Damage Immunities poison \n",
+                "Condition Immunities poisoned \n",
+                "Senses blindsight 60 ft., darkvision 60 ft., passive Perception 18 \n",
+                "Languages — \n",
+                "Challenge 17 (18,000 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Legendary Resistance. (3/Day): If the dragon fails a saving throw, it can choose to succeed instead.\n",
+                "Tunneler. The dragon can burrow through solid rock at half it burrowing speed and leaves a 15-foot-diameter tunnel in its wake.\n"
+            ],
+            "actions": [
+                "Multiattack. The dragon can use its\n",
+                "Frightful Presence. it then makes three attacks: one with its bite and two with its claws.\n",
+                "Bite. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10 + 7) kinetic damage plus 7 (2d6) poison damage.\n",
+                "Claw. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 7) kinetic damage.\n",
+                "Tail Stinger. Melee Weapon Attack: +12 to hit, reach 15 ft.,one target. Hit: 16 (2d8 + 7) kinetic damage. The target must make a DC 15 Constitution saving throw, taking 10(3d6) poison damage on a failed save, or half as much damage on a successful one.\n",
+                "Frightful Presence. Each creature of the dragon's choice that is within 120 ft. of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next24 hours.\n",
+                "Venom Spray (Recharge 5-6). The dragon spits poison in a60-foot cone. Each creature in that area must make a DC18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.\n"
+            ],
+            "legendaryActions": [
+                "Krayt Dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. Krayt Dragon regains spent legendary actions at the start of their turn.\n",
+                "Detect. The dragon makes a Wisdom (Perception) check.\n",
+                "Swat Away. The dragon makes a claw attack. If the attack hits, the target must succeed on a DC 18 Strength saving throw or be pushed 15 feet in a straight line away from the dragon. If the saving throw fails by 5 or more, the target falls prone.\n",
+                "Tail Attack. The dragon makes a tail stinger attack.\n"
+            ]
+        },
+        {
+            "name": "Greater Krayt Dragon",
+            "classification": "Gargantuan beast, unaligned",
+            "ac": "Armor Class 22 (natural armor)",
+            "hp": "Hit Points 487 (25d20 + 225)",
+            "speed": "Speed 40 ft., Burrow 80ft",
+            "scores": [
+                30,
+                10,
+                29,
+                5,
+                15,
+                7
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +7, Con +16 Skill Perception +16, Stealth +7 \n",
+                "Senses darkvision 120ft, passive perception 21 \n",
+                "Challenge 23 ( XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.\n"
+            ],
+            "actions": [
+                "Multiattack. The dragon can use its\n",
+                "Frightful Presence. it then makes three attacks: one with its bite and two with its claws.\n",
+                "Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10 + 10) kinetic damage plus 7 (3d4) poison damage. The target must then succeed on a Constitution saving throw (DC 19) or become poisoned.\n",
+                "Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6 + 10) kinetic damage. plus 7 (3d4) poison damage.\n",
+                "Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8 + 10) kinetic damage.\n",
+                "Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.\n",
+                "Poisonous Saliva (Recharge 5-6). The dragon spits its poisonous saliva in a 90-foot cone. Each creature in that area must make a DC 24 Constitution saving throw,taking 67 (15d8) poison damage on a failed save, or half as much damage on a successful one.\n"
+            ],
+            "legendaryActions": [
+                "The greater krayt dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time, and only at the end of another creature’s turn. The greater krayt dragon regains spent legendary actions at the start of its turn.\n",
+                "Detect. The dragon makes a Wisdom (Perception) check.\n",
+                "Tail Attack. The dragon makes a tail attack.\n",
+                "Sand Swimmer (Costs 2 Actions). The greater krayt dragon dives into the ground, sand blasting all creatures around it. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) kinetic damage and be knocked prone. The greater krayt dragon is now burrowed.\n"
+            ]
+        },
+        {
+            "name": "Lylek",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 85 (10d10 + 30)",
+            "speed": "Speed 30 ft., burrow 30 ft.",
+            "scores": [
+                17,
+                13,
+                16,
+                2,
+                16,
+                5
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +6 \n",
+                "Damage Resistances energy, ion, and kinetic from unenhanced weapons \n",
+                "Senses darkvision 60 ft., passive Perception 16 \n",
+                "Languages — \n",
+                "Challenge 7 (2,900 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Tunneler. The lylek can burrow through solid rock at half it burrowing speed and leaves a 10-foot-diameter tunnel in its wake.\n"
+            ],
+            "actions": [
+                "Multiattack. The lylek can make three attacks: two with its legs or tentacles and one with its tail stinger.\n",
+                "Leg Spear. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) kinetic damage.\n",
+                "Tail Stinger. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) kinetic damage, and the target must succeed on a DC 15 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.\n",
+                "Tentacle. Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) kinetic damage. If the target isMedium or smaller, it is grappled (escape DC 15). The lylek can have up to two creatures grappled at the sametime.\n"
+            ]
+        },
+        {
+            "name": "Maalraas",
+            "classification": "Medium beast, neutral",
+            "ac": "Armor Class 13 (natural armor)",
+            "hp": "Hit Points 33 (6d8 + 6)",
+            "speed": "Speed 40 ft.",
+            "scores": [
+                14,
+                15,
+                12,
+                3,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +4 \n",
+                "Skills Stealth +6 \n",
+                "Damage Resistances fire, energy \n",
+                "Senses darkvision 60 ft., passive Perception 11 \n",
+                "Languages — \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Force Sensitive. The maalraas' forcecasting ability is\n",
+                "Wisdom (power save DC 11, +3 to hit with force attacks). The maalraas innately knows the following force powers: At-will: force camouflage Keen Hearing and\n",
+                "Smell. The maalraas has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n"
+            ],
+            "actions": [
+                "Multiattack. The maalraas can make a bite attack and a claw attack.\n",
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target.Hit: 11 (2d8 + 2) kinetic damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.\n",
+                "Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Massiff",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 15 (natural armor)",
+            "hp": "Hit Points 18 (4d6 + 4)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                14,
+                14,
+                12,
+                3,
+                12,
+                7
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Damage Resistances energy, ion, and kinetic from unenhanced weapons \n",
+                "Senses darkvision 60 ft., passive Perception 13 \n",
+                "Languages — \n",
+                "Challenge 1 (200 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Smell. The massiff has advantage on Wisdom (Perception) checks that rely on hearing or smell.\n",
+                "Spiked Hide. Any creature that grapples the massif takes 3 (1d6) kinetic damage at the end of its turn.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Mistryl Apprentice",
+            "classification": "Medium human, unaligned",
+            "ac": "Armor Class 16",
+            "hp": "Hit Points 60 (11d8 + 11)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                11,
+                17,
+                13,
+                11,
+                16,
+                12
+            ],
+            "traitsSectionOne": [
+                "Skills Acrobatics +5, Insight +5, Stealth +5 \n",
+                "Senses passive Perception 13 \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Unarmored Defense. While the Mistryl is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.\n"
+            ],
+            "actions": [
+                "Multiattack. The Mistryl makes three unarmed strikes or three dart attacks.\n",
+                "Unarmed Strike. Melee Weapon Attack: +5 to hit, reach 5 ft.,one creature. Hit: 7 (1d8 + 3) kinetic damage. If the target is a creature, the Mistryl can choose one of the following additional effects. The target must Succeed on a DC 13:-Strength saving throw or drop one item it is holding (Mistryl's choice).-Dexterity saving throw or be knocked prone.-Constitution saving throw or be stunned until the Mistryl's next turn.\n",
+                "Dart. Ranged Weapon Attack: +5 to hit, range 20/60 ft.,one target. Hit: 5 (1d4 + 3) kinetic damage and the target must make a DC 13 Constitution saving throw.On a failure, the target takes 7 (2d6) poison damage and is poisoned for 1 minute. On a success, the target takes half the damage and isn't poisoned.\n"
+            ]
+        },
+        {
+            "name": "Mistryl Master",
+            "classification": "Medium human, unaligned",
+            "ac": "Armor Class 16 (heavy combat suit)",
+            "hp": "Hit Points 84 (13d8 + 26)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                11,
+                18,
+                14,
+                13,
+                16,
+                15
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +7, Int +4 \n",
+                "Skills Acrobatics +7, Athletics +3, Deception +5, Insight +6, Perception +6, Stealth +7 \n",
+                "Senses passive Perception 16 \n",
+                "Challenge 5 (1,800 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Cunning Action. On each of her turns, the Mistryl can use a bonus action to take the Dash, Disengage, or Hide action.\n",
+                "Sneak Attack (1/turn). The Mistryl deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Mistryl that isn't incapacitated and the Mistryl doesn't have disadvantage on the attack roll.\n"
+            ],
+            "actions": [
+                "Multiattack. The Mistryl makes three melee weapon attacks or three ranged weapon attacks.\n",
+                "Techblade. Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) kinetic damage.\n",
+                "Holdout Blaster. Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 6 (1d4 + 4) kinetic damage.\n"
+            ],
+            "reactions": [
+                "Uncanny Dodge. The Mistryl halves the damage that she takes from an attack that hits her. The Mistryl must be able to see the attacker.\n"
+            ]
+        },
+        {
+            "name": "Mistryl Prime",
+            "classification": "Medium human, unaligned",
+            "ac": "Armor Class 17 (heavy combat suit)",
+            "hp": "Hit Points 105 (14d8 + 42)",
+            "speed": "Speed 30 ft.",
+            "scores": [
+                12,
+                20,
+                16,
+                14,
+                18,
+                16
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +8, Int +5 \n",
+                "Skills Acrobatics +8, Athletics +4, Deception +6, Insight +7, Perception +7, Sleight of Hand +8, Stealth +8 \n",
+                "Senses passive Perception 17 \n",
+                "Challenge 8 (3,900 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Assassinate. During her first turn, the Mistryl has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Mistryl scores against a surprised creature is a critical hit.\n",
+                "Cunning Action. On each of her turns, she can use a bon- us action to take the Dash, Disengage, or Hide action.\n",
+                "Sneak Attack (1/turn). The Mistryl deals an extra 17 (5d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Mistryl that isn't incapacitated and the Mistryl doesn't have disadvantage on the attack roll.\n",
+                "Tech Casting. The Mistryl is a 5th level tech caster (tech save DC 13, +5 to hit with power attacks, 22 tech points). The Mistryl knows the following powers. At Will: encrypted message, light, poison spray *1st Level: alarm, decryption program, holographic disguise *2nd Level: concealed caltrops, infiltrate, paralyze humanoid *3rd Level: invisibility to cameras, tactical advantage\n"
+            ],
+            "actions": [
+                "Multiattack. The Mistryl makes two melee weapon attacks or two ranged weapon attacks.\n",
+                "Techblade. Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) kinetic damage, and the target must make a DC 14 Constitution saving throw. On a failure, the target takes 24 (7d6) poison damage and is poisoned for 1 minute. On a success, the target takes half damage and isn't poisoned.\n",
+                "Holdout Blaster. Ranged Weapon Attack: +7 to hit, range 30/120 ft., one target. Hit: 6 (1d4 + 4) energy damage.\n"
+            ],
+            "reactions": [
+                "Uncanny Dodge. The Mistryl halves the damage that she takes from an attack that hits her. The Mistryl must be able to see the attacker.\n"
+            ]
+        },
+        {
+            "name": "Mole Serpent, Adult",
+            "classification": "Gargantuan beast, unaligned",
+            "ac": "Armor Class 17 (Natural Armor)",
+            "hp": "Hit Points 232 (15d20 + 75)",
+            "speed": "Speed 50 ft., burrow 30 ft.",
+            "scores": [
+                28,
+                20,
+                21,
+                1,
+                8,
+                4
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Con +10, Wis +4 \n",
+                "Skills Stealth +15, Perception +4 \n",
+                "Damage Resistances acid (interior only) \n",
+                "Senses Blindsight 30 ft., Tremorsense 60 ft., passive Perception 14 \n",
+                "Languages — \n",
+                "Challenge 10 (5,900 XP)\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) kinetic damage. If the target is a Large or smaller creature, it must succeed on a DC17 Dexterity saving throw or be swallowed by the mole serpent. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the mole serpent, and it takes 14 (4d6)acid damage at the start of each of the mole serpent's turns.If the mole serpent takes 25 damage or more on a single turn from a creature inside it, the mole serpent must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the mole serpent. If the mole serpent dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone.\n"
+            ]
+        },
+        {
+            "name": "Mucous Salamander",
+            "classification": "Medium beast, unaligned",
+            "ac": "Armor Class 13 (15 natural armor in solid form)",
+            "hp": "Hit Points 44 (8d8 + 8)",
+            "speed": "Speed 30 ft. (climb 30 ft. in solid form, swim 50 ft. in liquid form)",
+            "scores": [
+                16,
+                17,
+                13,
+                3,
+                12,
+                5
+            ],
+            "traitsSectionOne": [
+                "Skills Athletics +5, Stealth +5 \n",
+                "Damage Vulnerabilities lightning in liquid form \n",
+                "Damage Resistances energy, ion, and kinetic from unenhanced weapons in solid form \n",
+                "Condition Immunities prone, grappled, restrained in liquid form \n",
+                "Senses passive Perception 11 \n",
+                "Languages — \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Shifting Molecules. When the salamander enters or exits water, it changes the form of its molecular structure to mimic its surroundings. Other than its AC, its statistics are the same in each form. Any object it is wearing or carrying isn't transformed.\n",
+                "Amphibious. The salamander can breathe air and water.\n",
+                "Diffuse Body (Liquid Form Only). The salamander can move through other creatures and objects no more than 10 feet in diameter as if they were difficult terrain. It takes 5 (1d10) kinetic damage if it ends its turn inside an object.\n",
+                "Spider Climb (Solid Form Only). The salamander can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.\n",
+                "Spiked Hide (Solid Form Only). Any creature that grapples the salamander takes 3 (1d6) kinetic damage at the end of its turn.\n",
+                "Watery Stealth (Liquid Form Only). While underwater, the salamander has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target.Hit: 7 (1d8 + 2) kinetic damage.\n",
+                "Claw (Solid Form Only). Melee Weapon Attack: +5 to hit, reach5 ft., one target. Hit: 8 (1d10 + 3) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Mynock",
+            "classification": "Small beast, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 6 (1d12)",
+            "speed": "Speed 5 ft. fly 40ft",
+            "scores": [
+                4,
+                16,
+                11,
+                2,
+                8,
+                6
+            ],
+            "traitsSectionOne": [
+                "Senses darkvision 60 ft., passive Perception 9 \n",
+                "Challenge 1/8 (25 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Atmosphere Agnostic. The mynock can survive in any type of atmosphere or vacuum.\n",
+                "Battery Drainer. If the mynock attaches itself to a piece of equipment that needs energy to function, that piece will stop working until the Mynock is removed.\n",
+                "Pack Tactics. The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isn't incapacitated.\n"
+            ],
+            "actions": [
+                "Energy Drain. Melee Weapon Attack: +5 to hit, reach 5 ft.,one creature. Hit: 5 (1d4 + 3) kinetic damage, and the mynock attaches to the target. If attached to a droid or construct, at the start of each of the mynock's turns,the target loses 5 (1d4 + 3) hit points due to energy being drained.The mynock can detach itself by spending 5 feet of its\n",
+                "Movement. It does so after it drains 10 Hit Points of energy from the target or the target dies. A creature,including the target, can use its action to detach the\n",
+                "Mynock. \n"
+            ]
+        },
+        {
+            "name": "Mynock Swarm",
+            "classification": "Large swarm of Small beasts, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 39 (7d10)",
+            "speed": "Speed 5 ft. fly 40ft",
+            "scores": [
+                6,
+                16,
+                11,
+                2,
+                8,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +1 \n",
+                "Damage Resistances energy, kinetic \n",
+                "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned \n",
+                "Senses darkvision 60 ft., passive Perception 9 \n",
+                "Challenge 2 (450 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Atmosphere Agnostic. The mynock swarm can survive in any type of atmosphere or vacuum.\n",
+                "Pack Tactics. The mynock swarm has advantage on an attack roll against a creature if at least one ally of the mynock swarm is within 5 feet of the creature and the ally isn't incapacitated.\n",
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a small mynock. The swarm can't regain hit points or gain temporary hit points.\n"
+            ],
+            "actions": [
+                "Energy Drain. Melee Weapon Attack: +5 to hit, reach 5 ft.,one creature. Hit: 17 (4d6 + 3) kinetic damage, the swarm loses 3 (1d6) hit points, and a mynock attaches to the target, and is considered a separate creature with its own statistics for the remainder of combat.\n"
+            ]
+        },
+        {
+            "name": "Narglatch",
+            "classification": "Large beast, unaligned",
+            "ac": "Armor Class 14",
+            "hp": "Hit Points 60 (8d10 + 16)",
+            "speed": "Speed 60 ft., climb 50 ft.",
+            "scores": [
+                15,
+                18,
+                13,
+                3,
+                15,
+                6
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +7 \n",
+                "Skills Stealth +10, Perception +5 \n",
+                "Damage Vulnerabilities energy \n",
+                "Damage Resistances ion and kinetic from unenhanced weapons \n",
+                "Senses darkvision 60 ft., passive Perception 12 \n",
+                "Languages — \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Shadow Stealth. While lightly or heavily obscured, the narglatch can take the Hide action as a bonus action. Sure-\n",
+                "Footed. The narglatch has advantage on Strength and Dexterity saving throws made against effects that would knock it prone.\n"
+            ],
+            "actions": [
+                "Pounce. If the narglatch moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14Strength saving throw or be knocked prone. If the target is prone, the narglatch can make one bite attack against it as a bonus action.\n",
+                "ACTIONSBite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d10 + 2) kinetic damage.\n",
+                "Claw. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 2) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Forest Nexu, Adult",
+            "classification": "Medium beast, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 58 (13d8)",
+            "speed": "Speed 50 ft., climb 40 ft.",
+            "scores": [
+                18,
+                19,
+                10,
+                3,
+                12,
+                8
+            ],
+            "traitsSectionOne": [
+                "Saving Throws Dex +8 \n",
+                "Skills Perception +5, Stealth +8 \n",
+                "Senses darkvision 60 ft., truesight 60 ft., passive Perception 15 \n",
+                "Languages — \n",
+                "Challenge 5 (1,800 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Avoidance. If the nexu is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails . Keen Sight and\n",
+                "Smell. The nexu has advantage on Wisdom (Perception) checks that rely on sight and smell.\n",
+                "Pounce. If the nexu moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the nexu can make one bite attack against it as a bonus action.\n"
+            ],
+            "actions": [
+                "Multiattack. The nexu can make two claw attacks.\n",
+                "Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) kinetic damage.\n",
+                "Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Opee Sea Killer",
+            "classification": "Gargantuan beast, unaligned",
+            "ac": "Armor Class 17 (natural armor)",
+            "hp": "Hit Points 139 (9d20 + 45)",
+            "speed": "Speed 20 ft., swim 60 ft.",
+            "scores": [
+                19,
+                10,
+                20,
+                3,
+                10,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +6 \n",
+                "Senses passive Perception 10, Darkvision 60 ft. \n",
+                "Languages — \n",
+                "Challenge 5 (1800 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Kidnapper. The sea killer may move at full speed while grappling a creature.\n"
+            ],
+            "actions": [
+                "Tongue. Ranged Weapon Attack: +7 to hit, range 30 ft., one target. Hit: The target creature is grappled (escape DC15), and if it is a Large or smaller creature it must immediately make a DC 15 Strength saving throw, or be pulled up to 30 feet straight toward the sea killer.While a creature is grappled by the tongue, the sea killer can't use its tongue attack on another creature.\n",
+                "Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12 + 4) kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Orbalisk",
+            "classification": "Tiny beast, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 21 (6d4 + 6)",
+            "speed": "Speed 5 ft.",
+            "scores": [
+                18,
+                8,
+                13,
+                1,
+                4,
+                3
+            ],
+            "traitsSectionOne": [
+                "Senses passive Perception 7 \n",
+                "Damage Immunities All except lightning \n",
+                "Damage Vulnerabilities lightning \n",
+                "Challenge 1 (100 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Detect Dark Side. The orbalisk can sense the presence and location of any dark side aligned creature within 300 feet.\n"
+            ],
+            "actions": [
+                "Attach. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 8 (1d8 + 4) kinetic damage, and the orbalisk attaches to the target. Once attached to a target, the orbalisk begins to reproduce through fragmentation. Whenever the host completes a long rest, they must make a DC 14 Wisdom saving throw.For each saving throw the host fails, the size of theirHit Dice is reduced: from d12 to d10, from d10 to d8,from d8 to d6, from d6 to d4, or from d4 to d2. If the host fails a saving throw while their Hit Die is a d2, they die as the orbalisks consume them.\n"
+            ]
+        },
+        {
+            "name": "Orbalisk Swarm",
+            "classification": "Large swarm of Tiny beasts, unaligned",
+            "ac": "Armor Class 14 (natural armor)",
+            "hp": "Hit Points 39 (6d10 + 6)",
+            "speed": "Speed 5 ft.",
+            "scores": [
+                18,
+                8,
+                13,
+                1,
+                4,
+                3
+            ],
+            "traitsSectionOne": [
+                "Senses passive Perception 7 \n",
+                "Damage Immunities All except lightning \n",
+                "Damage Vulnerabilities lightning \n",
+                "Challenge 3 (700 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Detect Dark Side. The orbalisk swarm can sense the presence and location of any dark side aligned creature within 300 feet.\n",
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny orbalisk. The swarm can't regain hit points or gain temporary hit points.\n"
+            ],
+            "actions": [
+                "Multiattack. The Orbalisk Swarm makes two Attach attacks while it is above half HP, and one attack while below.\n",
+                "Attach. Melee Weapon Attack: +6 to hit, reach 0 ft., one creature. Hit: 13 (2d8 + 4) kinetic damage, and a small portion of the swarm attaches to the target. Once attached to a target, those orbalisks begin to reproduce through fragmentation. Whenever the host completes a long rest, they must make a DC 14Wisdom saving throw. For each saving throw the host fails, the size of their Hit Dice is reduced: from d12 tod10, from d10 to d8, from d8 to d6, from d6 to d4, or from d4 to d2. If the host fails a saving throw while their Hit Die is a d2, they die as the orbalisks consume them.\n"
+            ]
+        },
+        {
+            "name": "Pelko Bug",
+            "classification": "Tiny beast, unaligned",
+            "ac": "Armor Class 18 (natural armor)",
+            "hp": "Hit Points 1 (1d4-1)",
+            "speed": "Speed 20 ft. climb 20 ft. burrow 20 ft. fly 30 ft.",
+            "scores": [
+                2,
+                14,
+                8,
+                1,
+                10,
+                2
+            ],
+            "traitsSectionOne": [
+                "Skills Stealth +4 \n",
+                "Damage Vulnerabilities Fire, Cold, Lightning, Energy \n",
+                "Senses darkvision 30 ft. passive Perception 10 \n",
+                "Challenge 0 (10 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Bug Climb. The Pelko Bug can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. Due to being tiny, the Pelko Bug can occupy the same spot as another creature. To attack the Pelko Bug must be climbing on the target.\n",
+                "Penetrating Spikes. The Pelko Bug’s microscopic barbs can penetrate even through the toughest armor. The Pelko Bug gains +5 to hit (Incorporated to attack).\n"
+            ],
+            "actions": [
+                "Barbs. Melee Weapon Attack: +9 to hit, reach 0 ft., one creature. Hit: 1 (2d4-1) kinetic damage, and the target must succeed on a DC 12 Constitution saving throw or take 2 poison damage and become paralyzed.\n"
+            ]
+        },
+        {
+            "name": "Pelko Bug Swarm",
+            "classification": "Large swarm of tiny beasts, unaligned",
+            "ac": "Armor Class 12 (natural armor)",
+            "hp": "Hit Points 63 (6d10 + 33)",
+            "speed": "Speed 20 ft. climb 20 ft. burrow 20 ft. fly 30 ft.",
+            "scores": [
+                8,
+                18,
+                13,
+                3,
+                12,
+                4
+            ],
+            "traitsSectionOne": [
+                "Damage Resistances Kinetic \n",
+                "Damage Vulnerabilities Fire, Cold, Lightning, Energy \n",
+                "Condition Immunities Charmed, Frightened, Grappled, Paralyzed, Petrified, Prone, Restrained, Stunned \n",
+                "Senses darkvision 30ft, passive Perception 10 \n",
+                "Challenge 3 ( XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a tiny bug. The swarm can't regain hit points or gain temporary hit points.\n",
+                "Penetrating Spikes. The Pelko Bug’s microscopic barbs can penetrate even through the toughest armor. The Pelko Bug gains +5 to hit (Incorporated to attack).\n"
+            ],
+            "actions": [
+                "Barbs (swarm has more than half HP). Melee Weapon Attack: +9 to hit, reach 0 ft., one creature. Hit: 15 (4d4-1) kinetic damage, and the target must succeed on a DC12 Constitution saving throw or take 2 poison damage and become paralyzed.\n",
+                "Barbs (swarm has half HP or less). Melee Weapon Attack: +9 to hit, reach 0 ft., one creature. Hit: 7 (2d4-1) kinetic damage, and the target must succeed on a DC 12Constitution saving throw or take 2 poison damage and become paralyzed.\n"
+            ]
+        },
+        {
+            "name": "Porg",
+            "classification": "Tiny beast, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 1 (1d4-1)",
+            "speed": "Speed 10 ft., fly 50 ft.",
+            "scores": [
+                2,
+                14,
+                8,
+                2,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +3 \n",
+                "Senses passive Perception 13 \n",
+                "Languages – \n",
+                "Challenge 0 (10 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The porg has advantage on Wisdom (Perception) checks that rely on smell.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 kinetic damage.\n"
+            ]
+        },
+        {
+            "name": "Porg Swarm",
+            "classification": "Medium swarm of Tiny beasts, unaligned",
+            "ac": "Armor Class 12",
+            "hp": "Hit Points 24 (7d8-7)",
+            "speed": "Speed 10 ft., fly 50 ft.",
+            "scores": [
+                6,
+                14,
+                8,
+                3,
+                12,
+                6
+            ],
+            "traitsSectionOne": [
+                "Skills Perception +5 \n",
+                "Damage Resistances energy, kinetic \n",
+                "Condition Immunities charmed, frightened, paralyzed, petrified, prone, restrained, stunned \n",
+                "Senses passive Perception 15 \n",
+                "Languages – \n",
+                "Challenge 1/4 (50 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Keen Smell. The swarm has advantage on Wisdom (Perception) checks that rely on smell.\n",
+                "Swarm. The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny porg. The swarm can't regain hit points or gain temporary hit points.\n"
+            ],
+            "actions": [
+                "Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target in the swarm's space. Hit: 7 (2d6) kinetic damage, or 3(1d6) kinetic damage if the swarm has half of its hit points or fewer.\n"
+            ]
+        },
+        {
+            "name": "GONK DROID",
+            "classification": "Small droid, unaligned",
+            "ac": "Armor Class 13 (steel plating)",
+            "hp": "Hit Points 5 (1d6 + 2)",
+            "speed": "Speed 15 ft.",
+            "scores": [
+                10,
+                12,
+                14,
+                9,
+                7,
+                8
+            ],
+            "traitsSectionOne": [
+                "Damage Vulnerabilities ion, lightning \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poisoned, disease \n",
+                "Senses passive Perception 8 \n",
+                "Languages Binary, Galactic Basic, Gonkian \n",
+                "Challenge 0 (10 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Explosive Destruction. When the Gonk droid is reduced to zero hit points, it explodes. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one.\n"
+            ],
+            "actions": [
+                "Kick. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4 + 0)\n"
+            ]
+        },
+        {
+            "name": "WEAPONIZED GONK DROID",
+            "classification": "Small droid, unaligned",
+            "ac": "Armor Class 14(reinforced steel plating)",
+            "hp": "Hit Points 5(1d6 + 2)",
+            "speed": "Speed 15 ft.",
+            "scores": [
+                10,
+                12,
+                14,
+                9,
+                7,
+                8
+            ],
+            "traitsSectionOne": [
+                "Damage Vulnerabilities ion, lightning \n",
+                "Damage Resistances necrotic, poison, psychic \n",
+                "Condition Immunities poisoned, disease \n",
+                "Senses passive Perception 8 \n",
+                "Languages Binary, Galactic Basic, Gonkian \n",
+                "Challenge 1/8 (25 XP)\n"
+            ],
+            "traitsSectionTwo": [
+                "Explosive Destruction. When the Gonk droid is reduced to zero hit points, it explodes. Each creature within 20 feet of it must make a DC 13 Dexterity saving throw, taking 6d6 fire damage on a failed save, or half as much on a successful one.\n"
+            ],
+            "actions": [
+                "Kick. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4 + 0)\n",
+                "Blaster Rifle. Ranged Weapon Attack: +4 to hit, range 100/400 ft., one target. Hit: 6 (1d8 + 2) energy damage.\n"
+            ]
+        }
 ]

@@ -9,22 +9,22 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.app.sw5ebestiary.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), Runnable {
     private lateinit var binding: ActivityMainBinding
+    private lateinit var thread: Thread
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+        thread = Thread(this)
+        thread.start()
         enableEdgeToEdge()
         setContentView(binding.root)
-        creatures = importJson(this)
-        creatureItemList = makeCreatureItems(creatures)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        // little bit of diagnostics for progress tracking
-        Log.i("Creature Count", "${creatures.size} creatures loaded")
         binding.basicSearch.setOnClickListener {
             val intent = Intent(this, BasicSearchActivity::class.java)
             startActivity(intent)
@@ -33,11 +33,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AdvancedSearchActivity::class.java)
             startActivity(intent)
         }
-        // remove this line when lists work
-        //binding.lists.visibility = INVISIBLE
         binding.lists.setOnClickListener {
             val intent = Intent(this, ListsActivity::class.java)
             startActivity(intent)
         }
+    }
+
+    override fun run() {
+        creatures = importJson(this)
+        creatureItemList = makeCreatureItems(creatures)
+        Log.i("Creature Count", "${creatures.size} creatures loaded")
     }
 }
